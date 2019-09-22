@@ -1,0 +1,1145 @@
+
+==========
+
+sms UL COUNT: 0
+
+Starting cross-validation, with all the datasets:
+Testing model 1 (MultinomialNB) for dataset 'sms':
+K-FOLD cross validation: 5-fold
+
+processing with model 1
+
+Starting training for iteration 1
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 117.79922699928284 seconds.
+-
+Finished training.
+All the training took 493 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 1/5 took 119.74072575569153 seconds.
+
+Evaluation:
+---------------
+Iteration 1 , Model MultinomialNB
+baseline_accuracy: 0.899
+model 1's accuracy: 0.980
+positive margin from baseline: 0.081
+confusion matrix:
+             non spam     spam 
+    non spam   1947.0     42.0 
+        spam      2.0    229.0 
+Recall (sensitivity): 0.9789
+Precision: 0.9913
+F1 score: 0.9851
+WAcc (Weighted accuracy) (lambda = 1): 0.9802
+TCR (Total Cost Ratio) (lambda = 1): 6.1591
+WAcc (Weighted accuracy) (lambda = 99): 0.9988
+TCR (Total Cost Ratio) (lambda = 99): 1.1292
+WAcc (Weighted accuracy) (lambda = 999): 0.9990
+TCR (Total Cost Ratio) (lambda = 999): 0.1328
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      1989
+           1       0.85      0.99      0.91       231
+
+    accuracy                           0.98      2220
+   macro avg       0.92      0.99      0.95      2220
+weighted avg       0.98      0.98      0.98      2220
+
+
+Starting training for iteration 2
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 116.83080434799194 seconds.
+-
+Finished training.
+All the training took 496 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 2/5 took 121.24908351898193 seconds.
+
+Evaluation:
+---------------
+Iteration 2 , Model MultinomialNB
+baseline_accuracy: 0.899
+model 1's accuracy: 0.981
+positive margin from baseline: 0.081
+confusion matrix:
+             non spam     spam 
+    non spam   1975.0     32.0 
+        spam     11.0    201.0 
+Recall (sensitivity): 0.9841
+Precision: 0.9481
+F1 score: 0.9658
+WAcc (Weighted accuracy) (lambda = 1): 0.9806
+TCR (Total Cost Ratio) (lambda = 1): 5.4186
+WAcc (Weighted accuracy) (lambda = 99): 0.9943
+TCR (Total Cost Ratio) (lambda = 99): 0.2079
+WAcc (Weighted accuracy) (lambda = 999): 0.9944
+TCR (Total Cost Ratio) (lambda = 999): 0.0211
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      2007
+           1       0.86      0.95      0.90       212
+
+    accuracy                           0.98      2219
+   macro avg       0.93      0.97      0.95      2219
+weighted avg       0.98      0.98      0.98      2219
+
+
+Starting training for iteration 3
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 114.93731307983398 seconds.
+-
+Finished training.
+All the training took 498 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 3/5 took 121.16110491752625 seconds.
+
+Evaluation:
+---------------
+Iteration 3 , Model MultinomialNB
+baseline_accuracy: 0.899
+model 1's accuracy: 0.980
+positive margin from baseline: 0.080
+confusion matrix:
+             non spam     spam 
+    non spam   1976.0     43.0 
+        spam      2.0    198.0 
+Recall (sensitivity): 0.9787
+Precision: 0.9900
+F1 score: 0.9843
+WAcc (Weighted accuracy) (lambda = 1): 0.9797
+TCR (Total Cost Ratio) (lambda = 1): 5.3556
+WAcc (Weighted accuracy) (lambda = 99): 0.9988
+TCR (Total Cost Ratio) (lambda = 99): 1.0000
+WAcc (Weighted accuracy) (lambda = 999): 0.9990
+TCR (Total Cost Ratio) (lambda = 999): 0.1181
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      2019
+           1       0.82      0.99      0.90       200
+
+    accuracy                           0.98      2219
+   macro avg       0.91      0.98      0.94      2219
+weighted avg       0.98      0.98      0.98      2219
+
+
+Starting training for iteration 4
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 117.96761703491211 seconds.
+-
+Finished training.
+All the training took 515 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 4/5 took 124.3714005947113 seconds.
+
+Evaluation:
+---------------
+Iteration 4 , Model MultinomialNB
+baseline_accuracy: 0.899
+model 1's accuracy: 0.983
+positive margin from baseline: 0.083
+confusion matrix:
+             non spam     spam 
+    non spam   1963.0     31.0 
+        spam      7.0    218.0 
+Recall (sensitivity): 0.9845
+Precision: 0.9689
+F1 score: 0.9766
+WAcc (Weighted accuracy) (lambda = 1): 0.9829
+TCR (Total Cost Ratio) (lambda = 1): 6.5526
+WAcc (Weighted accuracy) (lambda = 99): 0.9963
+TCR (Total Cost Ratio) (lambda = 99): 0.3439
+WAcc (Weighted accuracy) (lambda = 999): 0.9964
+TCR (Total Cost Ratio) (lambda = 999): 0.0354
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      1994
+           1       0.88      0.97      0.92       225
+
+    accuracy                           0.98      2219
+   macro avg       0.94      0.98      0.96      2219
+weighted avg       0.98      0.98      0.98      2219
+
+
+Starting training for iteration 5
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 115.3343014717102 seconds.
+-
+Finished training.
+All the training took 506 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 5/5 took 126.62070536613464 seconds.
+
+Evaluation:
+---------------
+Iteration 5 , Model MultinomialNB
+baseline_accuracy: 0.899
+model 1's accuracy: 0.982
+positive margin from baseline: 0.082
+confusion matrix:
+             non spam     spam 
+    non spam   1939.0     32.0 
+        spam      9.0    239.0 
+Recall (sensitivity): 0.9838
+Precision: 0.9637
+F1 score: 0.9736
+WAcc (Weighted accuracy) (lambda = 1): 0.9815
+TCR (Total Cost Ratio) (lambda = 1): 6.6098
+WAcc (Weighted accuracy) (lambda = 99): 0.9952
+TCR (Total Cost Ratio) (lambda = 99): 0.2936
+WAcc (Weighted accuracy) (lambda = 999): 0.9954
+TCR (Total Cost Ratio) (lambda = 999): 0.0300
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      1971
+           1       0.88      0.96      0.92       248
+
+    accuracy                           0.98      2219
+   macro avg       0.94      0.97      0.96      2219
+weighted avg       0.98      0.98      0.98      2219
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  Start wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Message: (Wrong class: 0 (non spam))
+הצבעת בבחירות הקודמות והתאכזבת?עוצמה כלכלית
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום, נשמח אם תקדיש דקה מזמנך למילוי משוב קצרצר. תודה שבחרת בנו, ביקורופא.  למתן המשוב לחץ
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי, הקישור הסודי לוובינר נמצא כאן:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חייבת לספר לך שפתחתי לך את  האופציה לשנות מספר בקקדו,  ENTERNEWLINEENDVAR  מקווה שתפרגן לי חזרה בלייק בפייסבוק  LINK21ENDVAR   ENTERNEWLINEENDVAR  אני זמינה בוואטסאפ לכל שאלה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+כחול לבן או ליכוד? עצמאי, בחר עוצמה כלכלית:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי נווה ,זו שיר מהאתר תזוז, לחברות מובילות דרושים נציגי תמיכה ,שירות ומכירות - גם באזור מגוריך, רלוונטי?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+את מי זרקו מוועדות הכנסת אבל לא מספרי ההיסטוריה?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מי שבידיו תיעוד ישן בתוקף לא נדרש להגיע-התיעוד יכובד במוסדות הציבוריים.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+‏טלגראס נפל?! ‫המשטרה חשבה שהיא ניצחה אבל היא לא! מהפכת הקנאביס כבר כאן !  LINK22ENDVAR   או בערוץ הטלגרם @GetWeedIL
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח פנגו סימפל, רוצה לחסוך? עם "זזתי" החדש חוסכים יותר. לעדכון גרסה לחץ
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+יש לכם תמונות שהייתם רוצים שיופיעו בעמוד האינסטגרם הנוצץ של חיל הטכנולוגיה והאחזקה שיושק בקרוב? אם כן ההודעה הבאה היא עבורכם:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אלישבע יאיר, לכבוד יום הולדתך כללית מברכת אותך בבריאות שלמה. ומזמינה אותך להיכנס ללינק המצורף
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היום בבאולם ספורט של בצפר עוזיאל בשמונה וחצי מסיבת ראש חודש אלול על האש וזה יהיה מטורף ! אתה בא אחי?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום! ממתין לנציג? באתר Mitgaisim.idf.il ובאפליקציית 'מתגייסים ' תוכל להיכנס לאזור האישי שלך וגם למצוא את כל המידע על הליכי הגיוס
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+רוצה נחת מהילדים?! תעזור ללומדי התורה!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+המחירים עולים ומחאת האפודים הצהובים צוברת תאוצה גם בישראל. אז מה מצבכם הכלכלי ומי באמת אחראי למצב?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אחר הצהריים טובים, אבישג ליאורה לאור, ע"פ רישומינו טרם מימשת את זכותך להצביע. אני חוזרת ומדגישה כי הדבר חשוב ומהותי להמשך ניהולה של העיר. מבקשת את תמיכתך בי ובסיעתי נתניה אחת שסימנה האות "פ", אנא עשו מאמץ ובואו להצביע.  ENTERNEWLINEENDVAR  באם ממשת את זכותך והלכת להצביע אני מודה לך מאוד.  ENTERNEWLINEENDVAR  אוהבת מרים.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+עובדים יקרים, בימים אלו החלה מערכות חורפית משמעותית. אנו מבקשים בכל לשון של בקשה לנהוג בזהירות יתרה ולשמור על בטיחותכם! תודה רבה, אריה אלבז סמנכ"ל תפעול.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+יהודי רק רוצה להיות מחובר לאלוקים - תניח תפילין!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום רב, זוהי תזכורת. טרם ענית על הסקר בנושא שירותי הרפואה בצה"ל, דעתך חשובה לנו מאוד, נודה לך על זמנך.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+תרים את הראש אתה בן של מלך! תניח תפילין תבורך מאלוקים!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי אשכל החתיך, רוצה לדעת מי קרא לך ככה? הורד עכשיו את ניימיט ותוכל לגלות:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+בינתיים תהני משינוי מספרים בחינם לאייפון, כדי שאני אוכל לגמור את הגירסא שמקליטה אוטומטי גם לשיחות נכנסות אני צריכה גיוס  LINK20ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+הכל באהבה! תניח תפילין תהיה שמח בחיים!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי איציק קלה החתיך, רוצה לדעת מי קרא לך ככה? הורד עכשיו את ניימיט ותוכל לגלות:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+תניח ותצליח! שבוע טוב!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לא משנה מה היה.. אלוקים אוהב אותך ומחכה למצווה שלך תניח תפילין, אשריך!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אוהבים רכבים? מחפשים רכב? בוא תכיר את האפליקציה שמציגה לך את כל הרכבים של האנשים שאתה מכיר למכירה. ENTERNEWLINEENDVAR  הורידו עכשיו:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי, זאת הילה מקידום.  ENTERNEWLINEENDVAR  ההרשמה לקורס הפסיכומטרי שהתעניינת בו נסגרת עכשיו.  ENTERNEWLINEENDVAR  אם זה מעניין אותך, נא לחזור אלי בהקדם לשיבוץ.  ENTERNEWLINEENDVAR  חשוב להגיד מראש שבקושי נשארו לנו מקומות פנויים.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אגודת הסטודנטים מזמינה אתכם למלא סקר חשוב בעניין המכללה, בין העונים יוגרל טאבלט מתנת אגודת הסטודנטים. ניתן לענות דרך פייסבוק אגודת הסטודנטים או דרך אתר התאחדות הסטודנטים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי מה קורה? ENTERNEWLINEENDVAR  קוראים לי דניאל ואני מפיק את הדזרט  EMOJI🐪ENDVAR  שמעת איזה אמן מטומורולנד מגיע אלינו הסופש? זמין גם בווצאפ EMOJI😊ENDVAR  ENTERNEWLINEENDVAR  להסרה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מזל שלום , ביום שבת הקרובה 13.7 יהיה המועדון בקומה 12 סגור לחלוטין וייפתח לפעילות רק בשעה 20:00 ועד לשעה 23:00 וזאת באופן חד פעמי עקב עבודות תחזוקה וצבע. חדרי הסטודיו בקומה 11 יפעלו כרגיל לפי מערכת השעות. שימו לב שייתכנו ריחות של צבע במועדון. אנא היערכו בהתאם. שבוע טוב
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, כרטיס האשראי המעודכן בחשבונך בחברתנו לא תקין.  ENTERNEWLINEENDVAR  תוכל כבר עכשיו לעדכן כרטיס אשראי אחר בכתובת   LINK26ENDVAR    או בשירות במייל  LINK26ENDVAR    ENTERNEWLINEENDVAR  לעדכון הוראת קבע בנקאית חייג  166* (שיחת חינם).  ENTERNEWLINEENDVAR  במידה ועודכן אמצעי תשלום תקין ראה הודעה זו כמבוטלת. כאן בשבילך,  ENTERNEWLINEENDVAR  פלאפון
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שוקולד 5 ENTERNEWLINEENDVAR  אוראו 3
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רכשת כרטיסים לאביצ'י 22.7 לייב פארק ראשל"צ. שעת פתיחת דלתות 22:00. עלייך להדפיס את קבצי ה- PDF שנשלחו עם אישור ההזמנה ולהציגם בכניסה. במידה ולא קבלת קבצים אלו, צור קשר עם  PHONENUMBER2ENDVAR   בהקדם! מומלץ להקדים צפויים עומסי תנועה וחנייה. נתראה!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כשיוצרים מכונות בענן של גוגל, ובוחרים איפה לפתוח אותן, כדאי לבדוק כאן מי האזור הטוב ביותר עבורכם: ENTERNEWLINEENDVAR   LINK22ENDVAR   ENTERNEWLINEENDVAR  אם אתם בארץ, אתם אמורים לקבל את לונדון (europe-west2) בתור הפינג הקצר ביותר. שם כדאי ליצור את המכונות.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+נגה שלום , זמני פתיחת המועדון בחג השבועות- שבת 8.6- 8:00-17:00  ENTERNEWLINEENDVAR  ראשון 9.6 7:00-20:00 חג שמח! ENTERNEWLINEENDVAR  נגה שלום , לתשומת לבכם ביומיים הקרובים יעשו תיקוני צבע וגבס קטנים אנא הערכו בהתאם. סוויפט נתניה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סטודנט יקר, צור קשר עם פפר  PHONENUMBER2ENDVAR    להמשך התהליך ENTERNEWLINEENDVAR  קרן שכ"ל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל/ת יקר/ה, קיבלת תוספת של 100.00  כוכבים לרכישת ציוד אישי. לכל הפרטים -  LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יגל שלום , שעות פתיחה בחג- 19.4 שישי 7:00-15:00 \ 20.4 שבת 8:00-17:00 \ חול המועד פתוח כרגיל \ 25.4 חמישי 7:00-15:00 \ 26.4 שישי 8:00-17:00 \ 27.4 שבת 8:00-17:00  חג שמח! ENTERNEWLINEENDVAR  יגל שלום , בימי א' 19:20  ENTERNEWLINEENDVAR  ימי ב' 8:00 ו-18:00 ENTERNEWLINEENDVAR   ימי ג' 19:00 ENTERNEWLINEENDVAR  ימי שבת 9:00 ו-10:00  ENTERNEWLINEENDVAR  כל שיעורי ה-TRX בסטודיו הצהוב יהפכו לאימונים פונקציונלים וזאת באופן זמני עד הפתיחה של המועדון בעיר ימים. המדריכים נשארים זהים. אימון נעים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מטופל יקר, ENTERNEWLINEENDVAR  החל מתאריך 1/2/18 הטלפון לזימון תורים של ד"ר אריעם אליעזר יהיה   PHONENUMBER3ENDVAR    ENTERNEWLINEENDVAR  כמו כן ניתן לזמן תורים גם באתר מכבי, באפליקציית מכבי ENTERNEWLINEENDVAR  ובאתר הרופא  LINK17ENDVAR   ENTERNEWLINEENDVAR  המענה 24 שעות ביממה. ENTERNEWLINEENDVAR  אין שינוי בכתובות המרפאות.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שירה לי ומשי גאולית מתחתנים! ENTERNEWLINEENDVAR  החתונה תתקיים ב-04.09.16  ב-׳אלכסנדר׳, עמק חפר. ENTERNEWLINEENDVAR  אנא אשרו הגעתכם עכשיו והשיבו עם מספר המגיעים בלבד. ENTERNEWLINEENDVAR  לדוגמא, השיבו 0 אם אינכם מגיעים. ENTERNEWLINEENDVAR  תודה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום Guy Twito, ENTERNEWLINEENDVAR  רכישתך לאירוע Tribe of Walla Walla: 70 Independence at Caesarea Winery ב - 18.4, 22:00 אושרה. לחץ על  LINK30ENDVAR   לצפיה בכרטיס/ים שלך. בכניסה לאירוע, יש להציג את הכרטיס ותעודה מזהה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+העברת 350.00 ש"ח מחשבונך בשירות העברה ב-SMS הושלמה בהצלחה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+LINK21ENDVAR   תודה דואר ישראל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ביום ג' השבוע 25.7, בעז יעביר שיעור חזרה באינפי בשעות 15:00-17:00 בכיתה 2402
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שבוע טוב לכולם, ENTERNEWLINEENDVAR  מחר בבוקר לפני שאתם יוצאים מהבית אתם מוודאים שאתם מדוגמים ומסודרים. שיש עליכם הכל- חוגר, דסקית, פנקס שבי, אימוני חיילות, דסקיות בנעלים ,גז מדמיע ופטורים למי שיש. בדגש על פטורי זקן, במידה ונתקלתם בשוטר צבאי בקשו טופס להישפט ביחידה. ENTERNEWLINEENDVAR  קרה ובשלב כלשהו בדרך לבסיס אתם שמים לב ששכחתם את אחד הפק״לים בבית ואתם לא מדוגמים, אתם מתקשרים למפקדת ומודיעים לה.  ENTERNEWLINEENDVAR  כדי שנטפל בחוסר לפני שתפגשו שוטר צבאי.  ENTERNEWLINEENDVAR  אך ורק מתקשרים, בלי הודעות.  ENTERNEWLINEENDVAR  מזכירה, מחר בשעה 11:30 ח׳ מחוץ למדור. בלי אף איחור. ENTERNEWLINEENDVAR  שימו לב, שאתם לא שוכחים מד״ס לשני אימונים , טפסים למש״קית ת״ש, הפניות, אבחונים פסיכודידקטים על מנת להקל במבחנים למי שמגיע לו וטפסים נוספים. ENTERNEWLINEENDVAR  לכל בעיה נוספת, להתקשר למפקדת.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי, רוני ישי שלח/ה לך כסף דרך PayBox. בלחיצה על הלינק ניתן להוריד את האפליקציה ולמשוך את הכסף בצורה מאובטחת, קלה ונוחה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בימים אלו נשלחה אליך הודעה לכתובת המייל שציינת בעת ההרשמה, הנך מוזמן/נת ENTERNEWLINEENDVAR  להתעדכן במייל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+13 ל9
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היום זה קורה  EMOJI❗ENDVAR  ENTERNEWLINEENDVAR  מלשבי  EMOJI🔚ENDVAR   ENTERNEWLINEENDVAR  הסעות יוצאות בשעה *22:00* מהמק  EMOJI🍟ENDVAR   ENTERNEWLINEENDVAR  בלי איחורים מיותרים  ENTERNEWLINEENDVAR  נא להצטייד ב: ENTERNEWLINEENDVAR  85 שקלים חדשים (כניסה,הסעה,אלכוהול  ENTERNEWLINEENDVAR  חופשי וכו)  EMOJI🚃ENDVAR  EMOJI✔ENDVAR  EMOJI🍺ENDVAR  ENTERNEWLINEENDVAR  נעליים סגורות (בכל זאת..מסיבת יער) EMOJI👟ENDVAR  EMOJI🌴ENDVAR  ENTERNEWLINEENDVAR  ומצב רוח טוב  EMOJI😁ENDVAR  ENTERNEWLINEENDVAR   EMOJI🚫ENDVAR  הכניסה לסאחים אסורה  EMOJI🚫ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הזמנת מט"ח 820500145 תימסר בדלפקי הבנק בטרמינל 3 ובטרמינל 1,טיסה נעימה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+התקבלה הזמנתך למסעדת 'ג`ויה Joya הרצליה' למסעדה, ליום שלישי (14.02) בשעה 21:00 ל2 סועדים. בכפוף לאישור המסעדה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל יקר, ENTERNEWLINEENDVAR  זוהי תזכורת לזימונך ליום מיון לחטיבה הטכנולוגית ביבשה. ENTERNEWLINEENDVAR  יום המיון יתקיים בתאריך 05/05/19 בשעה 08:30 בחטיבה הטכנולוגית ליבשה (חט"ל) בבסיס תל השומר – חד"ן רחט"ל (בסמוך לחדר אוכל) ENTERNEWLINEENDVAR  הנך מתבקש להעביר קורות חיים לווטסאפ:   PHONENUMBER4ENDVAR   . ENTERNEWLINEENDVAR  *אין לשלוח מידע צבאי על תפקידך* ENTERNEWLINEENDVAR  לפרטים נוספים ושאלות ניתן לפנות למס' הפלאפון שצויין מעלה. ENTERNEWLINEENDVAR  בברכה,  ENTERNEWLINEENDVAR  מפקדת זרוע היבשה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עדכון שעת בחינה: מועד א' בבינה מלאכותית ב-26.7.17, יתחיל בשעה 16:00 (ולא 15:00)
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רכשת כרטיסים למופע של אביב גפן והתעויוט בנשף רוק 8 שבת 25.5 בלייב פארק ראשל"צ. פתיחת דלתות 20:00 תחילת מופע 21:30. עלייך להדפיס את קבצי ה-PDF שצורפו לאישור ההזמנה ולהציגם בכניסה. במידה ולא קיבלת קבצים אלו, צור קשר בהקדם עם  PHONENUMBER2ENDVAR   אנא הקדימו ישנם עומסי תנועה וחניה רבים!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום Guy Twito, ENTERNEWLINEENDVAR  רכישתך לאירוע B-kush - Rosh Hashana ENTERNEWLINEENDVAR  ב - 22.9 בשעה 22:00 אושרה. ENTERNEWLINEENDVAR  לחץ על  LINK29ENDVAR   לצפיה בכרטיסי/ם שלך. ENTERNEWLINEENDVAR  בכניסה לאירוע, יש להציג את הכרטיס ותעודה מזהה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום אליאסף אביר נתבקשנו מ האחים גיל להעביר אליך משלוח מספר 2026120 אנא צור קשר עם הנהג  PHONENUMBER4ENDVAR   ENTERNEWLINEENDVAR  או לשירות לקוחות  PHONENUMBER1ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מנויים יקרים-שימו לב לשינוי מערכת  ENTERNEWLINEENDVAR  *ביום שני וביום רביעי האימונים הפונקציונאליים יתקיימו בשעה 8:00 והעיצוב בשעה 8:45* .סוויפט נתניה ENTERNEWLINEENDVAR  ים שלום , שים לב, בשעה 13:00 תתקיים הפסקת חשמל יזומה של חברת חשמל למשך 20 דק'. אנא היערך בהתאם.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+﻿מי התקשר בחו"ל:מנוי  PHONENUMBER5ENDVAR   התקשר אליך ב06/07 19:48 שעון ישראל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, להזכירך, בעת ניתוק קו הסלקום, שירותי התקשורת הנייחת של 013 נטויז'ן הכלולים בתוכניתך ימשיכו כסדרם ותחל להיות מחויב בגינם באמצעות 013 נטויז'ן על פי התעריפים הנקובים בתוכנית. לפרטים נוספים פנה ל PHONENUMBER2ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לצאת ENTERNEWLINEENDVAR  למה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+דבר דואר מספר 07009187860IL נמסר לנמען ב-28/11/2016 בשעה 13:47
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח פנגו+, רכב 1587772, הוסף לחשבונך על ידי נייד  PHONENUMBER4ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ממליץ לשים לב לכלי הבא לתצוגה של עצים וקבוצות עצים באופן דינמי: ENTERNEWLINEENDVAR   LINK79ENDVAR   ENTERNEWLINEENDVAR  יכול להיות שימושי לשלבים במסוימים בפרויקטים מסוימים! ENTERNEWLINEENDVAR  * הודעות דומות עולות מעת לעט בפורום הייעודי באתר, ולכן מוצע גם לשקול ללחוץ על סמלון הקבלה האוטומטית של הודעות מפורום זה, שבאתר EMOJI🖐ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, פנייתך מספר 190821041 ENTERNEWLINEENDVAR  נקלטה במערכת אבידות ומציאות של רכבת ישראל. ENTERNEWLINEENDVAR  זמן מענה לפנייתך עד 3 ימי עבודה. ENTERNEWLINEENDVAR  לשירותך, שירות לקוחות רכבת ישראל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בקיצור יש רכבת ב,  ENTERNEWLINEENDVAR  16:26 ENTERNEWLINEENDVAR  16:33 ENTERNEWLINEENDVAR  16:56
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום מעין גדעון,  ENTERNEWLINEENDVAR  לצורך שיפור השירות במרכז הרפואי ת"א (איכילוב), ועל מנת שנוכל להמשיך לעדכן אותך במידע חשוב אנא היכנס לקישור לעדכון פרטיך האישיים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר. חשבונך צורף לחבילת חילוץ של פנגו+. בשעת הצורך, יש לחייג למוקד הצלה  PHONENUMBER4ENDVAR   מומלץ לשמור את המספר. נסיעה בטוחה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת: התקבלו אישורים מועטים בלבד למפגש משפחות של פרחי הייטק, ביום ד', 27.7, בשעה 18:30. אנא אשרו הגעתכם במהרה, כדי שנוכל לקיים את המפגש החשוב הזה. תודה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הודעה זו רלוונטית לנוסעים לחו"ל שלא רכשו חבילה או מסלול חו"ל הכוללים גלישה. ENTERNEWLINEENDVAR  לתשומת ליבך, הינך חסום לגלישה בחו"ל. גלישה תתאפשר רק עם חבילת חו"ל מתאימה.  ENTERNEWLINEENDVAR  לפרטים נוספים  LINK26ENDVAR   בברכה, פלאפון.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+של hands to myself
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הודעה מחברת האשראי :Cal ENTERNEWLINEENDVAR  340787 יש להזין קוד חד פעמי זה לצורכי אימות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום, נקבעה לך פגישת ייעוץ, בתאריך 23/03/18 בשעה 11:00 באקדמית ת"א-יפו, רח' רבינו ירוחם 2, יפו.  ENTERNEWLINEENDVAR  בניין 3 חדר 18,  בירורים ניתן לפנות אלינו בטלפון  PHONENUMBER2ENDVAR   שלוחה 1.  אנא הצטייד בתעודה מזהה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הרכבות מאשקלון לבאר שבע החלו לפעול בשעה האחרונה. ENTERNEWLINEENDVAR  כפי שכתבנו - אנחנו עוקבים אחר כל ההתפתחויות ובמידה ויהיו שינויים במהלך הערב - נעדכן.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מה מה  ENTERNEWLINEENDVAR  *משפטי אביקם*
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לכל המעוניין: כוכב יהיה במכללה ביום א', 15.10 החל משעה 12:00 וביום ב', 16.10, החל משעה 18:00, לצורך פגישות של שני קורסי הבחירה: תכנות מתקדם, ותכנות למכשירים סלולריים, בחדר 2401.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+טוב אז זה סוף סוף קורה  EMOJI💥ENDVAR   ENTERNEWLINEENDVAR  יחידה 150 מסיימים מסלול  EMOJI🎉ENDVAR  EMOJI🎉ENDVAR  EMOJI🎉ENDVAR  ENTERNEWLINEENDVAR  אז מה בתכנון??  ENTERNEWLINEENDVAR  יום שישי 01/09 ב22:30  ENTERNEWLINEENDVAR  מועדון ה״קאן״  ENTERNEWLINEENDVAR  צבי הנחל 1 עמק חפר  ENTERNEWLINEENDVAR  דיג'י נפתלי גני על האווירה  EMOJI🕺ENDVAR  EMOJI🏿ENDVAR  ENTERNEWLINEENDVAR  שתייה חופשית  EMOJI🍸ENDVAR  EMOJI🍻ENDVAR  ENTERNEWLINEENDVAR  וואן גוך, פידג, טקילה קווארבו  ENTERNEWLINEENDVAR  וויסקי, ערק, בירות ועוד הרבה  ENTERNEWLINEENDVAR  וכל זה רק ב *50* שקלים!!  ENTERNEWLINEENDVAR  שמעתם נכון ENTERNEWLINEENDVAR  פרטים נוספים ורשימות אצל המסיימים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+22:00 במק
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת לסמסטר קיץ שמתחיל ביום ה' 21.7.%D%Aבשעה 17:00, מבוא למבנים אלגבריים, כיתה 2403.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום, ENTERNEWLINEENDVAR  במסגרת עמ"ט 'מיהו לוחם', סוכם כי לוחמי החוד יענדו סיכה ייחודית. ENTERNEWLINEENDVAR  נבחרו 3 דוגמאות לסיכת לוחם החוד. ENTERNEWLINEENDVAR  אשמח לקבל את חוות דעתך לדגם המתאים ביותר מבחינתך-טרם סיכום סופי.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום רב, ENTERNEWLINEENDVAR  בקשתכם נדחתה לשנה זו.  ENTERNEWLINEENDVAR  הדחיה בוצעה ע"י מערכת ממוחשבת. ENTERNEWLINEENDVAR  מדובר במערכת חדשה ולכן הבקשה תבדק שנית ע"י גורם אנושי מקצועי. ENTERNEWLINEENDVAR  אנא התאזרו בסבלנות. ENTERNEWLINEENDVAR   לשאלות או הבהרות ניתן לפנות למוקד העזרה בדוא"ל  LINK19ENDVAR   ENTERNEWLINEENDVAR  , או בטלפון-  ENTERNEWLINEENDVAR   PHONENUMBER1ENDVAR   ENTERNEWLINEENDVAR  תודה, ENTERNEWLINEENDVAR  מערך הסיוע להלוואות ומלגות לסטודנטים ENTERNEWLINEENDVAR  משרד החינוך
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בהמשך לפנייתך מספר 279  ברצוננו להודיעך כי בעלי הרכב אותרו, אין חשד,  ENTERNEWLINEENDVAR            לידיעתך ENTERNEWLINEENDVAR            לצורך שיפור השירות , ENTERNEWLINEENDVAR            יישום סלולארי חדש במשטרה –" 100 בחירום" ENTERNEWLINEENDVAR            יישום מציל חיים ! ENTERNEWLINEENDVAR            להורדת היישום לחץ על הקישור , ENTERNEWLINEENDVAR            אנדרואיד –  LINK21ENDVAR   ENTERNEWLINEENDVAR            אייפון –  LINK22ENDVAR   ENTERNEWLINEENDVAR            לשירותך בכל עת, משטרת ישראל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+האם אי אלו מהנושאים לדוגמה שעלו בפורום מדברים אליך ואליכם?  ENTERNEWLINEENDVAR   LINK56ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אהד ENTERNEWLINEENDVAR  יום אחד נגמר הבצק...
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח/ה  יקר/ה אנו מודים לך שבחרת לרכוש ביטוח תאונות אישיות ב- AIG.  ENTERNEWLINEENDVAR  החל ממחר ניתן לצפות בתנאי הפוליסה וחריגיה באתר  LINK10ENDVAR    ENTERNEWLINEENDVAR  להלן קישור:  LINK21ENDVAR   ENTERNEWLINEENDVAR  בברכה AIG.  איי אי ג'י ישראל חברה לביטוח בע"מ
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום  , ENTERNEWLINEENDVAR  דבר דואר YY00223319705  ENTERNEWLINEENDVAR  ג 2339 ENTERNEWLINEENDVAR    ממתין בהקולה (בית עסק) המחקר 2 , נתניה ENTERNEWLINEENDVAR  לשעות הפתיחה ולזימון תור מראש-  LINK34ENDVAR    ENTERNEWLINEENDVAR  ניתן לקבלו עם הצגת הודעה זו ותעודה מזהה, למסירה למיופה כוח  LINK20ENDVAR    ENTERNEWLINEENDVAR  דבר דואר שלא יידרש תוך 14 ימי עבודה, יוחזר לשולח. ENTERNEWLINEENDVAR   דואר ישראל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שנהל נפתחת ביום א', 6.11.16. על כל סטודנט ללמוד לפי מערכת השעות האישית שלו. בהצלחה!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כדי למנוע בעיות, בחינת מועד ב' בחישוביות חוזרת לתאריך המקורי: 28.8.17. בהצלחה!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צופית שלום , עם המעבר לשעון קיץ, החל מה-6.4.19 יהיה פתוח המועדון בימי שבת עד השעה 22:00 אימון נעים.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתגייס/ת יקר/ה, ברשותך 215 כוכבים לרכישת ציוד אישי לקראת גיוסך. ENTERNEWLINEENDVAR  הקוד האישי : 9001-12031384-3520 ENTERNEWLINEENDVAR  שירות נעים! ENTERNEWLINEENDVAR  לכל הפרטים -  LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סטודנטים יקרים, ENTERNEWLINEENDVAR  פנייתכם לקבלת קוד כניסה למערכת המלגות נמצאת בטיפול. ENTERNEWLINEENDVAR  בשל עומס חריג, חל עיכוב במתן התשובה. ENTERNEWLINEENDVAR  אנא התאזרו בסבלנות, עמכם הסליחה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אפשר להגיע בהליכה מהרכבת בשדרות. ENTERNEWLINEENDVAR  15 דקות הליכה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח/ה יקר/ה, ENTERNEWLINEENDVAR  רכבך 4505257   הגיע ליעד אותו בחרת ( למוסך :פאר ( נתניה )  בכתובת נתניה השיש 3  ) וקריאת השרות הסתיימה . ENTERNEWLINEENDVAR  חברת שגריר מאחלת לך המשך נסיעה נעימה ובטוחה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום לכם, בשעה טובה אנו ביישורת האחרונה של פיתוח המערכת TMS. ENTERNEWLINEENDVAR  שבוע הבא נחל בבדיקות והזנת נתוני אמת במחסן הפצה. מבקש זמינות והירתמות כולם למהלך. ENTERNEWLINEENDVAR  בע"ה שלא יהיו הרבה תקלות ואז נוכל למבצע בקרוב. תודה לכל העוסקים במלאכה עד כה! ENTERNEWLINEENDVAR  שבת שלום!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הוועדה המקדימה, בראשות רמ״ח תקיפה ואיסוף תתחיל מהצוותים באולם הראשי. ENTERNEWLINEENDVAR  משם נתקדם לצוותים בחדרים שבמסדרון. ENTERNEWLINEENDVAR  תהיו מוכנים בשולחנות בצוותים בשעה 10:00
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רכשת כרטיסים למופע של שלמה ארצי שבת 25.5 באמפי קיסריה בשעה 21:00. עלייך להדפיס את קבצי ה-PDF שצורפו לאישור ההזמנה ולהציגם בכניסה. במידה ולא קיבלת קבצים אלו, צור קשר בהקדם עם  PHONENUMBER2ENDVAR   אנא הקדימו ישנם עומסי תנועה וחניה רבים!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ערב טוב. הנחיות רחטל לאור האירועים בדרום.  ENTERNEWLINEENDVAR  א. כל תנועה לגזרת אוגדת עזה מחייבת הצטיידות בשכפץ, קסדה, נשק ותחמושת.  ENTERNEWLINEENDVAR  ב. חבירה לגזרה מחייב אישור מז״י דרך לשכת רחטל, יגאל קריספל. חל איסור הגעה לגזרה, גם לקפקים, התקנות, הפעלות וכדומה ללא אישור מזי.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רחל ראו את זה לפי איך שאתה מתלבש ENTERNEWLINEENDVAR  [22.5.2016, 23:54:10] ‫‏ניר  EMOJI📖ENDVAR  הסיר/ה את  EMOJI🚪ENDVAR  מעוז‬
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב21:00?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתנצלת.. ENTERNEWLINEENDVAR  היה ממש כייף באילת!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח/ה יקר/ה, ENTERNEWLINEENDVAR  לבקשתך, נפתחה קריאה לשרות מספר  2378365   לרכב בעל לוחית רישוי  4505257   והקריאה בטיפול. ENTERNEWLINEENDVAR  בברכה, קבוצת שגריר שרותי רכב בע""מ.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום גיא חגי מהלילך 5/1  נתניה, ENTERNEWLINEENDVAR  דבר דואר CI10263562984  ENTERNEWLINEENDVAR  ח 38 ENTERNEWLINEENDVAR   שנשלח מהאוניברסיטה הפתוחה  ממתין בהקולה (בית עסק) המחקר 2 , נתניה ENTERNEWLINEENDVAR  [ ENTERNEWLINEENDVAR  לשעות הפתיחה ולזימון תור מראש-  LINK34ENDVAR    ENTERNEWLINEENDVAR  ניתן לקבלו עם הצגת הודעה זו ותעודה מזהה, למסירה למיופה כוח  LINK20ENDVAR    ENTERNEWLINEENDVAR  דבר דואר שלא יידרש תוך 21 ימי עבודה, יוחזר לשולח. ENTERNEWLINEENDVAR   דואר ישראל  ENTERNEWLINEENDVAR   השולח: האוניברסיטה הפתוחה רבוצקי 108  רעננה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*תכנית למחר:* ENTERNEWLINEENDVAR  0700 - ארוחת בוקר ENTERNEWLINEENDVAR  1000 - ועדת שיפוט שלב א'. הוועדה תעבור בין הצוותים - כל צוות בנפרד. עד 7 דקות. ENTERNEWLINEENDVAR  1200 - ועדת שיפוט מסכמת במליאה בראשות ר' אט"ל. לכל צוות עד 3 דקות. ENTERNEWLINEENDVAR  ניתן להשתמש במסך הגדול. יש לבדוק איתי את החיבורים עד השעה 1100. ניתן להתחבר קווי או אלחוטי. ENTERNEWLINEENDVAR  תזכורת לגבי *הקריטריונים לועדות השיפוט*: ENTERNEWLINEENDVAR  1. רעיון חדשני – טכנולוגיה פורצת דרך או שימוש חדש בטכנולוגיה קיימת ENTERNEWLINEENDVAR  2. חשיבות הצורך - ניצול הזדמנות / פתרון בעיה אמיתית ENTERNEWLINEENDVAR  3. רעיון ישים – בר מימוש ENTERNEWLINEENDVAR  בונוס על הצגת הדגמה / מוצר עובד באירוע הסיום (ולא רק לספר על....) ENTERNEWLINEENDVAR  *בהצלחה!!!*
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+קוד זיהוי להפקת סיסמה, משרד החינוך ENTERNEWLINEENDVAR  315848
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, נכון ל- 19:41 13-05-2019 בקו הטלפון  PHONENUMBER4ENDVAR   נוצלו יותר מ- 75% מנפח הגלישה של 20GB הכלול בחבילה אליה אתה מנוי ונותרו 4.99GB. בניצול מלא של הגלישה הקו יחסם לגלישה עד לתום מחזור החיוב עד ה-14 לחודש. בברכה, גולן טלקום.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת אחרונה! ENTERNEWLINEENDVAR  אנא הזדרזו להחזיר תחפושות. ENTERNEWLINEENDVAR  ב-28 למרץ יופקדו הפיקדונות שלא הוחזרו. ENTERNEWLINEENDVAR  קבלת קהל: ENTERNEWLINEENDVAR  א'-ה' 15:00-20:00 ENTERNEWLINEENDVAR  שישי שבת אחרונים 10:00-17:00 ENTERNEWLINEENDVAR  חג שמח, ENTERNEWLINEENDVAR  ענת שביט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מנוי   PHONENUMBER4ENDVAR   ניצלת 100 אחוז מנפח חבילת הגלישה שלך עד לתאריך 14/09/2017 07:47:12. מעתה, תחויב בעלות 5 ₪  עבור כל 1 GB . החבילה תתחדש ב 20/09/2017 בסוף היום.  בברכה, סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היה פאן ואני וזכריה מלכי עולם  EMOJI🤘ENDVAR  EMOJI🏼ENDVAR  ENTERNEWLINEENDVAR  [14.1.2017, 2:54:44] ‫‏החלפת את הנושא אל "פוצץ פוצץ  EMOJI💥ENDVAR "‬
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+להזכירך-דבר דואר YY01872084405 ENTERNEWLINEENDVAR  ג 2260 ENTERNEWLINEENDVAR   עדיין ממתין לך ביחידת הדואר - הקולה (בית עסק) - כתובת-המחקר 2 , נתניה לשעות פתיחה לחץ   LINK47ENDVAR     ENTERNEWLINEENDVAR  חדש!!  ENTERNEWLINEENDVAR  1. עד אליך בתוך דקות Gett Post  באפליקציית Gett  ENTERNEWLINEENDVAR   LINK61ENDVAR    ENTERNEWLINEENDVAR  2. שליח עד הבית -  LINK24ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אסנת היקר/ה לידיעתך, בחודש דצמבר שילמת 107.66 ש"ח עבור פוליסת ביטוח תאונות אישיות בחברת AIG .לפרטים נוספים  PHONENUMBER3ENDVAR    או חשבון האישי המקוון שלך  LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר,  ENTERNEWLINEENDVAR  בהמשך לבקשתך למעבר מסלול, המסלול ייכנס לתוקף בתאריך 11/02/2019  ENTERNEWLINEENDVAR  מספר הפנייה שלך הוא 662010694. בחשבונית הקרובה תחויב באופן יחסי על המסלול החדש והמסלול הישן, לפי מספר הימים בכל מסלול ביחס לכלל החודש.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+LINK172ENDVAR   ENTERNEWLINEENDVAR  נראה מי מכיר פה את נתניה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מועמד יקר, ENTERNEWLINEENDVAR  הנך מזומן ביום א', 13.05.2018 לכנס הסברה לקראת קק"צ אליאל 18. ENTERNEWLINEENDVAR  הכנס יתקיים במחנה גדעונים (ממול לשער יפו במחנה צריפין). ENTERNEWLINEENDVAR  עליך להתייצב בשעה 13:45 בכניסה לאודיטוריום. ENTERNEWLINEENDVAR  יש להגיע עם פנקס וכלי כתיבה. ENTERNEWLINEENDVAR  ההגעה על מדי א'. ENTERNEWLINEENDVAR  טלפון לבירורים-  PHONENUMBER3ENDVAR   ENTERNEWLINEENDVAR  בהצלחה מדור קצונה אגף התקשוב.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הזמנה 638278 התקבלה. לחץ כאן לברקוד ההזמנה:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שאלה, המסמך להרשמה לפגישה מלא. האם יפתחו עוד סלוטים להרשמה? ENTERNEWLINEENDVAR   LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הפגישות של היום עברו לחדר אחר באותו בנין: ENTERNEWLINEENDVAR  *חדר 180, קומה 1, בנין הכיכר* בקמפוס האו"פ ברעננה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב14.7
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אני כתבתי שורת פקודה: ENTERNEWLINEENDVAR  0 examples1 examples1 ENTERNEWLINEENDVAR  וקיבלתי את הפלט:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*נריה רוזנר* ולחצו על השם בקוביה של האתר שלי (רקע אפור) ENTERNEWLINEENDVAR  קישור: ENTERNEWLINEENDVAR   LINK34ENDVAR   ENTERNEWLINEENDVAR  תודה רבה לכל מי שעזר  EMOJI😋ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אלרואי בצלאל שלום רב, בהמשך לפנייתך נקבעה לך פגישה באמריקן לייזר, בתאריך 18/10/19, בשעה 09:25, בסניף אמריקן לייזר - נתניה, רח' שטמפר 17, קומה 7, להוראות לפני ואחרי טיפול לחצו  LINK19ENDVAR   |
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI💨ENDVAR  EMOJI☁ENDVAR  בעודי פותר בעיות לגבי הפעלה של קרדיטים לענן של גוגל עבור מי שיצטרך עבור הפרויקט, שמתי לב שעדיין אפשר ממילא לקבל הקצאה בשווי 300$ בהרשמה ראשונית לשירותי הענן של גוגל. להלן הלינק לגבי מכונות מותקנות מראש עבור python ו-deep learning, הכולל לעת עתה גם לינק להרשמה חינמית לשירות. מומלץ לנסות להרשם ...  ENTERNEWLINEENDVAR   LINK132ENDVAR   ENTERNEWLINEENDVAR  *אם נרשמתם בעבר לענן של גוגל ייתכן שהלינק לא יקנה לכם את הקצאת החינם בעת זו. ENTERNEWLINEENDVAR  טיפים לעבודה מושכלת בענן: ENTERNEWLINEENDVAR   LINK79ENDVAR   ENTERNEWLINEENDVAR  הקרדיטים טובים גם עבור צוותים שצריכים ענן מסיבות אחרות, למשל עבור שימוש ב-Firebase או דאטאבייס אחר.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, הנך חסום לשירותי גלישה בחו"ל שכן לא ביקשת את פתיחת השירות. באפשרותך לרכוש מסלול גלישה בעלות חד פעמית של 29 ש"ח לנסיעה, המאפשר לך גלישה יומית של עד 50/3 מגה ליום בתשלום נוסף של 33/149 ₪ בהתאם ליעד הנסיעה ENTERNEWLINEENDVAR  לרכישה שלח סמס חינם עם הספרה 9 למס' 3615.  השירות ייכנס לתוקף רק עם קבלת הודעת אישור. המשך שהייה נעימה בחו"ל, סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הופה! דגן אפריאט העביר לך 33 שקלים ב -Pepper Pay. כדי לקבל את הכסף,  ENTERNEWLINEENDVAR  1. הורד את Pepper-Pay מחנות האפליקציות  ENTERNEWLINEENDVAR  2. הזן את מספר חשבון הבנק שלך.  ENTERNEWLINEENDVAR  הזמן לקבלת התשלום הוא 72 שעות מקבלת ההודעה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חברים, ENTERNEWLINEENDVAR  מדגיש שוב שחובה להסתובב עם תגים על הצוואר. ENTERNEWLINEENDVAR  העירו לנו שחלקכם מסתובבים בלי תגים. ENTERNEWLINEENDVAR  מבקש להקפיד.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+PHONENUMBER4ENDVAR   יוסי  ENTERNEWLINEENDVAR   PHONENUMBER3ENDVAR   אביבי
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום טהר, ENTERNEWLINEENDVAR   הזמנתך לאירוע Shishi Shalvata \\ On The Beach 25/5 התקבלה בהצלחה! ENTERNEWLINEENDVAR     ENTERNEWLINEENDVAR    LINK66ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום תום, סיגל ממרפאת עיניים, לגבי הניתוח ביום ג', נא ליצור קשר, תודה  PHONENUMBER3ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לכל מי שמחוייב בפרוייקט: ביום ב', 21.11, יתקיים מפגש פרוייקטים בשעה 16:00 בחדר 1204. נוכחותכם חובה!!!!!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אלקנה הגרה שלום רב, להזכירך הינך מוזמן לטיפול הסרת שיער ב- 12/07/19, 12:10 , בסניף אמריקן לייזר - נתניה. לאישור הגעה ושמירה על תורך או לביטול תור לחץ   LINK32ENDVAR   אי הגעה ללא הודעה מראש כרוכה בתשלום.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הודעה מ PayBox: ENTERNEWLINEENDVAR  קוד איפוס סיסמא: 9354
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ההודעה התקבלה בהצלחה. ENTERNEWLINEENDVAR  רדיוס 100FM
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עדכוני ארוע: Tribe of Walla Walla: 70 Independence at Caesarea Winery- מתחיל: אפריל 18, 2018 22:00, נגמר: אפריל 19, 2018 6:30, מיקום: יקבי קיסריה, קיסריה, ישראל. הודעה: שלום לכל חברי שבט וואלה וואלה ! ENTERNEWLINEENDVAR  הכל כבר מוכן מחכים רק לכם  ENTERNEWLINEENDVAR  פתיחת שערים בשעה 22:00  ENTERNEWLINEENDVAR  במעמד הכניסה תתבקשו להציג ת"ז וברקוד אישור כניסה עם פרטים תואמים  ENTERNEWLINEENDVAR  הכרטיס הוא אישי ולא ניתן להעבירו ENTERNEWLINEENDVAR  במקום יש חנייה מסודרת אך מומלץ להגיע בתחבורה ציבורית ENTERNEWLINEENDVAR  ניפגש בקרוב (;
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בוקר טוב, ENTERNEWLINEENDVAR  יש חדש?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, המעבר לשעון קיץ יחול השנה בלילה שבין יום חמישי לשישי ה-29.03.19 בשעה 2:00 בלילה. בכדי למנוע שיבושים בשעון מומלץ להיכנס להגדרות השעה והתאריך במכשירך ולוודא שההגדרה הינה על מצב "אוטומטי" ובאזור זמן ירושלים. האחריות על עדכון השעון הפנימי של המכשיר חלה על המנוי בלבד. בברכה, גולן טלקום.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי כאן חי. ENTERNEWLINEENDVAR  מזכיר לך שביום שישי אנחנו נפגשים ENTERNEWLINEENDVAR  באירוע "פשוט לעשות את זה!" ENTERNEWLINEENDVAR  מתחילים ב9:00 מומלץ להגיע ב ENTERNEWLINEENDVAR  8:40 ENTERNEWLINEENDVAR  האירוע יתקיים בבית ציוני אמריקה ENTERNEWLINEENDVAR  רחוב דניאל פריש 1 ת"א ENTERNEWLINEENDVAR  מחכים לראותך ENTERNEWLINEENDVAR  חי וצוות הכוח לפעול
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, אנו מודים לך על התקופה בה היית לקוח שלנו. לברור גמר חשבון וקבלת פרטים נוספים, פנה לשירות הלקוחות במספר 55155* או  PHONENUMBER4ENDVAR   סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הפרחים הנכונים  PHONENUMBER@ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לרווחתכם, זכיין הקפיטריה הוחלף ל- Cofizz. בקרוב יחלו עבודות שיפוץ בקפיטריה, במהלכן השירות יהיה חלקי, עד תחילת שנת הלימודים, שבה השירות יהיה מלא. הנהלת המכללה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, ENTERNEWLINEENDVAR  פנייתך מספר 190821041 נקלטה במערכת שירות לקוחות - רכבת ישראל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סטודנטיות וסטודנטים יקרים, ENTERNEWLINEENDVAR  שימו לב, ניתנה הארכת תוקף למועד הגשת מועמדות לקבלת מלגה עד ליום שישי ו' בתמוז תשע"ז 30.6.2017. ENTERNEWLINEENDVAR  במידה וטרם קיבלתם סיסמא וקוד משתמש לכניסה למערכת, הסיסמא תשלח אליכם בדוא"ל עד כ-14 ימי עבודה מיום ההרשמה. ENTERNEWLINEENDVAR  אנא התאזרו בסבלנות. ENTERNEWLINEENDVAR  עמכם הסליחה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אנו מודים לך שרכשת כרטיסים לפסטיבל Major lazer שמתקיים היום, ENTERNEWLINEENDVAR  באמפי לייב בראשון לציון. ENTERNEWLINEENDVAR  מבקשים להזכירך כי במידה ורכשת כרטיסים בהדפסה ביתית עליך להדפיסם טרם הגעתך למופע,  ENTERNEWLINEENDVAR  דוגמא לכרטיס : ENTERNEWLINEENDVAR   LINK21ENDVAR   ENTERNEWLINEENDVAR  לידיעתך, פתיחת השערים מ19:00. נא הקדם הגעתך לאמפי ככל שניתן. ENTERNEWLINEENDVAR  טיקטמאסטר ישראל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שימו לב, ביומיים הקרובים יותקנו גופי תאורה חדשים ברחבי המועדון בקומה 12. יש לקחת  בחשבון כי העבודה כרוכה ברעש לעיתים וחוסר נוחות. אנא היערכו בהתאם. תודה ENTERNEWLINEENDVAR  לקוח/ה יקר/ה אנו מזכירים לך כי המנוי שלך עתיד להתסיים בקרוב. על מנת לשמר את התנאים המיוחדים ללקוחות ממשיכים יש לחדש את המנוי בהקדם. נשמח לעמוד לשירותך בטלפון  PHONENUMBER3ENDVAR   .סוויפט נתניה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רכב 79-490-14 הוסף לחשבונך בפנגו על ידי נייד  PHONENUMBER4ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מחצלת- לב, סווארלי ENTERNEWLINEENDVAR  שמיכות- ENTERNEWLINEENDVAR  גיטרה-  ENTERNEWLINEENDVAR  אורות- לב, ראש ENTERNEWLINEENDVAR  שש בש- לב ENTERNEWLINEENDVAR  בידור- לב ENTERNEWLINEENDVAR  חירפון-  ENTERNEWLINEENDVAR  צ'וקולוקים- אמיר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הינך חסום לגלישה בחו"ל. לידיעתך, קיימות חבילות מוזלות לגלישה סלולארית בחו"ל לפי שימושים/יעדים. לפרטים והצטרפות חייג ללא תשלום מהפלאפון 972507077860+ ENTERNEWLINEENDVAR  ברוכים הבאים לישראל ולרשת פלאפון.  ENTERNEWLINEENDVAR  נשמח לעמוד לשירותך בנסיעה הבאה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אהוביי שטגנו את ה9.4 ENTERNEWLINEENDVAR  פרטים מחרוש EMOJI❤ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיסמה זמנית לאזור האישי ב AIG ENTERNEWLINEENDVAR  475026 תקפה ל 10 דק' ולשימוש אישי בלבד
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום, ENTERNEWLINEENDVAR  מיקום ההופעה של אליעד נחום הועבר לבר "מרפיס" ENTERNEWLINEENDVAR  כתובת: גיבורי ישראל 17 , מרכז יכין, Y סנטר פולג, נתניה. ENTERNEWLINEENDVAR  נתראה שם! ENTERNEWLINEENDVAR  להסרה:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רגע לפני הרגע המרגש של נחיתת ה  EMOJI🚀ENDVAR  על הירח... ENTERNEWLINEENDVAR  אנחנו שמחים לעדכן על המועד החדש של ההאקתון שלנו - ENTERNEWLINEENDVAR  *29-30/5*. ENTERNEWLINEENDVAR  כולנו מתכוננים מחכים להשלים את המשימה ו *לפרוץ גבולות* בלחימה  EMOJI🔫ENDVAR , בהדרכה  EMOJI🦉ENDVAR , בתחבורה  EMOJI🏎ENDVAR  ובניהול המשאבים  EMOJI💰ENDVAR . ENTERNEWLINEENDVAR  פרטים נוספים בהמשך. ENTERNEWLINEENDVAR  נתראה ובהצלחה לבראשית!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי חבר'ה,  ENTERNEWLINEENDVAR  כשאתם נכנסים פשוט תרדו 2 קומות הלובי למטה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+12 עד 22
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+1300 קל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום, קיבלנו את פנייתך ללימודי תואר ראשון. נעשו נסיונות להשיגך ללא הצלחה. נשמח לעמוד לרשותך בטלפון  PHONENUMBER2ENDVAR   שלוחה 1, האקדמית ת"א-יפו.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת! ENTERNEWLINEENDVAR  החזרת תחפושות עד ה-27 למרץ: ENTERNEWLINEENDVAR  א'-ה' 15:00-20:00 ENTERNEWLINEENDVAR  שישי שבת 10:00-17:00 ENTERNEWLINEENDVAR  במידה והחזרתם השב/י 'החזרתי'. ENTERNEWLINEENDVAR  תודה ENTERNEWLINEENDVAR  ענת שביט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום רב משפחת מרגלית ההזמנה נקלטה בהצלחה! מספר הזמנה 708001032 הנכם מוזמנים לתאריך 2016-07-11 בשעה 18:30:00 עם מספר ההזמנה יש לגשת לעמדת הרישום בקניון עזריאלי תל אביב קומה 1 כ 90 דקות לפני מועד הסיור שקבעתם להסדר התשלום. לאחר מכן מקומכם לא ישמר.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אשחר האוט ENTERNEWLINEENDVAR  נתי
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום, רצינו לעדכן אותך שעבור מספר לקוח המסתיים ב- 7141 הורחבה האפשרות לביצוע פעולות שונות בשירותים הדיגיטליים או בטלפון. לפרטים נוספים אפשר להתקשר ל- PHONENUMBER2ENDVAR   או  PHONENUMBER3ENDVAR   או לבנקאי המטפל בסניפך. תודה והמשך יום נעים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח פנגו, חשבונך זוכה ב 11.80 ₪. הזיכוי יופיע בפירוט כרטיס האשראי.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוחות יקרים, ההרצאה של פרופ' גפן סרף הערב בבית ציוני אמריקה תחל בשעה 20:45, ולא בשעה 20:30 כפי שפורסם במקור. פתיחת דלתות בשעה 20:20. מצפים לראותם! ENTERNEWLINEENDVAR  בברכה, צוות Funzing
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, תודה שאספת את דבר הדואר CI10260448484 בדואר ישראל. ENTERNEWLINEENDVAR  לצורך שיפור השרות, נודה לך אם תוכל לענות על 3 שאלות קצרות בקישור הבא:  LINK47ENDVAR   ENTERNEWLINEENDVAR  להבא, עם שירות BOX2GO תוכל לאסוף את החבילה 24/7. להרשמה לחץ כאן:  LINK21ENDVAR    ENTERNEWLINEENDVAR   תודה רבה, דואר ישראל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום Guy Twito, רכישתך לאירוע סוף - סוף מסלול דובדבן ב - 1.6 בשעה 12:30 אושרה.  הכרטיסי/ם שלך:  LINK30ENDVAR   בכניסה לאירוע, יש להציג את הכרטיס ותעודה מזהה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, במדינה זו ניתן לחייג לישראל הן בחיוג ישיר והן ע"י חיוג ניתוק ושיחה חוזרת, בכל מקרה, החיוב יבוצע בהתאם לתעריפי החבילה שרכשת. במידה ולא רכשת חבילה הכוללת דקות שיחה, מחיר דקת שיחה לישראל הנו 9.90  ש"ח .פלאפון לשירותך בחו"ל  24/7 ללא תשלום, בדרך שנוחה לך: 444* או  PHONENUMBER4ENDVAR   בחיוג מהפלאפון וגם בצ'אט עם נציג ב- SMS  למספר  PHONENUMBER4ENDVAR   ENTERNEWLINEENDVAR  נסיעה טובה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום עלמה, ENTERNEWLINEENDVAR  תודה שרכשת בקופונופש - מועדון חברים! ENTERNEWLINEENDVAR  קוד הזמנתך הוא:  PHONENUMBER4ENDVAR   ENTERNEWLINEENDVAR  לפרטי ההזמנה: ENTERNEWLINEENDVAR   LINK28ENDVAR   ENTERNEWLINEENDVAR  קופונופש, מועדון חברים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מחצלת- אבישחר, סווארלי ENTERNEWLINEENDVAR  שמיכות- איריס ENTERNEWLINEENDVAR  גיטרה-  ENTERNEWLINEENDVAR  אורות- אבישחר, ראש ENTERNEWLINEENDVAR  שש בש- אבישחר ENTERNEWLINEENDVAR  בידור- אבישחר ENTERNEWLINEENDVAR  צ'וקולוקים- אפיק, איריס ENTERNEWLINEENDVAR  כדור-  ENTERNEWLINEENDVAR  שתייה (מים ועוד)- אבישחר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+LINK21ENDVAR   בברכה, HOTmobile
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שילת יש לך?  PHONENUMBER@ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יש להפעיל ולאשר את הקישור המוצרף לצפיה במידע אודות זמן המתנה שנותר עבור שרות שגריר :  LINK73ENDVAR   תודה.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיור וירטואלי 360 לופט הרמוניה טופ ENTERNEWLINEENDVAR  אודליה -  PHONENUMBER4ENDVAR   ENTERNEWLINEENDVAR  לצפייה בסיור לחץ על הקישור : ENTERNEWLINEENDVAR   LINK41ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי אמתי שלמה, השליחות מ-Pepper מתקרבת! זה יקרה ב-13.06 בין השעות 15:00-18:00. לא לשכוח להיות במקום עם תעודת זהות. ניפגש!
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+LINK28ENDVAR   מומלץ בחום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ראש אט״ל יגיע ב 16:15 להסתובב בצוותים. ENTERNEWLINEENDVAR  מבקש לדאוג לסדר יחסי של עמדות העבודה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לתשומת ליבך, ניתן להגיש בקשה למועד ג' עד מחר יום שני 16.10בשעה 17:00. לא יתקבלו בקשות מעבר לכך. נא לשלוח למייל של עדי או אביגיל או בפקס  PHONENUMBER3ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רק היום ?  ENTERNEWLINEENDVAR  הגיע הזמן לקום #justmarried ENTERNEWLINEENDVAR  #cancoon ENTERNEWLINEENDVAR  #douevenlive ENTERNEWLINEENDVAR  #idob%zooki
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+Every day is תש day
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי כנרת אבשלום  ENTERNEWLINEENDVAR  שמחים שבחרת להזמין את 2 פיצות משפחתיות ב-89 שח בלבד כולל משלוח ב-istudent.  ENTERNEWLINEENDVAR  קוד/י הקופון איתם ניתן לממש את ההטבה הם: 156-310375885. ENTERNEWLINEENDVAR  לתשומת ליבך כי הקודים תקפים תחת ההתניות המפורטות בעמוד הרכישה ובאפליקציית istudent.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתגייס/ת יקר/ה, ברשותך 215 כוכבים לרכישת ציוד אישי לקראת גיוסך. ENTERNEWLINEENDVAR  הקוד האישי : 1111-11111111-1111 ENTERNEWLINEENDVAR  שירות נעים! ENTERNEWLINEENDVAR  לכל הפרטים -
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שבוע טוב. היום הוא המועד האחרון למסירת כרטיסי מחויבות אישית. מסרו לי או לרומי. ENTERNEWLINEENDVAR  אופיר, גש אליי לגבי המצגת.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום אשל, ENTERNEWLINEENDVAR  הזמנתך לאירוע Festival Purim - Reggaeton - 21.3 התקבלה בהצלחה! לצפייה בכרטיסך:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי איריס שהם  ENTERNEWLINEENDVAR  שמחים שבחרת להזמין את ערב סטנד-אפ מטורף ב-15 ש''ח בלבד! ב-istudent.  ENTERNEWLINEENDVAR  קוד/י הקופון איתם ניתן לממש את ההטבה הם: 543032 , 543472 , 546100 , 548518 , 548056 , 540522. ENTERNEWLINEENDVAR  לתשומת ליבך כי הקודים תקפים תחת ההתניות המפורטות בעמוד הרכישה ובאפליקציית istudent.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, הזמנתך התקבלה. למעקב, אנא לחץ על הקישורית הבאה ENTERNEWLINEENDVAR   LINK53ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צריך לפניי 12 כי רחרי 12 המחיר עולה ל50 ENTERNEWLINEENDVAR  ךפני זה זה 30
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אוכל מוכן ENTERNEWLINEENDVAR  מוזמנים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בינתים זה: ENTERNEWLINEENDVAR  און ENTERNEWLINEENDVAR  ראש ENTERNEWLINEENDVAR  אהוביה ENTERNEWLINEENDVAR  יוסף ENTERNEWLINEENDVAR  גדיאל ENTERNEWLINEENDVAR  יהושפט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיגל ליטל העביר לך כסף באמצעות לאומי, עבור  לבחירת חשבון, הזן את קוד האימות 4819961 עד לתאריך 03/07/19 14:16 בקישור:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אני ורבקה יחדיו ניגע בקיר ב10.8  PHONENUMBER@ENDVAR    ENTERNEWLINEENDVAR  תתכוננו לשמוח בשמחתינו
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הערב Disturbed בהופעה! ENTERNEWLINEENDVAR  יש להגיע לכניסה לאירוע עם הברקודים שקיבלת במייל או בSMS מ EventBUZZ פתוחים בנייד או מודפסים. ENTERNEWLINEENDVAR  פתיחת שערים בשעה 19:00. ENTERNEWLINEENDVAR  . להסרה:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+גלעד גם בבית ובוצקה עובד עד 10 ENTERNEWLINEENDVAR  ונחליט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כרטיס הכניסה ופרטי ההגעה לאירוע Funzing של מחר ENTERNEWLINEENDVAR  נא לפתוח את הכרטיס (על ידי לחיצה על הקישור) ולהראות בכניסה: ENTERNEWLINEENDVAR   LINK32ENDVAR   ENTERNEWLINEENDVAR  לכל שאלה -  PHONENUMBER3ENDVAR   ENTERNEWLINEENDVAR  צוות Funzing
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הכסף הועבר לבקשתך לחשבון המסתיים ב-025 סניף 601. לבירורים פנה למעביר ENTERNEWLINEENDVAR  ישיר 7121
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+"מתגייסים יקרים, אנו שמחים להזמין אתכם להכיר את האתר החדש של יחידת מיטב ואת האפליקציה ""מתגייסים"" הניתנת להורדה בחנות.  ENTERNEWLINEENDVAR  האתר הוא התחלה של מהפכת שירות מתוך הרצון של צה""ל להיות ארגון שקוף, ולהפוך את תהליכי הגיוס לנגישים וזמינים. ENTERNEWLINEENDVAR  האתר מתעדכן באופן שוטף מתוך רצון לשיפור השירות עבורכם. ENTERNEWLINEENDVAR  באתר תוכלו להתעדכן בנתוניכם האישיים ולקבל את כל הפרטים על הצו ראשון, התפקידים השונים, המיונים ועוד. ENTERNEWLINEENDVAR  לכניסה לאתר:  LINK25ENDVAR   ENTERNEWLINEENDVAR  קוד אישי:" ENTERNEWLINEENDVAR  1111111
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+משפחת שחף היקרה, להזכירכם, תואם עבורכם ביקור טכנאי HOT ל 14/09/2017 בין 11:00 - 13:00 ,לביטול מועד הביקור השיבו 5. לשינוי מועד הביקור לחצו על הקישור הבא: LINK22ENDVAR   בברכה, HOT
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+משרת יקר, ENTERNEWLINEENDVAR  להזכירך נקבע לך תור ב-מרפ"א 8281\מומחים\עור\כללי בתאריך 18/02/2018 בשעה 10:24 ל-שרביט מיה ENTERNEWLINEENDVAR    ENTERNEWLINEENDVAR  יש להגיע לבדיקה בהופעה צבאית מלאה ותיקנית. ENTERNEWLINEENDVAR  אם ברצונך לבטל את התור אנא פנה למוקד מקול הלב בטלפון  PHONENUMBER2ENDVAR   או במייל צבאי -"מקול הלב",או במייל אזרחי - ENTERNEWLINEENDVAR    EMAILENDVAR   ENTERNEWLINEENDVAR  בברכת בריאות, ENTERNEWLINEENDVAR  מוקד מקול הלב
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ברוריה שלום , ביום שבת הקרובה 13.7 יהיה המועדון בקומה 12 סגור לחלוטין וייפתח לפעילות רק בשעה 20:00 ועד לשעה 23:00 וזאת באופן חד פעמי עקב עבודות צבע ותחזוקה.חדרי הסטודיו בקומה 11 יפעלו כרגיל לפי מערכת השעות.שימו לב שבימים שבת וראשון ייתכנו ריחות של צבע במועדון. אנא היערכו בהתאם
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+טוב אז זה סוף סוף קורה  EMOJI💥ENDVAR   ENTERNEWLINEENDVAR  יחידה 150 מסיימים מסלול  EMOJI🎉ENDVAR  EMOJI🎉ENDVAR  EMOJI🎉ENDVAR  ENTERNEWLINEENDVAR  אז מה בתכנון??  ENTERNEWLINEENDVAR  יום שישי 01/09 ב22:30  ENTERNEWLINEENDVAR  מועדון ה״קאן״  ENTERNEWLINEENDVAR  צבי הנחל 1 עמק חפר  ENTERNEWLINEENDVAR  דיג'י כנרת גני על האווירה  EMOJI🕺ENDVAR  EMOJI🏿ENDVAR  ENTERNEWLINEENDVAR  שתייה חופשית  EMOJI🍸ENDVAR  EMOJI🍻ENDVAR  ENTERNEWLINEENDVAR  וואן גוך, פידג, טקילה קווארבו  ENTERNEWLINEENDVAR  וויסקי, ערק, בירות ועוד הרבה  ENTERNEWLINEENDVAR  וכל זה רק ב *50* שקלים!!  ENTERNEWLINEENDVAR  שמעתם נכון ENTERNEWLINEENDVAR  פרטים נוספים ורשימות אצל המסיימים ENTERNEWLINEENDVAR  מי רוצה??
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עדכון חם: ENTERNEWLINEENDVAR  בשעה 1230 יתחיל באולם אירוע הגמר בראשות ר' אט"ל.  ENTERNEWLINEENDVAR  נתחיל בעדכון לגבי מי מהצוותים עלה לגמר ומייד נמשיך בפיצ'ים של הפיינליסטים אחד אחרי השני. כל צוות עד 3 דקות! ENTERNEWLINEENDVAR  עד אז זמן טוב לאוכל, סידור וניקוי החדרים ושיופים אחרונים. ENTERNEWLINEENDVAR  נא להתיישב באולם בשעה 1220. ENTERNEWLINEENDVAR  *בהצלחה!!!*
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מנוי   PHONENUMBER4ENDVAR   ניצלת 75 אחוז מחבילת הגלישה שלך עד לתאריך 06/09/2017 15:52:02 , לאחר ניצול מלוא החבילה תחויב בעלות 5 ₪  עבור כל 1 GB . החבילה תתחדש ב20/09/2017 בסוף היום. הודעה נוספת תישלח עם ניצול מלוא החבילה. בברכה, סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל/ת יקר/ה, ENTERNEWLINEENDVAR  במסגרת שבוע ההוקרה לחיילי צה"ל – "תודה"!, יתקיים ביום חמישי, ה- 6/7 בגני יהושע (פארק הירקון) ת"א, מופע 'יחד בפארק' בהשתתפות: אינפקטד משרום, התקווה 6, אליעד, איתי טובה ואדיר גץ. ENTERNEWLINEENDVAR  לרכישת כרטיסים במיוחד עבורכם, בהטבה ייחודית ובעלות סמלית של 20 ₪ בלבד, היכנס ללינק המצורף:  LINK21ENDVAR   או היכנס לאתר מועדון 'יותר':  LINK15ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אמצעי רטורי-הגזמה  ENTERNEWLINEENDVAR  נשים.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת! עדיין לא אספת את המשלוח הממתין עבורך בסופר פארם ביג קרית-שמונה, מרכז קניות ביג, קרית שמונה. ENTERNEWLINEENDVAR  קוד אישי: 718686
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+באפשרותך לבטל את הפינוק בהתאם למדיניות ביטול הפינוקים של לאומי קארד.  ENTERNEWLINEENDVAR  ניתן לעשות זאת באתר ההטבות של לאומי קארד, על פי השלבים הבאים: ENTERNEWLINEENDVAR   1. יש להזדהות באתר ההטבות על ידי הקשת ת.ז, 8 ספרות אחרונות של אחד מכרטיסי האשראי והזנת טקסט המופיע בתמונה. ENTERNEWLINEENDVAR   2. לעבור למסך:ההזמנות שלי על ידי לחיצה על הכפתור: ההזמנות שלי, בסרגל העליון.  ENTERNEWLINEENDVAR  3. לבחור את ההטבה הרלוונטית לביטול.  ENTERNEWLINEENDVAR  4. ללחוץ על כפתור: ביטול ההטבה. באפשרותך לבטל את ההטבה בהתאם למדיניות ביטול הפינוקים שלנו דרך הקישור הבא:
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+PHONENUMBER@ENDVAR   שותף לטיול
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מלש"ב/ית יקר/ה, ENTERNEWLINEENDVAR  זוהי הודעת תזכורת אודות יום מיונך לאשכול מקצועות המחשב בחיל התקשוב שיתקיים ביום שני הקרוב בתאריך ה24/07/2017 בשעה 09:00 בבוקר ברחוב בן גוריון 100 ברמת גן (בסיס השלישות הראשית).  ENTERNEWLINEENDVAR  עלייך להצטייד בתעודה מזהה,אוכל,שתייה,כלי כתיבה וצילום של אבחונים והקלות במידה ויש. ENTERNEWLINEENDVAR  חיל התקשוב - טכנולוגיה שעושה חיל !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR  נבחרת לייצג את חיל השריון בטקס יום הזכרון בבית העלמין מחר ב9:00.  ENTERNEWLINEENDVAR  אנא וודא/י כי יש בידך את כל הפרטים הנדרשים.  ENTERNEWLINEENDVAR  מצורף קישור לאתר יזכור שם תוכל/י לקרוא אודות הנופל אליו נשלחת:  ENTERNEWLINEENDVAR   LINK24ENDVAR   ENTERNEWLINEENDVAR  מצורף קישור לסרטון תדרוך קצר ENTERNEWLINEENDVAR   LINK28ENDVAR   ENTERNEWLINEENDVAR   שים/י לב, מחר בשעה 9:00 תקבל/י הודעה לצורך אישור התייצבותך ליד הקבר.  ENTERNEWLINEENDVAR  ברעות שריונאים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מועמד יקר, ENTERNEWLINEENDVAR  הנך מזומן ביום ד', 16.05.2018 ליום מיון לקק"צ אוגוסט 18. ENTERNEWLINEENDVAR  יום המיון יתקיים במחנה גדעונים (ממול לשער יפו במחנה צריפין). ENTERNEWLINEENDVAR  עליך להתייצב בשעה 08:00 בשער הכניסה. ENTERNEWLINEENDVAR  יום המיון יסתיים בשעה 17:00. ENTERNEWLINEENDVAR  מטרת היום היא להעריך את המועמדים ולבחור מתוכם את המועמדים המתאימים ביותר לקצונה בחיל. ENTERNEWLINEENDVAR  במהלך היום יתקיימו מספר פעילויות קבוצתיות, מילוי טפסים וראיון אישי. ENTERNEWLINEENDVAR  המועמדים שיעברו בהצלחה את יום המיון יכנסו לשלב רף 0. ENTERNEWLINEENDVAR  יש להגיע עם: חווד 870, סכמ"ר סא"ל. ENTERNEWLINEENDVAR  ההגעה על מדי א'. ENTERNEWLINEENDVAR  לא נבחנים על בוחן כושר גופני ביום מיון.   ENTERNEWLINEENDVAR  טלפון לבירורים-  PHONENUMBER3ENDVAR   ENTERNEWLINEENDVAR  בהצלחה מדור קצונה אגף התקשוב.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+נציג/ה יקר/ה, ENTERNEWLINEENDVAR  היום, ג' באייר, מציינת מדינת ישראל את יום הזיכרון לחללי מערכות ישראל ופעולות האיבה. ENTERNEWLINEENDVAR  הגעתך לבית העלמין משמעותית ובעלת חשיבות רבה.  ENTERNEWLINEENDVAR  אנא אשר/י הגעתך בלינק המצורף רק כאשר הגעת לבית העלמין ומצאת את חלקת הקבר אליה נשלחת.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר, תודה שאספת את דבר הדואר CI10267021984 בדואר ישראל. ENTERNEWLINEENDVAR  לצורך שיפור השרות, נודה לך אם תוכל לענות על 3 שאלות קצרות בקישור הבא:  LINK47ENDVAR   ENTERNEWLINEENDVAR  להבא, עם שירות BOX2GO תוכל לאסוף את החבילה 24/7. להרשמה לחץ כאן:  LINK21ENDVAR    ENTERNEWLINEENDVAR   תודה רבה, דואר ישראל.
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אפשר גם?  PHONENUMBER@ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ניסינו להשיגך לצורך הפעלת כרטיס האשראי, אנא פנה ללאומי קארד  PHONENUMBER3ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יש 6-9 או 11-2
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+80 ס"מ
+Model: MultinomialNB | Wrong count: 1
+-
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  End wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================
+=============================
+=============================
+=============================
+MODEL MultinomialNB
+AVERAGES: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9771
+WAcc score (lambda = 1): 0.9810
+TCR score (lambda = 1): 6.0191
+WAcc score (lambda = 99): 0.9967
+TCR score (lambda = 99): 0.5949
+WAcc score (lambda = 999): 0.9968
+TCR score (lambda = 999): 0.0675
+===
+LOWEST: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9658
+WAcc score (lambda = 1): 0.9797
+TCR score (lambda = 1): 5.3556
+WAcc score (lambda = 99): 0.9943
+TCR score (lambda = 99): 0.2079
+WAcc score (lambda = 999): 0.9944
+TCR score (lambda = 999): 0.0211
+++++++++++++++
+++++++++++++++
+++++++++++++++
+*_*	A_veF1	L_owF1	A_Acc1	L_Acc1	A_TCR1	L_TCR1	A_cc99	L_cc99	A_CR99	L_CR99	A_c999	L_c999	A_R999	L_R999
+Mul	0.9771	0.9658	0.981 	0.9797	6.0191	5.3556	0.9967	0.9943	0.5949	0.2079	0.9968	0.9944	0.0675	0.0211
+
+Count times TCR was > 1 :
+Model MultinomialNB - 1 : 5 , 99 : 1 , 999 : 0
+
+&&& headlines (first row) &&&
+*
+Ave F1
+Low F1
+Ave WAcc 1
+Low WAcc 1
+Ave TCR 1
+Low TCR 1
+Ave WAcc 99
+Low WAcc 99
+Ave TCR 99
+Low TCR 99
+Ave WAcc 999
+Low WAcc 999
+Ave TCR 999
+Low TCR 999
+
+&&& models (first column) &&&
+MultinomialNB
+|||||||||||
+All the testing took 613 seconds !
+All the process took 3137 seconds !
+
+Parameters:
+    model index: 1
+    model name: MultinomialNB
+    dataset: sms
+    messages count: 11096
+    spam count: 1116
+    non spam count: 9980
+    include_parse_tree_feature: False
+    include_pos: False
+    k_fold_number = 5
+    if k_fold_number is 1, split data = 0.25
+    
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@           Finished dataset sms           @@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+All time: 3138 seconds.
+
+FINISHED

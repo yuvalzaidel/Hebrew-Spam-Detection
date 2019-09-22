@@ -1,0 +1,1042 @@
+
+==========
+
+sms_morphological UL COUNT (sentences that were mot accepted by YAP): 0
+email_morphological UL COUNT (sentences that were mot accepted by YAP): 0
+
+Starting cross-validation, with all the datasets:
+Testing model 1 (MultinomialNB) for dataset 'both_morphological':
+K-FOLD cross validation: 5-fold
+
+processing with model 1
+
+Starting training for iteration 1
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 139.2323477268219 seconds.
+-
+Finished training.
+All the training took 1071 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 1/5 took 269.67540407180786 seconds.
+
+Evaluation:
+---------------
+Iteration 1 , Model MultinomialNB
+baseline_accuracy: 0.672
+model 1's accuracy: 0.977
+positive margin from baseline: 0.304
+confusion matrix:
+             non spam     spam 
+    non spam    720.0     24.0 
+        spam      2.0    370.0 
+Recall (sensitivity): 0.9677
+Precision: 0.9946
+F1 score: 0.9810
+WAcc (Weighted accuracy) (lambda = 1): 0.9767
+TCR (Total Cost Ratio) (lambda = 1): 15.1538
+WAcc (Weighted accuracy) (lambda = 99): 0.9969
+TCR (Total Cost Ratio) (lambda = 99): 1.7748
+WAcc (Weighted accuracy) (lambda = 999): 0.9972
+TCR (Total Cost Ratio) (lambda = 999): 0.1949
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       744
+           1       0.94      0.99      0.97       372
+
+    accuracy                           0.98      1116
+   macro avg       0.97      0.98      0.97      1116
+weighted avg       0.98      0.98      0.98      1116
+
+
+Starting training for iteration 2
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 134.8039195537567 seconds.
+-
+Finished training.
+All the training took 1083 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 2/5 took 266.2349462509155 seconds.
+
+Evaluation:
+---------------
+Iteration 2 , Model MultinomialNB
+baseline_accuracy: 0.672
+model 1's accuracy: 0.962
+positive margin from baseline: 0.290
+confusion matrix:
+             non spam     spam 
+    non spam    726.0     39.0 
+        spam      3.0    348.0 
+Recall (sensitivity): 0.9490
+Precision: 0.9915
+F1 score: 0.9698
+WAcc (Weighted accuracy) (lambda = 1): 0.9624
+TCR (Total Cost Ratio) (lambda = 1): 9.2143
+WAcc (Weighted accuracy) (lambda = 99): 0.9954
+TCR (Total Cost Ratio) (lambda = 99): 1.1518
+WAcc (Weighted accuracy) (lambda = 999): 0.9958
+TCR (Total Cost Ratio) (lambda = 999): 0.1275
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97       765
+           1       0.90      0.99      0.94       351
+
+    accuracy                           0.96      1116
+   macro avg       0.95      0.97      0.96      1116
+weighted avg       0.97      0.96      0.96      1116
+
+
+Starting training for iteration 3
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 136.45625972747803 seconds.
+-
+Finished training.
+All the training took 1086 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 3/5 took 261.9520137310028 seconds.
+
+Evaluation:
+---------------
+Iteration 3 , Model MultinomialNB
+baseline_accuracy: 0.672
+model 1's accuracy: 0.966
+positive margin from baseline: 0.294
+confusion matrix:
+             non spam     spam 
+    non spam    722.0     31.0 
+        spam      7.0    356.0 
+Recall (sensitivity): 0.9588
+Precision: 0.9807
+F1 score: 0.9697
+WAcc (Weighted accuracy) (lambda = 1): 0.9659
+TCR (Total Cost Ratio) (lambda = 1): 10.1842
+WAcc (Weighted accuracy) (lambda = 99): 0.9900
+TCR (Total Cost Ratio) (lambda = 99): 0.5345
+WAcc (Weighted accuracy) (lambda = 999): 0.9904
+TCR (Total Cost Ratio) (lambda = 999): 0.0551
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97       753
+           1       0.92      0.98      0.95       363
+
+    accuracy                           0.97      1116
+   macro avg       0.96      0.97      0.96      1116
+weighted avg       0.97      0.97      0.97      1116
+
+
+Starting training for iteration 4
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 139.26233410835266 seconds.
+-
+Finished training.
+All the training took 1090 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 4/5 took 270.15066409111023 seconds.
+
+Evaluation:
+---------------
+Iteration 4 , Model MultinomialNB
+baseline_accuracy: 0.672
+model 1's accuracy: 0.967
+positive margin from baseline: 0.295
+confusion matrix:
+             non spam     spam 
+    non spam    716.0     34.0 
+        spam      3.0    362.0 
+Recall (sensitivity): 0.9547
+Precision: 0.9918
+F1 score: 0.9729
+WAcc (Weighted accuracy) (lambda = 1): 0.9668
+TCR (Total Cost Ratio) (lambda = 1): 10.7027
+WAcc (Weighted accuracy) (lambda = 99): 0.9954
+TCR (Total Cost Ratio) (lambda = 99): 1.1964
+WAcc (Weighted accuracy) (lambda = 999): 0.9958
+TCR (Total Cost Ratio) (lambda = 999): 0.1306
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97       750
+           1       0.91      0.99      0.95       365
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.97      0.96      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+Starting training for iteration 5
+Vectorizing ....
+Fitting model MultinomialNB (1/1)....
+fitting took 137.25424432754517 seconds.
+-
+Finished training.
+All the training took 1107 seconds !
+using model 1's vectorization function to vectorize test data ...
+Testing model MultinomialNB (1/1)....
+
+Testing for iteration 5/5 took 266.9015259742737 seconds.
+
+Evaluation:
+---------------
+Iteration 5 , Model MultinomialNB
+baseline_accuracy: 0.672
+model 1's accuracy: 0.962
+positive margin from baseline: 0.290
+confusion matrix:
+             non spam     spam 
+    non spam    697.0     38.0 
+        spam      4.0    376.0 
+Recall (sensitivity): 0.9483
+Precision: 0.9895
+F1 score: 0.9684
+WAcc (Weighted accuracy) (lambda = 1): 0.9623
+TCR (Total Cost Ratio) (lambda = 1): 9.8571
+WAcc (Weighted accuracy) (lambda = 99): 0.9938
+TCR (Total Cost Ratio) (lambda = 99): 0.9539
+WAcc (Weighted accuracy) (lambda = 999): 0.9942
+TCR (Total Cost Ratio) (lambda = 999): 0.1026
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.95      0.97       735
+           1       0.91      0.99      0.95       380
+
+    accuracy                           0.96      1115
+   macro avg       0.95      0.97      0.96      1115
+weighted avg       0.96      0.96      0.96      1115
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  Start wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Message: (Wrong class: 0 (non spam))
+שלום , נשמח אם תקדיש דקה מ זמנך ל מילוי משוב קצרצר . תודה ש ב חרת בנו , ב יקורופא . ל מתן ה משוב לחץ
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+טרם השתתפת ב ה סקר ה עוסק ב שירותך ה צבאי . נא לא לציין פרטים אישיים .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום ! ממתין ל נציג ? ב אתר Mitgaisim . idf . il ו באפליקציית 'מתגייסים ' תוכל להיכנס לאזור ה אישי של אתה ו גם למצוא את כל ה מידע על הליכי ה גיוס
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+זוהי הודעה מ טעם חיל ה רפואה . נודה ל אתה על השתתפותך ב ה סקר ב ה נושאים ה קשורים ל שירותי רפואה ב צה"ל . אין לציין פרטים אישיים .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+זוהי הודעה מ טעם חיל ה טכנולוגיה ו ה אחזקה של צה''ל . נודה ל אתה על השתתפותך ב ה סקר ב ה נושאים ה קשורים ל תהליך ה גיוס ל ה צה''ל ENTERNEWLINEENDVAR LINK13ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור הזמנה ל אירוע חגיגות ה פרלמנט - פתיחת עונת ה רחצה ! - מספר הזמנה 269944 MAILSUBJECTENDVAR היי יצחק , הזמנתך התקבלה ב הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה אירוע : חגיגות ה פרלמנט - פתיחת עונת ENTERNEWLINEENDVAR ה רחצה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR התחלהיום שישי , 22 . 6 . 2018 , 23 : 00 ENTERNEWLINEENDVAR סיום ENTERNEWLINEENDVAR יום שבת , 23 . 6 . 2018 , 4 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חלום ב ה חווה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 - ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי הזמנה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מס ה הזמנה : 269944 ENTERNEWLINEENDVAR פרטי ה מזמין : יצחק טויטוסה"כ שולם : ₪ 55אמצעי ENTERNEWLINEENDVAR תשלום : כרטיס אשראי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סוג כרטיס ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ מות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מחיר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מוקדמות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סה"כ שולם : ENTERNEWLINEENDVAR ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה מוכר : ה פרלמנט - ENTERNEWLINEENDVAR צפייה ב ה פרופיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל מידע נוסף ו בקשות ביטול ב אירוע זה - ENTERNEWLINEENDVAR צור קשר עם ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה צפייה ב מדיניות ה ביטולים של ה מוכר - ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה חץ כאן ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נשמח לעמוד ל רשותך ב כל שאלה ,
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום רב , זוהי תזכורת . טרם ענית על ה סקר ב נושא שירותי ה רפואה ב ה צה"ל , דעתך חשובה ל אנחנו מאוד , נודה ל אתה על זמנך .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי ירין יורם ENTERNEWLINEENDVAR שמחים שבחרת להזמין את ערב סטנד-אפ מ טורף ב ה -15 ש ''ח בלבד ! ב -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 543032 , 543472 , 546100 , 548518 , 548056 , 540522 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+זוהי הודעה מ טעם ה מרכז ל מדעי ה התנהגות של צה"ל . נודה ל אתה על השתתפותך ב ה סקר ב ה נושאים ה קשורים ל שירותך ה צבאי . אין לציין פרטים אישיים .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מי ש בידי הוא תיעוד ישן ב ה תוקף לא נדרש ל ה הגיע-התיעוד יכובד ב ה מוסדות ה ציבוריים .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי איציק קלה ה חתיך , רוצה לדעת מי קרא ל אתה ככה ? ה ורד עכשיו את ניימיט ו תוכל לגלות :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חייל/ת יקר/ה , ENTERNEWLINEENDVAR עדיין לא עניתם על ה סקר ? ENTERNEWLINEENDVAR ה יכנסו ו ביצעו את ה סקר של חיל ה טכנולוגיה ו ה אחזקה . ENTERNEWLINEENDVAR תודה על שיתוף ה פעולה . ENTERNEWLINEENDVAR LINK13ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח יקר , צור קשר עם סניפך ב- PHONENUMBER2ENDVAR לגבי שיק ש חזר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+דניאל דודזון : ה מירוץ ל ה מיליון ש ל אתה מתחיל עכשיו Confirmation MAILSUBJECTENDVAR Dear Guy , Thank you for registering for "דניאל דודזון : ה מירוץ ל ה מיליון ש ל אתה מתחיל עכשיו" . : הדרכה ב שידור חי של דניאל דודזון ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ! ה מירוץ ל ה מיליון ה ראשון מתחיל עכשיו ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ! יוצאים ל דרך ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR Please send your questions , comments and feedback LINK89ENDVAR How To Join The Webinar*********************************************************** Thu , Nov 29 , 2018 9 : 00 PM - 11 : 59 PM IST 1 . Click the link to join the webinar at the specified time and date : LINK65ENDVAR https : //link . gotowebinar . com/email-welcome ? role=attendee&source=registrationConfirmationEmail&language=english&experienceType=CLASSICNote : This link should not be shared with others; it is unique to you . Before joining , be sure to check system requirements to avoid any connection issues . 2 . Choose one of the following audio options : TO USE YOUR COMPUTER'S AUDIO : <br>When the webinar begins , you will be connected to audio using your computer's microphone and speakers (VoIP) . A headset is recommended . ***********************************************************To Cancel this RegistrationIf you can't attend this webinar , you may cancel your registration at any time . LINK138ENDVAR You are receiving this email because you registered for this webinar . Your email address and personal information will be used by the Webinar organizer to communicate with you about this event and their other services . To review the organizer's privacy policy or stop receiving their communications , please contact the organizer directly . Cancel registration ( LINK80ENDVAR Stop GoToWebinar emails EMAILENDVAR EMAILENDVAR &locale=en_US)Report spam EMAILENDVAR EMAILENDVAR &locale=en_US)This email is sent on behalf of the organizer by GoToWebinar . LogMeIn , Inc . | 7414 Hollister Avenue | Goleta , CA 93117Privacy Policy ( LINK62ENDVAR Policy ( LINK80ENDVAR EMOJI©ENDVAR 2018 LogMeIn , Inc . All rights reserved .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור הזמנה ל אירוע חגיגות ה פרלמנט ! - מספר הזמנה 299098 MAILSUBJECTENDVAR היי תדהר , הזמנתך התקבלה ב הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה אירוע : חגיגות ה פרלמנט ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR התחלהיום שישי , 13 . 7 . 2018 , 23 : 00 ENTERNEWLINEENDVAR סיום ENTERNEWLINEENDVAR יום שבת , 14 . 7 . 2018 , 4 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חלום ב ה חווה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 - ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי הזמנה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מס ה הזמנה : 299098 ENTERNEWLINEENDVAR פרטי ה מזמין : תדהר טויטוסה"כ שולם : ₪ 65אמצעי ENTERNEWLINEENDVAR תשלום : כרטיס אשראי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סוג כרטיס ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ מות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מחיר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR רגיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סה"כ שולם : ENTERNEWLINEENDVAR ₪ 65 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה מוכר : ה פרלמנט - ENTERNEWLINEENDVAR צפייה ב ה פרופיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל מידע נוסף ו בקשות ביטול ב אירוע זה - ENTERNEWLINEENDVAR צור קשר עם ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה צפייה ב מדיניות ה ביטולים של ה מוכר - ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה חץ כאן ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נשמח לעמוד ל רשותך ב כל שאלה ,
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח יקר , הנך נמצא ב תהליך מעבר ל חברה אחרת , נמליץ ליצור קשר עם נציג בכיר ל קבלת מידע חשוב אודות פרטי ה מעבר ל ה שיחה חייג PHONENUMBER4ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור רכישת כרטיסים מ אתר זאפה MAILSUBJECTENDVAR Report שלום ליה אהובה , אנו מודים ל אתה על הזמנתך . LINK22ENDVAR הזמנה מספר : 2589360 מחירתעריףכיסאשורהאיזוראולםאירוע 315 . 00ש"חכרטיס רגיל108106 תחתוןאמפי קיסריהשלמהארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 315 . 00 ש "חכרטיס רגיל109106תחתוןאמפי קיסריהשלמה ארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 ה סכום ל ה חיוב הוא : 630 ש "חאופןקבלת ה כרטיסים ל מופע : כרטיס ב הדפסה ביתית -כרטיס ב הדפסה ביתית : יש להדפיס את כל קבציה-PDF אשר מצורפים ב תחתית מייל זה . - איסוף ב ה קופה : ב ערב ה מופע , ב הצגת כרטיסאשראי , תעודה מזהה של בעל ה כרטיס ו אישור זה . אישור זה אינו היווה את היא כרטיס כניסה ל ה מופע ל תשומת ליבך- •השעה ה מצוינת ב אישור ה ינהשעת תחילת ה מופע . יש להתעדכן ב שעות פתיחת ה דלתות ו תחילתהמופע ב ה אתר LINK20ENDVAR •הכניסה עם נשק אסורה בהחלט ! ! ! לא ניתןלהפקיד או לאחסן נשק ב ה כניסה ל ארוע •מחיר ה כרטיס כולל עמלת מכירה •ביטול או שינוי ה עסקה אפשרי עד 7 ימיעסקים לפני ה מופע . •ברכישת כרטיסי הנחה ל מיניהם יש להציגתעודה מתאימה . ב מידה ו לא תוצג תעודה זו , יחוייב ה לקוח ב ה הפרש . •הכנסת נשק , אלכוהול , בקבוקי זכוכיתופחיות , חפצים קשיחים , קסדות , סוללותלאפניים חשמליים , כסאות , מצלמות ו ידאוומכשירי הקלטה אסורים בהחלט ו לא ניתן יהיהלאפסנם ב ה כניסה ל ה ארוע . •במופעים תחת כיפת ה שמיים- ה מופע יתקייםבכל מ זג אויר , ה הפקה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי אשכל ה חתיך , רוצה לדעת מי קרא ל אתה ככה ? ה ורד עכשיו את ניימיט ו תוכל לגלות :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אלישבע יאיר , לכבוד יום הולדתך כללית מברכת את אתה ב בריאות שלמה . ו מזמינה את אתה להיכנס ל ה לינק ה מצורף
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+[תמונת מצב 06 . 11 . 18] ה מסלול ה ירוק MAILSUBJECTENDVAR בוקר טוב , [קישור ל ה סקירה יומית] ( LINK276ENDVAR )אתמול לא העליתי סקירה שבועית , אני די מקפיד לעלות עם סקירות , ה אמתשלא עליתי כי לא הספקתי ו לא הלחצתי את עצמי כי אנחנו ב ה שבוע ש הוא לאכל כך חשוב להצטרף אליו ב תחילתו בעיקר אולי ב סופו , ככל ש נקבל סימניםמצטברים על ה מצב ש אל הוא הוא נכנס . ב כל זאת על מנת להקל את צורת התבוננות צירפתי לךגיא מילכה סקירה יומית ש באה ל אתה ל ה הסבירלך היכן אנחנו נמצאים ו מה היא נטיית ה הבנה של אני את ה מציאות ה נוכחיתואפילו צרפתי ל אתה גרף ה מכיל ב תוכו את ״המסלול הירוק״ ב כדי להקל עליךלהבין עד מתי ו איך יראה ב עיני שוק שוורי בעת ה זאת . אני מזמין את אתה להתייחס ו להגיב ל סקירה - זה תמיד מוסיף עניין ו עומקלדיון , התייחסות יכולה ל היות אמירה או אפילו שאלה , אפילו אי ה סכמהמתקבלת ו מובנת ב דרך חיובית ש הרי אולי אינני רואה או מבחין ב משהוחשוב . גיא מילכה זאת סיומת ש הוסיף ואכתובשוב ו שוב , חשוב ל אני השתתפות פעילה( LINK276ENDVAR )Unsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני יהוידע , תל-אביב 5120052
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חשוב : ככה נכנסים ל ה שידור MAILSUBJECTENDVAR ENTERNEWLINEENDVAR ו ואו איזו התרגשות ! ENTERNEWLINEENDVAR אני ממש מקווה ש אתה מגיע ל ה ערב ה זה עם פרפרים ב בטן (כמוני) , ENTERNEWLINEENDVAR כי ה שיעור ה זה הולך ל היות אדיר ב ה כל-כך ה רבה מובנים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אתה נכנס מ כאן : ENTERNEWLINEENDVAR LINK65ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חשוב : תגיע לפחות 10 דקות קודם כדי לשמר מקום ENTERNEWLINEENDVAR [כרגע נרשמו הרבה יותר מ מה ש ה חדר מ כיל] . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חשוב יותר : אני כותב "תגיע" ו "נכנס" , ENTERNEWLINEENDVAR רק בגלל מגבלות ה שפה ה עברית ו כ ה אלה . ENTERNEWLINEENDVAR אני לגמרי מדבר גם אלייך : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מצרכים ל ה הצלחה : ENTERNEWLINEENDVAR מחברת , עט , משהו לשתות ו ל ה נשנש ו מלא אנרגיות ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נתראה ב ה ערב : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR אני מזכיר שוב : ENTERNEWLINEENDVAR יום ראשון 22/10/2017 ENTERNEWLINEENDVAR ב ה שעה 21 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , רצינו לעדכן את אתה ש עבור מספר לקוח ה מסתיים ב- 7141 הורחבה ה אפשרות ל ביצוע פעולות שונות ב ה שירותים ה דיגיטליים או ב טלפון . ל פרטים נוספים אפשר להתקשר ל- PHONENUMBER2ENDVAR או PHONENUMBER3ENDVAR או ל בנקאי ה מטפל ב סניפך . תודה ו ה משך יום נעים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+טוב אז זה סוף סוף קורה EMOJI💥ENDVAR ENTERNEWLINEENDVAR יחידה 150 מסיימים מסלול EMOJI🎉ENDVAR EMOJI🎉ENDVAR EMOJI🎉ENDVAR ENTERNEWLINEENDVAR אז מה ב תכנון ? ? ENTERNEWLINEENDVAR יום שישי 01/09 ב 22 : 30 ENTERNEWLINEENDVAR מועדון ה ״קאן״ ENTERNEWLINEENDVAR צבי ה נחל 1 עמק חפר ENTERNEWLINEENDVAR דיג'י כנרת גני על ה אווירה EMOJI🕺ENDVAR EMOJI🏿ENDVAR ENTERNEWLINEENDVAR שתייה חופשית EMOJI🍸ENDVAR EMOJI🍻ENDVAR ENTERNEWLINEENDVAR וואן גוך , פידג , טקילה קווארבו ENTERNEWLINEENDVAR ו ויסקי , ערק , בירות ו עוד הרבה ENTERNEWLINEENDVAR ו כל זה רק ב *50* שקלים ! ! ENTERNEWLINEENDVAR ש מעתם נכון ENTERNEWLINEENDVAR פרטים נוספים ו רשימות אצל ה מסיימים ENTERNEWLINEENDVAR מי רוצה ? ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הם כפולים ב 10 ב חזקת מינוס 5
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הבנתי מ ה רמ''ד של אני גם ש יצאה הוראה מיוחדת ל אנשי צבא ש מגיעים ל ה איזור ה זה (משהו על מיגון ו כדומה) . ENTERNEWLINEENDVAR ידוע משהו על זה ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+זה ה טובה ב ה עולם של פיצה האט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חובה לחבוש כובעים ! חובה שני בקבוקי מים גדולים . לא סנדלים ו לא גופיות .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה ינך חסום ל ה גלישה ב חו"ל . ל ידיעתך , קיימות חבילות מוזלות ל גלישה סלולארית ב ה חו"ל לפי ש ימושים/יעדים . ל ה פרטים ו הצטרפות חייג ללא תשלום מ ה פלאפון 972507077860+ ENTERNEWLINEENDVAR ב ה רוכים ה באים ל ישראל ו ל רשת פלאפון . ENTERNEWLINEENDVAR נשמח לעמוד ל שירותך ב ה נסיעה ה באה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי , כדי למנוע בעיות עם ה נהגים ב ה אוטובוסים אפשר להכנס מ ה דלתות ה אחוריות של ה אוטובוס שם ב דרך כלל אפשר להעביר את ה חוגר עצמאית . אם זה לא מצליח גם/אין אפשרות ב ה אוטובוס ש אתם עולים על הוא להעביר את ה חוגר מ אחורה אתם מוזמנים לפנות אל אני ו אני אעזור ל אתם
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+טוב אז זאת לא הפרידה שציפיתי ש תהיה ל אנחנו , אבל צוות 2 תודה ל אתם על תקופה קצרה אך מלמדת ו מעשירה ! מקווה ש הפקתם את ה מיטב מ ה טירונות , ש למדתם על עצמכם עוד משהו חדש ו קטן , ש הכרתם חברים ל ה חיים ו הכי חשוב מקווה ש הכנתי את אתם היטב ל ה מערכת ה צבאית , היה ל אני כיף את אתם ו בטוחה ש אראה את אתם עוד המון ! ב ה הצלחה ב המשך , תשמרו את ה מספר פה בשביל אתם תמיד מכ 2 אופיר EMOJI❤ENDVAR ️
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל כל מי ש פיתח אפליקציה ו מתכוון להציג את היא ב 12 : 00 - נא להגיע עכשיו ל ה פודיום ל ה בדיקה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+משתתפים יקרים . ENTERNEWLINEENDVAR כפי ש כולנו רואים ה מצב לא התייצב ו ה גזרה ה דרומית עדיין ב מצב מתוח . ENTERNEWLINEENDVAR על מנת לשמור על בטחונכם *הוחלט הערב על דחיית ה האקתון* . ה מועד ה חדש יפורסם ב ה המשך . ENTERNEWLINEENDVAR ב ה מידה ו מתאפשר ל אתם אנחנו ממליצים לנצל את ה זמן ש התפנה , להיפגש ו להתקדם ב פיתוח ה רעיונות , כך ש תגיעו ל ה אירוע ב מצב מתקדם יותר . ENTERNEWLINEENDVAR נאחל ל ה כולם ימים של שקט ו להמשיך ו לשמור על רוח ה חדשנות EMOJI🛸ENDVAR . ENTERNEWLINEENDVAR צוות פורצים גבולות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח פלאפון , ה תעריפים החלים על אתה ב ה חו"ל ללא חבילה הינם גבוהים . מומלץ להתעדכן ב ה תעריפים טרם ה שימוש ב ה פועל ב אתר פלאפון או ב מוקד שירות ה לקוחות .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה החרגה היא כמובן רק ל ה אירוע ה אקתון . ENTERNEWLINEENDVAR לא תקף אם מישהו ש אתם מכירים מגיע ל ה פעילות אחרת
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח/ה יקר/ה אנו מודים ל אתה ש ב חרת לרכוש ב יטוח תאונות אישיות ב- AIG . ENTERNEWLINEENDVAR החל מ מחר ניתן לצפות ב תנאי ה פוליסה ו חריגיה ב ה אתר LINK10ENDVAR ENTERNEWLINEENDVAR להלן קישור : LINK21ENDVAR ENTERNEWLINEENDVAR ב ברכה AIG . איי אי ג'י ישראל חברה ל ביטוח בע"מ
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מטופל יקר , ENTERNEWLINEENDVAR החל מ תאריך 1/2/18 ה טלפון ל זימון תורים של ד"ר אריעם אליעזר יהיה PHONENUMBER3ENDVAR ENTERNEWLINEENDVAR כמו כן ניתן ל זמן תורים גם ב ה אתר מכבי , ב אפליקציית מ כ ב אני ENTERNEWLINEENDVAR ו ב ה אתר ה רופא LINK17ENDVAR ENTERNEWLINEENDVAR ה מענה 24 שעות ב ה יממה . ENTERNEWLINEENDVAR אין שינוי ב כתובות ה מרפאות .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+3 שלבים ל בניית אסטרטגיית השקעה נכונה MAILSUBJECTENDVAR שלום לכולם ! לפני ש מתחילים להשקיע , תבנו את ה אסטרטגיה של אתם : 1 . תגדירו את ה מטרות ש לכם2 . תערכו סקר בין מס' השקעות3 . ו תאתרו את ה השקעה ה מתאימה ביותר זאת ש עונה על כל ה צרכים ש ל כםבהצלחה ! קורל ו ש יראללקבלת פגישת ייעוץ ב מתנה ללא עלות לחצו כאן אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה יגאל אלון 94 , תל אביבנשלח באמצעות smoove
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אפילו לא שתיתי כוס מים . . . מ רוב עבודה ב בית ה ספר . ו בכלל הייתה הקרנה של מגמת ה קולנוע , אז לא הייתם ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יש מסיבת לופט יום הולדת לבן ש ימולים ו ל ה אלון
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אנחנו נקליט ב ה בית של שגיא בנתיים ENTERNEWLINEENDVAR אני כבר מת להוציא דברים חדשים ENTERNEWLINEENDVAR למה כל כך הרבה זמן עד ה קבן ב ה זונות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיפורים יפים יש
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+י6 ENTERNEWLINEENDVAR למה ? כי ב ה רמסון אמרה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מי אתה בכלל ? ! MAILSUBJECTENDVAR ENTERNEWLINEENDVAR אחד ה משפטים ה מוזרים ב עיני , ENTERNEWLINEENDVAR הוא "אני נוסע לחפש את עצמי" . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מה תמצא שם ש לא תמצא כאן ? ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR הרי , ENTERNEWLINEENDVAR לא משנה לא תלך , אתה תמיד אתה . ENTERNEWLINEENDVAR ו יותר מ זה . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR . . "אתה" זה לא איזו עובדה מוגמרת - אלא בחירה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב כל רגע נתון אדם יכול לבחור מי הוא ENTERNEWLINEENDVAR ו אני הולך לתת ל אתה כלים לעשות את זה ב מהלך ה שבוע ה קרוב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל אל תתבלבל . . . ENTERNEWLINEENDVAR ה כלים ה אלו אמנם לא עולים ל אתה כסף , ENTERNEWLINEENDVAR אבל אתה תגלה מהר מאד - ש הם שווים המון . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה מעשה , ENTERNEWLINEENDVAR אחד מ הם אפילו שווה ל אתה כסף ב בנק . . . ENTERNEWLINEENDVAR . . אבל נדבר על זה מחר . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בינתיים , ENTERNEWLINEENDVAR נתחיל מ משימה פשוטה אבל חשובה : ENTERNEWLINEENDVAR עשה רשימה של ה דברים ש אתה לא מרוצה מ הם ב ה חיים של אתה ENTERNEWLINEENDVAR ו לאחר מ כן , מה היית רוצה ש יהיה ב ה מקום כל אחד מ ה סעיפים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי חבר'ה , ENTERNEWLINEENDVAR כש אתם נכנסים פשוט תרדו 2 קומות ה לובי למטה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רגע לפני ה רגע ה מרגש של נחיתת ה EMOJI🚀ENDVAR על ה ירח . . . ENTERNEWLINEENDVAR אנחנו שמחים לעדכן על ה מועד ה חדש של ה האקתון ש לנו - ENTERNEWLINEENDVAR *29-30/5* . ENTERNEWLINEENDVAR כולנו מתכוננים מ חכים להשלים את ה משימה ו *לפרוץ גבולות* ב ה לחימה EMOJI🔫ENDVAR , ב הדרכה EMOJI🦉ENDVAR , ב תחבורה EMOJI🏎ENDVAR ו ב ה ניהול ה משאבים EMOJI💰ENDVAR . ENTERNEWLINEENDVAR פרטים נוספים ב ה המשך . ENTERNEWLINEENDVAR נתראה ו ב ה הצלחה ל בראשית !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+[סדרת סרטונים חדשה] בוא לגלות איך לחיות בלי דיאטות , בלי משקל עודף ו בלי אכילה בלתי נשלטת ! MAILSUBJECTENDVAR ו-ו-א-ו-ו חשפנו סוף סוף את סדרת ה סרטונים ה חדשה ש ל אנחנו ! ! ! אנחנו שמחים ו מאוד מאוד מתרגשים להזמין את אתם לצפות ב היא . אחרי הרבה עבודה , זיעה , מאמץ ו ניסיון אנחנו חושפים את סדרת ה סרטוניםהיחידה ש תעזור ל אתם : לרדת ב משקל (בין אם זה רק 4-5 קילו או יותר ) , להפסיק להתעסק עם ה אוכל ו ה ארוחה ה באה , להיות משוחררים ב ראש , ו שוב לרדת ב משקל אבל סוף סוף גם לשמור על הוא ! קדימה , זאת ה הזדמנות של אתם ! לחצו על ה קישור עכשיו כדי לצפות ב היא : לחצו כאן ו צפו ב סרטון מס׳ 1 ב סדרה >>> נתראה בפנים , אביב , יגאל ו נח אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה ל מדן 2 , תל אביבנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חברים אני צריך עזרה זה משהו חשוב ENTERNEWLINEENDVAR ה סוכנות ש עשינו את היא ב וקינג עשתה טעות ו רשמה את ה תאריך חזור של ה טיסה במקום ל ה מחר ל חודש אחרי ו אין ל אנחנו איך לחזור כרגע מ ברצלונה ENTERNEWLINEENDVAR אם מישהו יודע על טיסות ב מחיר סביר או דרכים לחזור או מקומות זולים להשאר ב ה הם ב ה אזור ש יגיד ל אני ENTERNEWLINEENDVAR תודה אוהב את אתם EMOJI❤ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה וועדה ה מקדימה , ב ראשות רמ״ח תקיפה ו איסוף תתחיל מ ה צוותים ב ה אולם ה ראשי . ENTERNEWLINEENDVAR מ שם נתקדם ל ה צוותים ב ה חדרים ש ב ה מסדרון . ENTERNEWLINEENDVAR תהיו מוכנים ב ה שולחנות ב ה צוותים ב שעה 10 : 00
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ממליץ לשים לב ל ה כלי ה בא ל תצוגה של עצים ו קבוצות עצים ב אופן דינמי : ENTERNEWLINEENDVAR LINK79ENDVAR ENTERNEWLINEENDVAR יכול ל היות שימושי ל ה שלבים ב ה מסוימים ב פרויקטים מסוימים ! ENTERNEWLINEENDVAR * הודעות דומות עולות מ עת ל עט ב ה פורום ה ייעודי ב ה אתר , ו לכן מוצע גם לשקול ללחוץ על סמלון ה קבלה ה אוטומטית של הודעות מ פורום זה , ש ב ה אתר EMOJI🖐ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה אפשרותך לבטל את ה פינוק ב התאם ל מדיניות ביטול ה פינוקים של לאומי קארד . ENTERNEWLINEENDVAR ניתן לעשות זאת ב אתר ה הטבות של לאומי קארד , על פי ה שלבים ה באים : ENTERNEWLINEENDVAR 1 . יש להזדהות ב אתר ה הטבות על ידי הקשת ת . ז , 8 ספרות אחרונות של אחד מ כרטיסי ה אשראי ו הזנת טקסט ה מופיע ב ה תמונה . ENTERNEWLINEENDVAR 2 . לעבור למסך : ה הזמנות של אני על ידי לחיצה על ה כפתור : ה הזמנות של אני , ב ה סרגל ה עליון . ENTERNEWLINEENDVAR 3 . לבחור את ה הטבה ה רלוונטית ל ה ביטול . ENTERNEWLINEENDVAR 4 . ללחוץ על כפתור : ביטול ה הטבה . ב אפשרותך לבטל את ה הטבה ב התאם ל מדיניות ביטול ה פינוקים ש לנו דרך ה קישור ה בא :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+פרטים חשובים ל ה הדרכה ה אינטרנטית ! MAILSUBJECTENDVAR View this email in your browser ( LINK95ENDVAR חשובים ל ה הדרכה ה אינטרנטית ! שלום עודד , צירפנו את ה מידע להתחבר ל ה הדרכה ה אינטרנטית של היום : שם ה אירוע : גישה ל שקט נפשי ו חופש מ מאבקזמן ו שעה : Saturday , February 2 at 1 : 00 AM (Jerusalem)לינק EMAILENDVAR &name=עודד) (לחצו להתחברות)אני יודע ש ה זמן של אתם יקר ו ש יש הרבה דברים ש אתם יכולים ב שעה ה קרובה , לכן חשוב ל אני לשתף את אתה ל מה הצטרפות אל אני ל ה הדרכה ה זאת תועיל ל אתם מאוד . האם אחד או יותר מ ה דברים ה באים מוכר ל כם…* האם אתם מתעוררים ב בוקר עם מבול של מחשבות ו רגשות שליליים ו אתם לא יודעים איך להתמודד איתם…* האם אתם מרגישים ש חסרים ל אתם ה אהבה , ה הנאה ו ה חיבור ש היו ל אתם ב מערכות ה יחסים של אתם כ שהייתם צעירים יותר . . . * האם אתם מרגישים מוצפים בגלל חוסר ב ה אנרגיה ו פחדים לגבי ה מצב ה בריאותי ה מדרדר ש ל כם…* האם ב סוד אתם מרגישים חוסר תכלית מוחלט ב ה חיים , לא משנה אם כלפי חוץ היו ל אתם הצלחות . . * האם השקעתם ב ה שנים של חיפוש רוחני מאומץ עם ה צלחות מינוריות , אבל אתם יודעים ש ל חיות כמהות ה אמיתית ש ל אתם זאת ה דרך ה יחידה ל שקט נפשי יציב ב כל תחומי ה חיים…אם עניתם "כן" ל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כמה אהבה ב ה אוויר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אז חוגגים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ו אי אתמול ישבנו ב ה מסעדה ב ה ים ו הביאו ל אנחנו מיץ תפוזים חינם 2 כוסות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+נהדר !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI🌟ENDVAR עלו פוסטים חדשים ב פורום ה פרויקט ה מסכם . חלקם תולדה של blind spots ש חשנו ב מתן פידבקים ל ה צוותים ש פנו ב הצעות מסגור ראשוניות מסודרות ב מייל (מזכיר ש אפשר לתאם את אני ספונטנית בווטסאפ שיחות ב נושא מחר , אם עברתם על ה חומרים ו עדיין יש ל אתם תהיות , או , אם אתם חשים צורך לעבור ל מדיה ש יחתית אחרי אינטראקציה מיילית כבדה את אנחנו כדי לוודא או לשאול דברים) . ENTERNEWLINEENDVAR אני ממליץ ל כל מי ש עובד על מסגור , לא ל השתבלל הרמטית בתוך עצמו , ו להשקיע את ה זמן ל מעבר על ה חומרים ב פורום ה פרויקט כדי לחסוך ל עצמו הרבה זמן ב ה המשך , מראש . בנוסף , אני מציע למסגר ביחד עם ה שותפים לצוות ו לא להתייחס ל ה זה כמו שלב פרויקטלי ש מספיק על הוא ראש אחד , כי הוא מכתיב את שלב ה ביצוע ו גם קצת מסנדל את אתם להמשך . . . עבודה אמיתית ב ה צוות ש יש ב הוא ביקורת ו רעיונות משלימים היא אידאלית . ENTERNEWLINEENDVAR LINK58ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מגיעים כתבים זרים ב ה קרוב . ENTERNEWLINEENDVAR ה דוברות מלווים את הם . ENTERNEWLINEENDVAR הנחיית ביטחון מ ידע - אף אחד מ משתפי ה אירוע לא מאושר לדבר את הם . ENTERNEWLINEENDVAR אם פונים אל אתם תגידו ש אסור ל אתם ל ה ענות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אני כאן אבל נכנסתי לנוח טיפה . . אתה יכול רק עכשיו או גם עוד חצי שעה ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לא פשוט החלטתי להפסיק ל היות עוין כלפי אנשים ש לא עשו ל אני שום דבר רע
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה המשך ל פנייתך מספר 279 ברצוננו להודיעך כי בעלי ה רכב אותרו , אין חשד , ENTERNEWLINEENDVAR ל ה ידיעתך ENTERNEWLINEENDVAR ל צורך שיפור ה שירות , ENTERNEWLINEENDVAR יישום סלולארי חדש ב ה משטרה –" 100 ב ה חירום" ENTERNEWLINEENDVAR יישום מציל חיים ! ENTERNEWLINEENDVAR ל הורדת ה יישום לחץ על ה קישור , ENTERNEWLINEENDVAR אנדרואיד – LINK21ENDVAR ENTERNEWLINEENDVAR אייפון – LINK22ENDVAR ENTERNEWLINEENDVAR ל ה שירותך ב כל עת , משטרת ישראל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בוקר טוב , ENTERNEWLINEENDVAR יש חדש ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הערב Disturbed ב ה הופעה ! ENTERNEWLINEENDVAR יש להגיע ל ה כניסה ל ה אירוע עם ה ברקודים ש קיבלת ב מייל או ב SMS מ EventBUZZ פתוחים ב ה נייד או מודפסים . ENTERNEWLINEENDVAR פתיחת שערים ב שעה 19 : 00 . ENTERNEWLINEENDVAR . ל ה הסרה :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש אלה , ה מסמך ל ה הרשמה ל פגישה מלא . ה אם יפתחו עוד סלוטים ל ה הרשמה ? ENTERNEWLINEENDVAR LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיסמה זמנית ל ה אזור ה אישי ב AIG ENTERNEWLINEENDVAR 475026 תקפה ל 10 דק' ו ל שימוש אישי בלבד
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי כאן חי . ENTERNEWLINEENDVAR מזכיר ל אתה ש ב ה יום ש ישי אנחנו נפגשים ENTERNEWLINEENDVAR ב אירוע "פשוט לעשות את זה ! " ENTERNEWLINEENDVAR מתחילים ב 9 : 00 מומלץ להגיע ב ENTERNEWLINEENDVAR 8 : 40 ENTERNEWLINEENDVAR ה אירוע יתקיים ב בית ציוני אמריקה ENTERNEWLINEENDVAR רחוב דניאל פריש 1 ת"א ENTERNEWLINEENDVAR מ חכים לראותך ENTERNEWLINEENDVAR חי ו צוות ה כוח לפעול
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+פינגווינים מעופפים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+גלעד גם ב ה בית ו ב וצקה עובד עד 10 ENTERNEWLINEENDVAR ו נחליט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תיאור ה אירוע של דוח ה מהירות MAILSUBJECTENDVAR ה שוטר הראה ל אני את ה מהירות על ה מכשיר . ENTERNEWLINEENDVAR ה דבר ה ראשון ש אמרתי ל הוא זה ש אין סיכוי ש נסעתי ב ה מהירות ה זאת ו ש זו טעות : ENTERNEWLINEENDVAR ישר אחר כך הוא שאל את אני איפה אני גר , עניתי שמנתניה ו הוא שאל אם 3 שעות ENTERNEWLINEENDVAR מספיקות ל אני להגיע הביתה כי הוא שולל ל אני את ה רישיון , בנוסף הוא איים ב ה דוח של ENTERNEWLINEENDVAR 1500 שקלים ו ב תאוריה חוזרת . ENTERNEWLINEENDVAR כל זאת ב ה זמן ש לא הבנתי איך זה יכול להיות כי אני בטוח ש לא נסעתי ב מהירות כ ה זו או ENTERNEWLINEENDVAR ב צורה מסכנת חיים ו כ ה מובן ש התחלתי להיכנס ל ה לחץ . ENTERNEWLINEENDVAR לאור ה דברים ש ה שוטר מציג ל אני , מן ה סתם ש אני אכנס ל ה מגננה ו אתחנן רק ש לא ישאר ENTERNEWLINEENDVAR ב ה עמדה של הוא ו ש לא ישלול ל אני את ה רישיון ש מ בחינתי זה ה דבר ה גרוע מ כל . ENTERNEWLINEENDVAR הסברתי ל הוא ש אני חייל ו ש אני בעל ה קלות ב תנאי ה שירות בשל ה עובדה ש אבא של אני חולה ENTERNEWLINEENDVAR דיאליזה , סיעודי , עם נכות 100% ו אובדן כושר עבודה ו ש אני חייב את ה רישיון על מנת ENTERNEWLINEENDVAR לסייע ל הוא לחיות חיים נורמטיביים ו ש אני לא יכול ש הוא ישלול ל אני את ה רישיון . ENTERNEWLINEENDVAR ה שוטר ״התרכך״ ו אמר ש הוא יראה מה הוא יכול לעשות ו ש אני אחכה בעוד ש הוא נכנס ENTERNEWLINEENDVAR ל ה ניידת . ENTERNEWLINEENDVAR לאחר מספר דקות הוא קרא ל אני ל ה ניידת , אמר ל אני ״בטוב ל יבו״ ש הוא לא שולל ל אני את ENTERNEWLINEENDVAR ה רישיון ו ש הוא ״הפחית״ את ה קנס ל -750 שקלים ו -8 נקודות , הדפיס את ה דוח ו נתן ל אני ENTERNEWLINEENDVAR לחתום . כמובן ש מלית ברירה מ ה לחץ ש הוא הכניס את אני הסכמתי לקבל את ה דוח כדי ש הוא ENTERNEWLINEENDVAR לא יתן ל אני את ה גרוע מ כל ו ישלול ל אני את ה רישיון . ENTERNEWLINEENDVAR לקחתי את ה דוח ו חזרתי ל ה אוטו , קראתי את הוא ו ראיתי ש ה שוטר רשם ב ה דיוק את ה מהירות ENTERNEWLINEENDVAR ש הוצגה ב מכשיר (128) ו ה וריד 5 קמ״ש כ ה חוק ל -123 ו ש הוא רשם משפט קצר מאוד ש לא ENTERNEWLINEENDVAR מתאר ב כלל את מה ש אמרתי ל הוא ״אני מודה תעזור ל אני אבא של אני חולה״ , אני מעולם לא ENTERNEWLINEENDVAR הודיתי ש נסעתי ב ה מהירות ה זאת , הסכמתי לקבל את ה דוח רק בעקבות ה עמדה ה בריונית ENTERNEWLINEENDVAR ה מאיימת ש ה שוטר נקט ב היא . ENTERNEWLINEENDVAR זאת פעם ראשונה ש קורה ל אני דבר כ ה זה ו כאשר נתבקשתי לחתום חשבתי ש אני חותם על כך ENTERNEWLINEENDVAR ש קיבלתי את ה דוח , לא על אישור ה תוכן של הוא , ש כן בכלל לא ידעתי ש ה שוטר מתעד את מה ENTERNEWLINEENDVAR ש אני אומר , הוא גם לא טרח לשאול את אני אם יש ל אני משהו להעלות ב כתב ו אם אני מאשר ENTERNEWLINEENDVAR את מה ש הוא כתב , כאשר היה ל הוא מובן ש לא הייתי חותם אם הייתי יודע ש זה מה ש הוא ENTERNEWLINEENDVAR רשם , לא ציין את רוב ה דברים ש אמרתי , לא הודיתי שנסעתי ב מהירות כ ה זו ו הוא רשם ENTERNEWLINEENDVAR חצאי דברים ש בכלל לא משקפים את כל ה אירוע . ENTERNEWLINEENDVAR בדיעבד כאשר בדקתי את דרגות ה ענישה , גיליתי ש מהירות ב ה גובה 26-40 קמ״ש מעל ה מותר ENTERNEWLINEENDVAR ב ה דרך ב ין עירונית תגרור קנס של 750 שקלים ו -8 נקודות כפי ש קיבלתי , ו בהתאם ENTERNEWLINEENDVAR ל ה מהירות ש הוצגה ב ה מכשיר (38 קמ״ש מעל ה מותר , ש זה 33 קמ״ש לאחר ה פחתה) . ENTERNEWLINEENDVAR כלומר מלכתחילה מבלי ש אצטרך להגיד ל שוטר דבר , הוא אמור היה להגיד ל אני ש ה קנס הוא ENTERNEWLINEENDVAR 750 שקלים ו -8 נקודות , ו לא להכניס את אני ל לחץ כדי ש אני אגיד כן ל כל מה ש הוא אומר ENTERNEWLINEENDVAR מלית ברירה על מנת לזכות ב רחמיו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בנוסף יש לציין דברים נוספים ש רשמנו ב ה מכתב ש שלחנו , כמו ש ה שוטר כנראה היה עייף ENTERNEWLINEENDVAR לקראת סוף משמרת (האירוע היה ב ה 17 : 00) כי הוא רשפ ש היו את אני עוד 3 נוסעים ב ה רכב ENTERNEWLINEENDVAR ו ב כלל היו עוד 4 , הוא רשם שהייתי בודד ב ה כביש אבל היו את אני לפחות עוד שתי ENTERNEWLINEENDVAR מכוניות , ו עוד דברים ש רשומים ב ה מכתב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR יש לציין ש אני בעל רישיון נהיגה מעל 3 שנים ו בעל שעות נהיגה רבות ו זאת הפעם ENTERNEWLINEENDVAR ה יחידה ש קרה ל אני משהו כ ה זה , אני תמיד נוסע כ חוק .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אפשר לחזק את אתה ? MAILSUBJECTENDVAR הי חברים מה ש לומכם ? ENTERNEWLINEENDVAR הרשו ל אני לחזק את אתם . ENTERNEWLINEENDVAR לחזק את ה כוח ו ה אנרגיה לפעול . ENTERNEWLINEENDVAR לא לפעול סתם , אלא ב דרך ש תקדם את אתם . ENTERNEWLINEENDVAR לחזק את אתם כדי ש תרגישו ב ה נוח לבטא את עצמכם . ENTERNEWLINEENDVAR לבטא את ה יכולות ו ה כישורים של אתם ENTERNEWLINEENDVAR ו לבטא את ה אהבה ש יש ב אתם . ENTERNEWLINEENDVAR אני מאמין ש יש ב אתם אהבה ENTERNEWLINEENDVAR היא פשוט עוטה על עצמה שכבות כלשהן , ENTERNEWLINEENDVAR מ כל מיני חוויות ש עברנו : פחד , כעס , מרמור , אכזבה ו ביישנות . ENTERNEWLINEENDVAR אפשר ללמוד לקלף את ה שכבות ה אלו ENTERNEWLINEENDVAR ו להתאהב מחדש ב ה עצמכם . ENTERNEWLINEENDVAR לא ב קטע אגואיסטי או שחצני ENTERNEWLINEENDVAR ו בטח ש לא ב ה קטע מתנשא . ENTERNEWLINEENDVAR אני מדבר על אהבה עצמית ב ה ריאה . ENTERNEWLINEENDVAR כ ה זאת ש תאפשר ל אתם ל פתח מערכת יחסים אוהבת עם עצמכם . ENTERNEWLINEENDVAR כך גם תוכלו לפתח ביטחון עצמי , ENTERNEWLINEENDVAR ש יאפשר ל אתם לפעול עם תחושה עוצמתית . ENTERNEWLINEENDVAR להאמין ב ה עצמכם , להאמין ב ה יכולות ש ל אתם . ENTERNEWLINEENDVAR כש תאמינו ב ה עצמכם , תוכלו לפתח הערכה עצמית , ENTERNEWLINEENDVAR ש תאפשר ל אתם לזכור מה אתם שווים . ENTERNEWLINEENDVAR בלי אישורים חיצוניים . ENTERNEWLINEENDVAR ו כך לחיות את ה חיים . ENTERNEWLINEENDVAR יום יום , החל מ יום ראשון ה קרוב . ENTERNEWLINEENDVAR כי ב יום ראשון ה קרוב , אני הולך ללמד ENTERNEWLINEENDVAR את ה מודל ה פרקטי ש פיתחתי ש ילמד את אתם ENTERNEWLINEENDVAR איך לחזק את ה אהבה ה עצמית , ה ביטחון ה עצמי ו ה הערכה ה עצמית . ENTERNEWLINEENDVAR ב צורה פשוטה ו קלה ל ה יישום . ENTERNEWLINEENDVAR ה הרצאה תתקיים ב רחוב בני דן 36 ב תל אביב . ENTERNEWLINEENDVAR פתיחת דלתות בשבע ב ה ערב , מתחילים ב שבע ו חצי . ENTERNEWLINEENDVAR מי ש קונה כרטיסים ב ה מכירה ה מוקדמת ENTERNEWLINEENDVAR יוכל להנות מ מחיר מיוחד של כרטיס זוגי ב 69 ש "ח בלבד . ENTERNEWLINEENDVAR ל פרטים ו רכישה לחצו כאן . ENTERNEWLINEENDVAR של אתם ו בשביל אתם : ENTERNEWLINEENDVAR פז אושרן . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR מי ש עוקב אחרי ה פעילות של אני , ENTERNEWLINEENDVAR יודע ש זה לא אירוע ב ה שגרה . ENTERNEWLINEENDVAR לא רק בגלל ש ה הרצאה היא חד פעמית . ENTERNEWLINEENDVAR אלא כי רוב ה הרצאות של אני אינן פתוחות ל ה קהל ה רחב . ENTERNEWLINEENDVAR אם כבר יש כזו- אשמח לפגוש את אתם שם . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : פז אושרן . כתובת ה שולח : ה רב נריה 6 , ראשון ל ה ציון . מ יקוד : 75751 . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ בית קומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מצב חשבון עדכני MAILSUBJECTENDVAR : LINK252ENDVAR : LINK332ENDVAR : LINK252ENDVAR לאומית שרותי בריאות | שפרינצק 23 | תל-אביב | israel | PHONENUMBER3ENDVAR ה סר : LINK220ENDVAR | דווח כ ספאם : LINK220ENDVAR Sent with ActiveTrail : LINK86ENDVAR software
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+LINK21ENDVAR ב ברכה , HOTmobile
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תלונה MAILSUBJECTENDVAR קנינו מ עדן טבע מרקט נתניה "רביולי פטריות ו גבינה ללא חיטה" ב תוקף עד 7 . 5 . 14 ENTERNEWLINEENDVAR ב מחיר של 33 . 99 ש"ח ו כש הכנו את הוא לפי הוראות ה הכנה התאכזבנו לגלות ש הוא פשוט ENTERNEWLINEENDVAR התפורר , אבקש לטפל ב ה זאת בהקדם , תודה ENTERNEWLINEENDVAR *מצורפות תמונות
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי איריס ש הם ENTERNEWLINEENDVAR שמחים שבחרת להזמין את ערב סטנד-אפ מ טורף ב ה -15 ש ''ח בלבד ! ב -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 543032 , 543472 , 546100 , 548518 , 548056 , 540522 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר , הנך חסום ל שירותי גלישה ב חו"ל שכן לא ביקשת את פתיחת ה שירות . ב אפשרותך לרכוש מסלול גלישה ב עלות חד פעמית של 29 ש"ח ל ה נסיעה , ה מאפשר ל אתה גלישה יומית של עד 50/3 מגה ל יום ב תשלום נוסף של 33/149 ₪ ב התאם ל ה יעד ה נסיעה ENTERNEWLINEENDVAR ל ה רכישה ש לח סמס חינם עם ה ספרה 9 ל מס' 3615 . ה שירות ייכנס ל תוקף רק עם קבלת הודעת אישור . המשך שהייה נעימה ב ה חו"ל , סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אזרחים/ג'ובניקים רוצים סרט מאוחר יותר ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יואו טיול שנתי איזו התרגשות !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+טוב אז זה סוף סוף קורה EMOJI💥ENDVAR ENTERNEWLINEENDVAR יחידה 150 מסיימים מסלול EMOJI🎉ENDVAR EMOJI🎉ENDVAR EMOJI🎉ENDVAR ENTERNEWLINEENDVAR אז מה ב תכנון ? ? ENTERNEWLINEENDVAR יום שישי 01/09 ב 22 : 30 ENTERNEWLINEENDVAR מועדון ה ״קאן״ ENTERNEWLINEENDVAR צבי ה נחל 1 עמק חפר ENTERNEWLINEENDVAR דיג'י נפתלי גני על ה אווירה EMOJI🕺ENDVAR EMOJI🏿ENDVAR ENTERNEWLINEENDVAR שתייה חופשית EMOJI🍸ENDVAR EMOJI🍻ENDVAR ENTERNEWLINEENDVAR וואן גוך , פידג , טקילה קווארבו ENTERNEWLINEENDVAR ו ויסקי , ערק , בירות ו עוד הרבה ENTERNEWLINEENDVAR ו כל זה רק ב *50* שקלים ! ! ENTERNEWLINEENDVAR ש מעתם נכון ENTERNEWLINEENDVAR פרטים נוספים ו רשימות אצל ה מסיימים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תחשוב ש זה יותר בלאגן ב מדינות ש עכשיו יום ב ה הם
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אהד ENTERNEWLINEENDVAR יום אחד נגמר ה בצק . . .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב יום רביעי ב תשע ו חצי מכירת מיקודית ל ה בגרות ב ה לשון . 60 ש"ח . ב הוצאת רכס .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI☘ENDVAR תודה ל כל מי ש הגיע היום ל פגישה . הוראות הגעה ו תזכורות נשלחו כבר ל מי ש ה פגישות של הם הן ב יום ראשון , ו יישלחו הערב ל מי ש ה פגישות של הם ב יום שלישי ה קרוב . ENTERNEWLINEENDVAR EMOJI☘ENDVAR מי ש הגיע היום ― ככל ש אמרנו ל אתם ש נשלח ל אתם חומרי ה שלמה ו -reference ה משתמעים מ ה פגישה ― נעשה זאת ב ה ימים ה קרובים ב אופן מסודר כדי ש תוכלו להשתמש ב ה הם ו להעזר ב ה הם כ נדרש !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ישיבה אצל אליעד החלטתי
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+RE : ה הזמנה של אתה מוכנה MAILSUBJECTENDVAR פברואר 2019 תן ל אני שנייה ל ה עצור אותך פה ! זה לא סיפור של איך לקנות דירת-גן ב ה יומיים . או איך לעשות 5 אלף דולר מ ה בית ב -5 דקות עבודה ב יום . . . אם ה ציפייה של אתה היא כ ה זאת , אז ניפרד כאן כ ה ידידים ו אאחל ל אתה המון ב הצלחה עם מוכרי ה חלומות . אם לא ? אז נעים מאוד ! קוראים ל אני שיר , אמא של מאיה ו אישתו של נמרוד . (טימור הוא ה כלב ב ה תמונה) . הזמנת שפע ? אתה סקרן ו רוצה כבר להציץ ? לחץ כא ן ו תגלה מה הזמנת ! אני כמו כולם ו אין ב אני משהו מיוחד למעט ש . . . אני מובטלת ! ! כן כן , מובטלת ! ! אבל לא מובטלת ב ה מובן ה רע של ה מילה . אחרי 4 ו חצי שנים של חיפושים אחרי נכס אמיתי ו בלי השקעה מ וגזמתלתשואה מינימלית - סוף סוף מצאתי ! מצאתי ו הצלחתי ! לחץ כאן ו תגלה ! סוף סוף ה צלחתי לפטר את ה בוס של אני ! אז איך ? ו למה דווקא אני ? ה תשובה פשוטה ! ב לחיצה כאן כמו מתווך נדל''ן , כמו חברת השקעות ב שוק ה הון , ו כמו ב כל דבר : חקרתי , גיליתי ו מצאתי ! מצאתי את ה אנשים ש ייבנו ל אני נכס מ ניב ! ו ב השקעה מזערית (יחסית לנדל''ן או פתיחת תיק אצל ברוקר) ו הצלחנו ! פשוט
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עדכון חם : ENTERNEWLINEENDVAR ב שעה 1230 יתחיל ב אולם אירוע ה גמר ב ראשות ר' אט"ל . ENTERNEWLINEENDVAR נתחיל ב ה עדכון לגבי מי מ ה צוותים עלה לגמר ו מייד נמשיך ב פיצ'ים של ה פיינליסטים אחד אחרי ה שני . כל צוות עד 3 דקות ! ENTERNEWLINEENDVAR עד אז זמן טוב ל ה אוכל , סידור ו ניקוי ה חדרים ו שיופים אחרונים . ENTERNEWLINEENDVAR נא להתיישב ב ה אולם ב שעה 1220 . ENTERNEWLINEENDVAR *בהצלחה ! ! ! *
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום ל אתם , ב שעה טובה אנו ביישורת ה אחרונה של פיתוח ה מערכת TMS . ENTERNEWLINEENDVAR שבוע ה בא נחל ב בדיקות ו הזנת נתוני אמת ב מחסן הפצה . מבקש זמינות ו הירתמות כולם ל ה מהלך . ENTERNEWLINEENDVAR ב ה ע"ה ש לא יהיו הרבה תקלות ו אז נוכל ל מבצע ב קרוב . תודה ל כל ה עוסקים ב ה מלאכה עד כה ! ENTERNEWLINEENDVAR ש בת שלום !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה דלת החוצה מנוטרלת אפשר לצאת ו להכנס החוצה . רק להשאיר את ה דלת סגורה . אפשר לאכול ב ה חוץ אבל לא לעשן
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ו דרך אגב ממש ב אל אני לטוס ב ה פסח ENTERNEWLINEENDVAR ל ה רומניה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*עין ה נציב ב ה שבת ב ה בוקר* EMOJI😍ENDVAR ENTERNEWLINEENDVAR יש טיולון ל עין ה נציב ב יום שבת EMOJI💦ENDVAR ENTERNEWLINEENDVAR כל אחד מביא כמה פריטים ו מארגנים ל אנחנו שם ארוחת בוקר EMOJI🥒ENDVAR EMOJI🥖ENDVAR EMOJI🧀ENDVAR EMOJI🥙ENDVAR EMOJI🌯ENDVAR ENTERNEWLINEENDVAR יוצאים ב 06 : 00 ו חוזרים ב 13 : 30 ENTERNEWLINEENDVAR ו כמובן מביאים מ לא מצב רוח EMOJI🤣ENDVAR EMOJI🌬ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום תדהר תכלת אנוש , רוצה לדעת מה ה נטו של אתה החודש ? כ נס/י ל ה אזור ה אישי ! LINK16ENDVAR החל מ ה חודש לא תישלח הודעה עם סכום ה העברה ל ה בנק , אלא קישור ל תלוש ה שכר .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בזבוז של אייס שוקו טעים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום רב , ENTERNEWLINEENDVAR ב קשתכם נדחתה ל שנה זו . ENTERNEWLINEENDVAR ה דחיה בוצעה ע"י מערכת ממוחשבת . ENTERNEWLINEENDVAR מדובר ב מערכת חדשה ו לכן ה בקשה תבדק שנית ע"י גורם אנושי מקצועי . ENTERNEWLINEENDVAR אנא התאזרו ב סבלנות . ENTERNEWLINEENDVAR ל שאלות או הבהרות ניתן לפנות ל מוקד ה עזרה ב ה דוא"ל LINK19ENDVAR ENTERNEWLINEENDVAR , או ב טלפון- ENTERNEWLINEENDVAR PHONENUMBER1ENDVAR ENTERNEWLINEENDVAR תודה , ENTERNEWLINEENDVAR מערך ה סיוע ל ה הלוואות ו מלגות ל ה סטודנטים ENTERNEWLINEENDVAR משרד ה חינוך
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש הם סטייליסו
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סופסוף ! ! !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה אישה ה רזה ה זאת ! מה היא יודעת ש אני לא ? MAILSUBJECTENDVAR צהריים טובים , כאן שוב יגאל רווה מצוות ה אחים גיל , למה ל אחרים מותר ו ל אני אסור ? זו שאלה ש רוב רובם של עושי ה דיאטותשואלים את עצמם בין הם לבין עצמם . ה סיבה היא שדיאטה תמיד נתפסת כ סוג של החמצה , הקרבה . ו זו גם ה סיבה ש ה דרך ה יחידה לעבור את תקופת ה דיאטה ב שלוםזה לחשוב עליה כ "עונש" זמני על התנהגות לא טובה של אנחנו . אז איך ניתן לשנות את תחושת ה החמצה ה זו ? איך ניתן לפרק מאית של אנחנו את ה תחושהשאנחנו מקריבים את "טעם החיים" עבור בריאות ו הורדה ב ה משקל ? הרי תחושות ה אלו הן אלו ש מזיזות את נדנדת ה דיאטות ! ! אז ככה - ל מכורים ל מתוקים ו מ אפיםהעולם מחולק ל שניים -הטעם ה טוב של ה חייםוהטעם ה רע של ה חיים . ה טעם ה טוב הם ה מתוקים , ה מאפים ו האכילה ה ספונטנית מתי ש בא ל אני . ה טעם ה רע של ה חיים זה חיים של "מותר/אסור" , הימנעות מ חיי חברה ו עונש לחיות חיי שעמום עם ברוקולי ו גזר גמדי . אני רוצה לשתף את אתם ב תשובה שכתבתי ל לקוחה ב תכנית של אנחנו "ממאבק לשחרור" - ה כל ייפתר אם נצליח לראות ש זה לא עונש אלא פרס . איך נעשה את ה שינוי ה תודעתי ה זה ? - תדמיינו שאתם נמצאים ב ה כפר מכורים . ל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מה זה עדים של אלכוהול ? זה כ נס/ הרצאה או משהו כ ה זה ?
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+קל מתחילים נרקוס
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תזכורת ! עדיין לא אספת את ה משלוח ה ממתין עבור אתה ב סופר פארם ב יג קרית-שמונה , מרכז קניות ב ה יג , קרית שמונה . ENTERNEWLINEENDVAR קוד אישי : 718686
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יוכבד מצאנו ל אתה את ה דרך איך למצוא עבודה מדהימה ! MAILSUBJECTENDVAR לחצו על ה כפתור בתוך ה מייל : LINK184ENDVAR : LINK184ENDVAR רוצה למצוא עבודה שווה ? ? היי מה ש לומך יוכבד ? למעלה מ -20 שנים ש ב- Coding Academy מכשירים מפתחים ב ה רמה ה מקצועית ה גבוהה ביותר . יכולת לימוד עצמי , תרגול מעשי , טכנולוגיה מתקדמת , ו מוכנות ל תעסוקה הם רק חלק מ ה שלבים איתם עוברים את אתה ה מרצים ה מעולים ב -Coding Academy . ה קורס מעניק ל אתה את כל מה ש צריך כדי לצאת ל שוק ה עבודה עם ה ידע ו ה כלים ה אמיתיים ל הצלחה ! *אין צורך ב ידע מקדים ב תחום רוצה טלפון/מייל עם הסבר ו פרטים נוספים ? ? ל חץ/י כאן ו יחזרו אלייך&nbsp;&gt;&gt; : LINK184ENDVAR רוצה טלפון/מייל עם הסבר ו פרטים נוספים ? ? ל חץ/י כאן ו יחזרו אל את >> אשמח ש ייצרו את אני קשר ל ה הסבר , תודה ! : LINK184ENDVAR אשמח ש ייצרו את אני קשר ל ה הסבר , תודה ! ה בונים 14 , רמת-גן | LINK17ENDVAR | 1-800-311-311 ה סר : LINK118ENDVAR ה סר | דווח כ ספאם : LINK124ENDVAR דווח כ ספאם נשלח באמצעות תוכנת ActiveTrail : LINK81ENDVAR <div style="text-align : center;padding-top : 7px;" dir="rtl"><span style="font-size : 12px; font-family : Arial;color : #606060;">נשלח באמצעות תוכנת&nbsp;<a rel="nofollow" href=" LINK81ENDVAR " target="_blank" style="font-size : 12px; font-family : Arial , Tahoma; color : #08c;text-decoration : none;">ActiveTrail</a></span></div>
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תפסיק לסנן אנשים ב וואטסאפ ו דבר תי ! ! ! !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ערב טוב . הנחיות רחטל לאור ה אירועים ב ה דרום . ENTERNEWLINEENDVAR א . כל תנועה ל גזרת אוגדת עזה מחייבת הצטיידות ב ה שכפץ , קסדה , נשק ו תחמושת . ENTERNEWLINEENDVAR ב . חבירה ל ה גזרה מחייב אישור מז״י דרך לשכת רחטל , יגאל קריספל . חל איסור הגעה ל ה גזרה , גם ל קפקים , התקנות , הפעלות ו כ דומה ללא אישור מ זי .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+10 עובדות ש לא ידעת על מסחר אלגוריתמי MAILSUBJECTENDVAR 10 עובדות ש לא ידעת על מסחר אלגוריתמי1 . 80% מנפח ה מסחר ב ה עולם מתבצע באמצעות רובוטים ו לכן ה מסחר ה ידני עובר מ ה עולם . 2 . 80% מ ה סוחרים ה ידניים לא שורדים את ה שנתיים ה ראשונות , 40% מהם כלל לא שורדים את ה חודש ה ראשון . 3 . רוב ה הפסדים ב מסחר ידני נובעים מ ישיבה מול ה מסך ו קבלת החלטות אקראיות ש נובעות מ עירוב ה רגש ב ה מסחר . 4 . ה תשואה ה שנתית ה ממוצעת של סוחר ידני ש שרד היא - 6 . 5% מתחת ל ה מדד ה מוביל ב שוק . 5 . מסחר יומי נחשב ל מקצוע עם שיעור ה כישלון ה גבוה ביותר ב ה שנה ה ראשונה . 6 . להיות סוחר אלגוריתמי לא מצריך ידע או ניסיון קודם ב ה מסחר ידני . 7 . מסחר אלגוריתמי מבוסס על מחקר סטטיסטי שכול אחד יכול ללמוד לעשות . 8 . מסחר אלגוריתמי לא מצריך ישיבה מול ה מסך ב שעות ה מסחר . 9 . ה השקעה ה יומית ה דרושה כדי להצליח לא צריכה לעלות על חצי שעה ב יום . 10 . שלושת ה יתרונות ה גדולים של ה רובוט על ה אדם : - יכולת עיבוד נתונים ו הסקת מסקנות ב אלפיות ה שנייה- יכולת הוצאה ל ה פועל של מספר עסקאות במקביל - הוצאה ל ה פועל של עסקאות ללא מעורבות רגשוזה ה מקום להתחיל ב ה ו- LINK30ENDVAR אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צרות של עשירים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בנה של שמשון אסף , מנהלת ה חטיבה , ש נפצע קשה מתאושש ב בית חולים ברזילי . נאחל ל עומר בריאות טובה ו מהירה . שמשון מודה על ה אהבה ו ה תמיכה ש קבלה ה משפחה . ENTERNEWLINEENDVAR להבדיל , בוגר ש לנו , סרן לירן אדיר ז"ל , נהרג ו אתמול נערכה הלוויתו . יהי זכרו של גיבורנו ברוך .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוחות יקרים , ה הרצאה של פרופ' גפן סרף הערב ב בית ציוני אמריקה תחל ב שעה 20 : 45 , ו לא ב שעה 20 : 30 כפי ש פורסם ב מקור . פתיחת דלתות ב שעה 20 : 20 . מצפים ל ראותם ! ENTERNEWLINEENDVAR ב ה ברכה , צוות Funzing
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אישור הרשמה ל ה מסלולים להתאהב ב ה ארץ מחדש , מסלולי טיול , מ עיינות , פריחה , מפות טיול MAILSUBJECTENDVAR שלום EMAILENDVAR , אנו שמחים ש נרשמת ל אתר מסלולים > להתאהב ב ה ארץ מחדש . ל השלמת תהליך ה הרשמה ו הפעלת אפשרות ה צפייה ב מסלולי ה טיולים ב ה אתר , אנא ה פעל את חשבונך באמצעות ה קישור ה מצורף ו ה משך לגלוש ב ה אתר ו ליהנות מ ה מסלולים ש ב הוא . ה אתר מעודכן ב- 1 , 200 מסלולי טיול מגוונים , איכותיים ו מפורטים . ל השלמת ה רישום , לחץ על ה קישור : LINK110ENDVAR (במידה ו לחיצה על ה קישור לא עובדת , נסה להעתיק את ה כתובת ו להדביק ב דפדפן) פרטי חשבון שם ה חשבון : EMAILENDVAR סיסמא : 123456A תודה , צוות מסלולים להתאהב ב ה ארץ מחדש , מסלולי טיול , מעיינות , פריחה , מפות טיול
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יורדים עכשיו שנייה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כבר מה זה ירד על זה ה מוטיבציה ENTERNEWLINEENDVAR תכיר את ה צבא
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר , ב מדינה זו ניתן לחייג ל ישראל הן ב חיוג ישיר ו הן ע"י חיוג ניתוק ו שיחה חוזרת , ב כל מקרה , ה חיוב יבוצע ב התאם ל תעריפי ה חבילה ש רכשת . ב מידה ו לא רכשת חבילה ה כוללת דקות שיחה , מחיר דקת שיחה ל ישראל הנו 9 . 90 ש "ח . פלאפון ל שירותך ב חו"ל 24/7 ללא תשלום , ב דרך שנוחה ל אתה : 444* או PHONENUMBER4ENDVAR ב חיוג מ ה פלאפון ו גם ב צ'אט עם נציג ב- SMS ל מספר PHONENUMBER4ENDVAR ENTERNEWLINEENDVAR נסיעה טובה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תקשיבו אני צריכה עכשיו ש כל מי ש 100% בא ל הופעה של ה סטודיוו ש לנו ש ישלח EMOJI🙋ENDVAR ENTERNEWLINEENDVAR אנחנו חייבות לדעת כמה אנשים ב ה דיוק באים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה רוך ה בא ! MAILSUBJECTENDVAR תסכימ/י את אני ש מ גיל קטן הורגלנו לחיות לפי ה נוסחה ה באה : ENTERNEWLINEENDVAR תלמד , תעבוד , תרוויח - ENTERNEWLINEENDVAR זוהי ה נוסחה ש כולנו גדלנו על היא , ENTERNEWLINEENDVAR אותה ה נוסחה ש תמיד מנעה מאת אנחנו ל חשוב חכם היא ה משוואה של - ENTERNEWLINEENDVAR זמן = כ ה סף . ENTERNEWLINEENDVAR ה נוסחה ה זאת גורמת ל אנחנו ל חיות לפי ה משפט - ENTERNEWLINEENDVAR "אני עובד בשביל ה כסף״ , ו לא : אני עובד כש בא ל אני לעבוד , ו ה כסף מוזרם אל אני מ מקורות הכנסה אוטומטיים ש בניתי ב ה עבר״ . ENTERNEWLINEENDVAR לא משנה כמה מאמץ תשקיע ב ה קריירה של אתה , כמה שעות ב יום תעבוד , ENTERNEWLINEENDVAR על כמה זמן תוותר עם ה ילדים ו ה משפחה , תמיד אתה תרגיש תקוע ב אותו ה מצב כל עוד ה זמן ש ל אתה שווה ל ה כסף ש ל אתה . ENTERNEWLINEENDVAR ו כל חייך מוכתבים בגלל את היא ה נוסחה ? ENTERNEWLINEENDVAR בטח כבר קראת על זה נו . . . ב ה ספר ״אבא עשיר אבא עני״ ? ENTERNEWLINEENDVAR קראת ו אמרת ל עצמך : ״וואו ! אני חייב לאמץ את ה גישה ה זו של מקורות הכנסה נוספים . . . אבל איך אני עכשיו עושה את זה ? ״ ENTERNEWLINEENDVAR ל רוב ה רציונליזציה ה עצמית של ה אנשים תתנהל ב ה סגנון ה זה : ENTERNEWLINEENDVAR "מה אתה משוגע ? תישאר במקום ה עבודה של אתה . יש ל אתה משכורת קבועה ו לאט לאט עם ה זמן תתקדם ל תפקיד בכיר יותר" . ENTERNEWLINEENDVAR ו שוב פעם . . ENTERNEWLINEENDVAR כל זה בגלל את היא ה נוסחה . ENTERNEWLINEENDVAR ה נוסחה ש מעצימה את ה פחד של הם ל ממדים מפלצתיים ו מונעת מהם להצליח בגדול . ENTERNEWLINEENDVAR יש כל כך הרבה דרכים לצאת מ ה נוסחה ה זאת ו להפסיק את ה מרדף ה מתסכל ה זה . ENTERNEWLINEENDVAR אחת מ ה דרכים היא לרכוש עסק מוכן ו פעיל ב שיווק שותפים . ENTERNEWLINEENDVAR אם רכשת קורס כלשהו ו לא הצלחת להרוויח כסף , זה בדיוק בגלל זה . ב ה מקום להשקיע קודם ב ה שורשים , ניסית להשקיע קודם ב ה פירות , ENTERNEWLINEENDVAR אך שנינו יודעים ש עץ בריא מתחיל ב שורשים בריאים . ENTERNEWLINEENDVAR זאת ה דרך לנצח את ה נוסחה . ENTERNEWLINEENDVAR אם מעניין את אתה ללמוד עוד על איך לקבל תשתית מוכנה ש עובדת ו מייצרת כבר כסף ב שיווק שותפים , ENTERNEWLINEENDVAR כ נס ל ה פה כדי ל דעת ה כל >> זה ה קישור ש ב הוא תשאיר פרטים ENTERNEWLINEENDVAR ב תור אחד ש כבר שנים מתעסק ב שיווק שותפים ו ב שיווק דיגיטלי , אני ממליץ על כך ב ה חום . ENTERNEWLINEENDVAR לא רק ש זה יחסוך ל אתם שבועות שלמים של עבודה ו ניסוי ו טעיה כושל , זה גם יחסוך ל אתם עשרות אלפי שקלים על פרסום ממומן שגוי , ו אין סוף אנרגיה מבוזבזת לשווא . ENTERNEWLINEENDVAR לחצו כאן לקבל פרטים על עסק מוכן ב שיווק שותפים ש מייצר הכנסה לפני ש מסתיימת ה אפשרות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : בניאל הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עברו רק 12 יום , יש ל ה הם עוד הרבה זמן עד ש הם חייבים להחזיר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR מיקום ה הופעה של אליעד נחום הועבר ל ה בר "מרפיס" ENTERNEWLINEENDVAR כתובת : גיבורי ישראל 17 , מרכז יכין , Y סנטר פולג , נתניה . ENTERNEWLINEENDVAR נתראה שם ! ENTERNEWLINEENDVAR ל ה הסרה :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מחר ב חולצות לבנות ב ה בקשה ו רצוי כובע . ב יום רביעי 60 ש "ח למיקודית ב ה לשון . זו מכירה מאורגנת אחת בלבד !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תקני חולצות ירוקות . . . ו חולצות לבנות . . . כי את תקבלי רק 3 חולצות לבנות בלבד . . . ו אני די אני בטוחה ש זה לא יספיק ל אתה ל חודש . . . תביאי את אתה אבקת כביסה כי את תיהי במטווחים ו זה שיא ה חום ו את שם מהבוקר עד ה ליילה ו את עוד תיסגרי שבת ותיהי מחוייבת ללכת ב מדיי ב ' ככה ש תוכלי לכבס ב יד . . . מ די אני א' הם מביאים 3 זוגות ו מ די אני ב ' הם מביאים 2 . . . אני מציעה ל אתה להביא שישייה של בקבוקיי מים קטנים כי את תאבדי שם ב קבוקים על ימיןועל שמאל ו אני די אני בטוחה שאת לא תישתי מ ה מימיות שם כי ל ה כי תדעי מי ש תה מהם ו איזה מחלות הם השאירו שם . . . אני מציעה ל אתה גם להביא גופיות לבנות כי ב תאכלס ממש חם . . ו מותר לל לשים גופייה מתחת ל ה מדים . . . תביאי ספריי ריח ל בגדים ל מקרה שהם יסריחו טיפה אז תוכלי להשפריץ ו זהו . . . תביאי את אתה דורדוראנט . . סכין גילוח מברשת ו משחת שיניים . . . תביאי המון המווןן חטיפים . . . . . ו דברים אכילים כי ה אוכל לא משהו . . . אם את מעשנת אני מציעה שתקני פאקט או אספקה טובה ש תספיק ל אתה . . . כי ה שקם (סוג של חנות קטנה ב בביס) לא תמיד פתוח ו את תוכלי להיתקע . . . . ENTERNEWLINEENDVAR אממממ . . . תביאי את אתה ב גדיי ספורט . . . ENTERNEWLINEENDVAR אם את שמה טייץ את חייבת לשים שורט מעל כי זה כביכול לא צנוע . . . לשת''ש (שעה של הפסקה לפני אני ה שיינה) תביאי חולצות ש הן לא לבנות . . . תביאי כל צבע רק ש לא יהיה לבן כי אסור . . . ו נעליי ספורט חובה ! אספקה של תחתונים . . . חזיות . . . גוזיות . . . גרבים לבנות ארוכות . . . . ENTERNEWLINEENDVAR אני מציעה ל אתה להביא גם כסף קטן כדי לקנות שתייה מתוקה מ ה מכונות . . . . אמממ . . . ENTERNEWLINEENDVAR מגבות ל מקלחת . . . . מציעה להביא 3 מגבות . . . אחת ל כל שבוע . . כי ב סופו של דבר ה מגבת מסריחה אחרי אני שבוע . . . תביאי את אתה ב קבוקים גדולים של שמפו מרכך סבון גוף ו ספוג ל גוף . . . ENTERNEWLINEENDVAR ו גם את לא תחוייבי להחזיר את ה כל ב ה בית . . . יעני אם את באה עם דברים ש אין ל אתה צורך להחזיר את הם יום אחרי אני או ב שישי כש את יוצאת ל ה בית תשאירי את ה דברים ה אלה שם . . . ENTERNEWLINEENDVAR אני אישית קיבלתי ב בקום ב סוף שקית עם כמה חטיפים מנה חמה פדים תחתוניות ו טמפונים . . . אבל מציעה ל אתה להביא מ ה בית ב מידה ו לא יביאו כי זה לא מאה אחוז . . . אני מציעה ל אתה לקנות מנעול ל תיק . . . . כי אנשים גונבים כסף על ימין ו על שמאל . . . תביאי מטען רגיל ו מטען נייד ל ה פלא . . . כ די ש תמיד תוכלי להטעין . . . תביאי אוזניות . . . תביאי שמיכה כרית ו סדינים . . . כי לא יביאן לך שם כ ריץ אלא עם כן את רוצה לישון בלי כרית . . . ו זהו ב תאכלס . . . . . כל פריט ש חשוב ל אתה תביאי (( : מקווה ש עזרתי . . . . ו ש יהיה ל אתה גיוס קל EMOJI😚ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל ה הזכירך-דבר דואר YY01872084405 ENTERNEWLINEENDVAR ג 2260 ENTERNEWLINEENDVAR עדיין ממתין ל אתה ב יחידת ה דואר - ה קולה (בית עסק) - כ תובת-המחקר 2 , נתניה לשעות פתיחה ל ה חץ LINK47ENDVAR ENTERNEWLINEENDVAR חדש ! ! ENTERNEWLINEENDVAR 1 . עד אליך בתוך דקות Gett Post ב אפליקציית Gett ENTERNEWLINEENDVAR LINK61ENDVAR ENTERNEWLINEENDVAR 2 . שליח עד ה בית - LINK24ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתנצלת . . ENTERNEWLINEENDVAR היה ממש כייף ב אילת !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כל ה פרטים על ה תכנית ליווי + קישורים + קוד קופון MAILSUBJECTENDVAR הנה כל ה פרטים של ה תכנית + ה קישור ש ימו לב הקופון (רק ל מי ש היה ב ה וובינר) ללחוץ ב קוד קופון : 4444 ו זה ישנה ל אתם את ה מחיר לחצו כאן עכשיו ל עמוד ה רישמי של ה תכנית ל עמוד הרשמה לחצו כאן ל ה שיחה עם נציג ש לנו לחצו כאן ה בונוס של ה 20 ה ראשונים נגמר . ב ה בקשה לא לבקש את הוא יותר . אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת LINK25ENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש לרעה זרחין 10 , רעננהנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי כנרת אבשלום ENTERNEWLINEENDVAR שמחים שבחרת להזמין את 2 פיצות משפחתיות ב-89 שח בלבד כולל משלוח ב ה -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 156-310375885 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צופית שלום , עם ה מעבר ל שעון קיץ , החל מ ה -6 . 4 . 19 יהיה פתוח ה מועדון ב ימי שבת עד ה שעה 22 : 00 אימון נעים .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל רווחתכם , זכיין ה קפיטריה הוחלף ל- Cofizz . בקרוב יחלו עבודות שיפוץ ב ה קפיטריה , ב מהלכן ה שירות יהיה חלקי , עד תחילת שנת ה לימודים , ש ב היא ה שירות יהיה מלא . הנהלת ה מכללה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הקלטת ה סדנא מ אתמול MAILSUBJECTENDVAR היה דיצה עוצמתי אתמול , תודה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מצרף ל אתה הקלטה ו משאיר את היא ב ה אוויר ENTERNEWLINEENDVAR כנראה עד יום חמישי - ב הצלחה ! =) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מ תחת , צירפתי ל אתה גם פרטים ENTERNEWLINEENDVAR על ה תכנית ה חדשה של אני "הבוטקאמפ" . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני אשלח ל אתה על היא מייל מפורט יותר ב ה המשך , ENTERNEWLINEENDVAR כרגע רק בקצרה : ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 . זו תכנית ליווי וירטואלית , דיצה-יישומית , ENTERNEWLINEENDVAR ל בניית הערכה עצמית יציבה ו חזקה , ENTERNEWLINEENDVAR ו עוצמה פנימית כמו ש לא חלמת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 2 . אנשים משלים על היא 12 , 400 ש"ח , ENTERNEWLINEENDVAR אבל הצלחתי לעשות כמה שינויים קטנים ENTERNEWLINEENDVAR ו להוריד את ה מחיר (משמעותית) ל-5 , 820 ש"ח ENTERNEWLINEENDVAR כרגע לזמן ה השקה של ה תכנית אפשר להצטרף ב ה -1970 ש "ח בלבד ENTERNEWLINEENDVAR או ב 12 תשלומים של 197 ש "ח ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כיף , לא ? =) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה אומר : ENTERNEWLINEENDVAR - תכנית אימונים מלאה ENTERNEWLINEENDVAR - ליווי מלא במשך 6 שבועות ENTERNEWLINEENDVAR - חברות ל כל ה חיים ב קהילת VIP יחודית ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו בגלל ש זו הרשמת "מייסדים" , מגיע ל אתה גם : ENTERNEWLINEENDVAR - 2 קורסים נוספים (חדשים לגמרי) ENTERNEWLINEENDVAR - 2 הדרכות אקסקלוסיביות מ שנות חיים ENTERNEWLINEENDVAR - ו עוד . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו כל זה , ב פחות מ-330 ש "ח לשבוע ב ה תוכנית ENTERNEWLINEENDVAR (פחות מ ה מחיר ל שעת אימון עם מאמן מ מוצע) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני שם ל אתה לינק כאן : ENTERNEWLINEENDVAR LINK31ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו אני מקווה מאד ש לפחות תעיף מבט ENTERNEWLINEENDVAR ל ה בדוק אם זה משהו ש יכול להתאים ל אתה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR אם יש ל אתה שאלות על ה תכנית לפני ש אתה נרשם , ENTERNEWLINEENDVAR שלח ל אני ב מייל ל כאן : ENTERNEWLINEENDVAR EMAILENDVAR ENTERNEWLINEENDVAR (אפשר גם לשלוח שם ו מספר ו אחזור אלךיך) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה קטנת תמונות MAILSUBJECTENDVAR הוראות ה רצה : ENTERNEWLINEENDVAR 1 . תחלצי את כל ה קבצים ל ה תיקייה ENTERNEWLINEENDVAR 1 . חד פעמי תתקיני את ה קובץ python-2 . 7 . 12 (רק את אחד מ הם 32 ביט או 64 ב יט) ENTERNEWLINEENDVAR 2 . אחרי ה התקנה , תריצי את start ENTERNEWLINEENDVAR 3 . עכשיו נשארה רק ה תיקייה resize , אל תמחקי מה ש יש ב תוכה (python , ENTERNEWLINEENDVAR resize50 , 150 , 300) ENTERNEWLINEENDVAR ש ימוש : ENTERNEWLINEENDVAR יש 3 תוכניות resize50 , 150 , 300 ה מספרים מבטאים את כמות ה פיקסלים ש יתווספו ENTERNEWLINEENDVAR ב ה מסגרת . ENTERNEWLINEENDVAR בשביל ה שלטים ש הכנסתי ל ה אפליקציה השתמשתי ב 300 ו ב שני שלטים השתמשתי בעוד 50 אז ENTERNEWLINEENDVAR עשיתי ל אתה 3 תוכניות ב גדלים שונים ש תוכלי לבחור כמה נוח ל אתה להגדיל . ENTERNEWLINEENDVAR כש את מעלה את ה תמונה ל ה מוצר את צריכה להגדיל את ה מסגרת עם ה נקודות ה לבנות עד ENTERNEWLINEENDVAR ה סוף . ENTERNEWLINEENDVAR ה תמונות ש ישתנו הן אלה ש נמצאים ב ה תיקייה resize (אפשר להפעיל כמה פעמים את ENTERNEWLINEENDVAR ה תוכניות על אותן תמונות) ו ה תמונות ה מקוריות ישמרו ב ה תיקייה originals ככה ש לא ENTERNEWLINEENDVAR תאבדי את הן . ENTERNEWLINEENDVAR אם יש איזה בעיה תשאלי : )​ ENTERNEWLINEENDVAR resize . rar ENTERNEWLINEENDVAR < LINK85ENDVAR ENTERNEWLINEENDVAR ​
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צריך את עזרתך . . . MAILSUBJECTENDVAR היי בן טויטו , אני בדיוק ב תהליך של יצרת מפת דרכים חדשה ! אשר מטרתה היא לרכז ל אתה אתכל ה מידע ה נחוץ כדי להתחיל לסחור ו להצליח ב שוק . . . אודה ל אתה אם תיקחדקה או ש תים כדי לענות על שאלה חשובה , ו ב תמורה אני מבטיח לשלוח ל אתה אתמפת ה דרכים ה מלאה לפני כולם ו בחינם ! אם אם עדיין לא ענית , אשמח אם תכנס לכאן כדי לקחת חלק ב יצירת מפתהדרכים ה חדשה ( LINK113ENDVAR )מעריך מאוד את עזרתך , זהרנ . ב . השאלה LINK32ENDVAR ( LINK113ENDVAR )Unsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני אילת , תל-אביב 5120052
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תקשיבי חבר של אני שם עכשיו יש ל הם מזגנים ו רק חדרים ו חדר אוכל ענק
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מי אלה כל ה פרצופים ה יפים ה אלה ב ה מקום ה זה ש כולו חג סביב ה שמש
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הי עטרה ב ה רעם , איזה כיף ל אתה , הזמנת הטבה ב ה גודיז . ל פרטי ה הטבה צריך ללחוץ כאן :
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שבוע טוב ל ה כולם , ENTERNEWLINEENDVAR מחר ב ה בוקר לפני ש אתם יוצאים מ ה בית אתם מוודאים ש אתם מדוגמים ו מסודרים . ש יש על אתם ה כל- חוגר , דסקית , פנקס ש ב אני , אימוני חיילות , דסקיות ב נעלים , גז מדמיע ו פטורים ל מי ש יש . ב ה דגש על פטורי זקן , ב מידה ו נתקלתם ב שוטר צבאי ב קשו טופס להישפט ב ה יחידה . ENTERNEWLINEENDVAR קרה ו ב שלב כלשהו ב ה דרך ל ה בסיס אתם שמים לב ש שכחתם את אחד ה פק״לים ב ה בית ו אתם לא מדוגמים , אתם מתקשרים ל מפקדת ו מודיעים ל היא . ENTERNEWLINEENDVAR כדי ש נטפל ב ה חוסר לפני ש תפגשו שוטר צבאי . ENTERNEWLINEENDVAR אך ו רק מתקשרים , בלי הודעות . ENTERNEWLINEENDVAR מזכירה , מחר ב שעה 11 : 30 ח׳ מ חוץ ל ה מדור . בלי אף איחור . ENTERNEWLINEENDVAR ש ימו לב , ש אתם לא שוכחים מ ד״ס ל שני אימונים , טפסים ל מש״קית ת״ש , ה פניות , אבחונים פסיכודידקטים על מנת להקל ב ה מבחנים ל מי ש מגיע ל הוא ו טפסים נוספים . ENTERNEWLINEENDVAR ל כל בעיה נוספת , להתקשר ל ה מפקדת .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל/ת יקר/ה , קיבלת תוספת של 100 . 00 כוכבים ל רכישת ציוד אישי . ל כל ה פרטים - LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שימו לב חברה , השכמה ב שש ו חצי . לארוז ו לנקות מאהל . להגיע עם ה תיקים ל ארוחת ה בוקר ב שבע ו חצי . ב ה ארוחה לארוז כריכים ל ה צהרים ו להעמיס ציוד ה חל מ שמונה . לילה טוב !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עם כיתת ה חינוך של אני לפני אתם חוינו אזעקה ב אמצע סיור ב בית ה משפט ה עליון ב ירושלים . עכשיו הם כותבים ל אני ש חווים ה כל מקרוב ו בתוך . נזכרים בדיוק ב ה סיור ה הוא . לילה טוב ו שקט .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ספר ספציפי ש עזר ל אני לחבר את כל חלקי ה פאזל EMOJI👍ENDVAR MAILSUBJECTENDVAR הרבה אנשים שואלים את אני על ספר ספציפי ש עזר ל אני ל חבר המון מ חלקי ה פאזל של שיווק באינטרנט , ו אומנם אין ב ה דיוק ״ספר אחד״ מאחר ו יש לא מעט ספרים , אך כן הייתי ממליץ ב ה חום על ה ספר ״Dot Com Secrets" של ראסל ברנסון . ENTERNEWLINEENDVAR תוכלו לקבל את ה ספר ״כביכול״ בחינם , ב קישור כאן - LINK22ENDVAR ENTERNEWLINEENDVAR למה כביכול ? ENTERNEWLINEENDVAR כי אומנם ה ספר עצמו בחינם , אך תצטרו לשלם עבור ה משלוח חח ENTERNEWLINEENDVAR אז זה יוצא כמה עשרות שקלים בודדים , אך הם יהיו שווים לכן הרבה יותר ב ה המשך . ENTERNEWLINEENDVAR אם הוא עזר ל אני מאוד , אני בטוח ש הוא יעזור גם ל אתה . ENTERNEWLINEENDVAR זה ה קישור ל רכישת ה ספר ״בחינם״ - LINK22ENDVAR ENTERNEWLINEENDVAR : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : אלול הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+RE : מה עכשיו ? ? MAILSUBJECTENDVAR ENTERNEWLINEENDVAR ו ואו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR קיבלתי יותר מ -100 מיילים אםפ תמול , ENTERNEWLINEENDVAR עם נוסח (פחות או יותר) כ ה זה : ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נו . . הכנתי רשימה , מה הלאה ? ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אז קודם כל , ENTERNEWLINEENDVAR סחטיין על על ה עשייה ו על ה השקעה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה בכלל לא מובן מאל הוא ENTERNEWLINEENDVAR ו זה מה ש מבדיל ב סופו של דבר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בין מצליחנים ו לוזרים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR עשייה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR דבר שני , ENTERNEWLINEENDVAR אתם צודקים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כמו ש כתבתי ב ה מייל ה קודם - זאת רק ה התחלה ENTERNEWLINEENDVAR ו עכשיו צריך להתחיל לשנות דברים , ENTERNEWLINEENDVAR להתחיל ל ה היות מי ש אני בוחר להיות ENTERNEWLINEENDVAR ו לחיות את ה חיים ש אני בוחר לחיות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אנחנו הולכים ל געת ב כמה אספקטים של זה ה שבוע , ENTERNEWLINEENDVAR ש ה ראשון בניהם הוא כסף . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כן , ENTERNEWLINEENDVAR אמרתי את זה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR משום מה , ENTERNEWLINEENDVAR יש איזה איסור לא מוצהר ל ה דבר על כסף . ENTERNEWLINEENDVAR זה כאילו "לא בסדר" ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל כסף , אם נרצה ו אם לאו , ENTERNEWLINEENDVAR הוא אחד ה גורמים ה משפיעים ביותר ב ה עולם ש ל אנחנו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני לא נכנס ל ה דיון של ה אם זה אמור להיות ככה או ל הוא , ENTERNEWLINEENDVAR ו ב כנות זה לא ממש מעניין את אני . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה שורה ה תחתונה אצל אני היא מה ש חשוב ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו ה שורה ה תחתונה היום היא שבלי כסף , ENTERNEWLINEENDVAR אי אפשר לחיות טוב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני לא מדבר על ל ה היות מולטי מליונר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מדבר עלך ל חיות ב ה כבוד , ENTERNEWLINEENDVAR בלי לרדוף אחרי ה משכורת ה באה ENTERNEWLINEENDVAR כדי לסגור את ה חודש ב ה זמן ENTERNEWLINEENDVAR ש אנחנו צוברים חובות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מדבר על לאפשר ל עצמי ו ל משפחה של אני נחת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR - בלי להכנס ל ברוך ב כל פעם ש ה מכונית מתקלקלת . ENTERNEWLINEENDVAR - בלי לתפוס את ה ראש ב כל פעם ש רואים את ה מחירים של ספרי ה לימוד . ENTERNEWLINEENDVAR - בלי לקוות ש ה בנק יוותר ל אני עוד חודש עד ש אני "קם על ה רגליים" ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נחת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו בשביל אתה זה , ENTERNEWLINEENDVAR לא צריך להיות "עשיר" ENTERNEWLINEENDVAR צריך רק לחשוב כמו עשיר - ו לדעת לנהל את ה כסף כמו ש צריך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR הנה שיעור חשוב על זה ENTERNEWLINEENDVAR מ ה מנטור של אני ל ה עניינים ה אלו (וחבר מאד יקר) : ENTERNEWLINEENDVAR LINK32ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נמשיך מחר : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עוד מלגה ללא התנדבות נפתחה ל הגשה ! הרשמה ל חבילת ה הגשות תגדיל את ה סיכוי ל ה מלגה ב פי 2 ! (פרסומ . ת) MAILSUBJECTENDVAR ה רשמו עכשיו ל חבילת ה הגשות ב הנחה שווה ב ה מיוחד ! : LINK184ENDVAR : LINK184ENDVAR מצאנו ל אתם עוד מלגה ללא תמורה ! EMOJI🔊ENDVAR סטודנטים ה רשומים ב ה -Milgapo יקבלו כמובן הגשה אוטומטית ! מלגה ע&quot;ש מרים ל אה הגות &gt;&gt; : LINK184ENDVAR מלגה ע"ש מרים לאה הגות >> EMOJI✅ENDVAR EMOJI✅ENDVAR EMOJI✅ENDVAR עיתאב ש קרה , סטודנטית באונ' ת"א : "יששש ! קיבלתי מלגה ב שווי 8 , 000 שקלים ! בכלל לא הכרתי את ה מלגה ה זו" ל הצטרפות לשירות ה הגשות &gt;&gt; : LINK184ENDVAR ל הצטרפות ל שירות ה הגשות >> : LINK184ENDVAR בשביל הודעות כ אלה אנחנו קמים ב ה בוקר ! EMOJI💚ENDVAR EMOJI💙ENDVAR EMOJI💜ENDVAR ​ בלה רון , סטודנט באונ' בן-גוריון : "מלגהפה , רציתי להגיד תודה רבה . ה מקצועיות , ה דיוק ב הגשות ו ה יחס ה אישי הפכו עבור אני את ה שירות ל ה חוויה ! זכיתי ב מלגה בלי התנדבות ! ! " הטבות שוות חבילות ה הגשה : ל שנה : 10% הנחה ! ל שנתיים : 20% הנחה ! ל-3 שנים : 33% הנחה ! EMOJI👇ENDVAR EMOJI👇ENDVAR EMOJI👇ENDVAR ל ה צפייה ב חבילות ה הגשה &gt;&gt; : LINK184ENDVAR ל צפייה ב חבילות ה הגשה >> : LINK184ENDVAR כיף "לחפור" ל אתם עם מלגות שוות ב מיוחד ללא תמורה EMOJI😉ENDVAR EMOJI💵ENDVAR עד סוף ה חודש בלבד . . . מלגת קק"ל ! ! ה מלגה ב שווי 25 , 500 ש "ח (8 , 500 ש "ח כל שנה ל -3 ש נים) . ל עיון ב פרטי ה מלגה : לחצו כאן ל מלגת קק&quot;ל &gt;&gt; : LINK184ENDVAR לחצו כאן ל מלגת
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אהוד ה יקרה , ב איחור קל אבל עדיין חשוב ל אני לברך ב ה המון מזל טוב ו מקווה ש הייתה יומולדת ש מחה . ENTERNEWLINEENDVAR גלעד יבין
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חבר'ה הייתם מעולים ! ENTERNEWLINEENDVAR מבקשים מאוד מכולם למלא את ה משוב כדי ש גם אנחנו נוכל ל היות טובים יותר ב ה פעם ה באה EMOJI🙏ENDVAR EMOJI🏻ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כש אתה הולך ב קינג גורג ו פתאום איש מבוגר אחד קורא ל אתה , אתה מתקרב אל הוא ו פתאום הוא מצדיע ל אתה , עם ה פנים הכי רציניות ו מלאות גאווה ש יש . אתה מופתע ו אז נזכר שאתה על מדים , אז אתה נעמד , מצדיע ו מחייך ב גאווה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חברה חברה . . . רגע רגע . . . מחר ספרות ו הסטוריה . ENTERNEWLINEENDVAR ב יום שני ב בוקר מתכונת ל תלמידי פיזיקה יחידה אחת . ה שאר יגיעו רק ב עשר .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הודעה זו רלוונטית ל ה נוסעים ל ה חו"ל ש לא רכשו חבילה או מסלול חו"ל ה כוללים גלישה . ENTERNEWLINEENDVAR ל תשומת ליבך , ה ינך חסום ל ה גלישה ב חו"ל . גלישה תתאפשר רק עם חבילת חו"ל מתאימה . ENTERNEWLINEENDVAR ל פרטים נוספים LINK26ENDVAR ב ה ברכה , פלאפון .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה סדר ב סדר עוד ו ובינר , הנה ה ערב ב 21 : 00 MAILSUBJECTENDVAR אני מרגיש כאילו תקפו את אני היום : ) מעל 400 מיילים של אנשים ש לא הצליחו להגיע ל וובינר ב ה בוקר ! ו ואו ! אז הנה , ל כל מי ש ביקש ו ובינר הערב ב שעה 21 : 00 ** אין הקלטה ** אז תגיעו - חובה להירשם מראש לחצו כאן עכשיו ב ה שביל להירשם אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת LINK25ENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה זרחין 10 , רעננהנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום רב מש פחת ל אני . ה הזמנה נקלטה ! ה קוד ה אישי ש ילווה את אתם עד סוף ה סיור הוא : 10324 ה סיור ייצא מ קומה 3 . יש להגיע כ -15 דקות לפני מועד ה סיור ש נקבע ל אתם . ניפגש על גג ה עולם !
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה צצה ל ה דרך ש בזכות היא אנשים הופכים ל עשירי ה עולם ה חדש ! MAILSUBJECTENDVAR אפריל 2019 ש מי לורן , אני חיילת ב ודדהמשוחררת שנתייםוגרה ב ה קומה 32 בפנטהאוז תל אביבי מפנק EMOJI‼ENDVAR זה ה סיפור ה אישי של לורן , תלמידה ש לנו מ ה מחזור ה ראשון ! איך היא עשתה את זה ? לחצו כאן ! ב כנות ? אסביר ב-20 שניות : פעם עבדתי 8 שעות ב יום ! ! בשביל 248 שקל . 31 ל שעה . ? ! אז איך הגעתי ל מגדלי Yoo ? ! ב ה התחלה קיבלתי מ ה מדינה סיוע ב שכר דירהלדירת חדר ב דרום ת"אואפילו הציעו ל אני מלגה 50% ל תואר לאחר ה צבא . אבל מה זה עוזר ? -לא באמת רציתי ללמוד אף פעם . . . עד לפני אני שנה עוד הייתי נואשת ו עצבנית ! אבל נפלה ב חלקי ה הזדמנות ללמוד (וליישם ! )לחצו כאן ל קבלת שיעור מלא ב ה מתנה ש יראה ל אתה איך התחלתי ! איך לעבוד חצי מ ה זמן - ו להרוויח פי 10 מ ה כסף EMOJI‼ENDVAR ️ראיתי מודעה תוך כדי משמרת ב עבודה , לחצתי ו פשוט השארתי פרטים(כי מה יש ל אני כבר להפסיד . . . )כשהגעתי הביתה גיליתי ש קיבלתי 4 סרטונים חינםאז התחלתי להציץלאט לאט ה סרטונים ש אבו את אני ! ! ! חרשתי כל ה לילה - 6 שעות על ה מחשב . . . בוא תראה גם אתה את ה סרטונים ב ה בוקר קמתי פתחתי מ חשב . . . ו הייתי ב -ה-ל-ם ! ! ! נכנסו ל אני ל חשבון ה תמים ו ה ריק
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אפשר גם להגיע ל ה היות תוכניתן שחור ENTERNEWLINEENDVAR ה צבא נוטה לקחת אנשים עם יכולת ו לצ'קמק ל ה הם את ה יכולת ו לתת ל הם לעבוד ב ה דברים ש אין ל הם מושג ב ה הם ENTERNEWLINEENDVAR ש זה כן לצבור ניסיון רגיל פשוט בלי קורס
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR נבחרת לייצג את חיל ה שריון ב טקס יום הזכרון ב בית ה עלמין מחר ב 9 : 00 . ENTERNEWLINEENDVAR אנא ו ודא/י כי יש ב ה ידך את כל ה פרטים ה נדרשים . ENTERNEWLINEENDVAR מ צורף קישור ל ה אתר יזכור שם תוכל/י לקרוא אודות ה נופל אל הוא נשלחת : ENTERNEWLINEENDVAR LINK24ENDVAR ENTERNEWLINEENDVAR מ צורף קישור ל סרטון תדרוך קצר ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR שים/י לב , מחר ב שעה 9 : 00 תקבל/י הודעה ל צורך אישור התייצבותך ליד ה קבר . ENTERNEWLINEENDVAR ב ה רעות ש ריונאים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיכום עסקה ו קוד/י קופון - רכישה ב ה -istudent MAILSUBJECTENDVAR סיכום עסקה ו קוד/י קופון - רכישה ב ה -istudent היי אמיר , ש מחים ש בחרת לרכוש *פיצה מיוחדת + 2 תוספות ב ה -77 שח בלבד כ וללמשלוח* *סיכום עסקה* כמות : *1* מחיר ליח' : *77 . 00 ש ''ח * סה"כ : *77 . 00 ש ''ח * *להלן קוד/י ההטבהשרכשת* PHONENUMBER0(*934-843082188*)ENDVAR *לנוחיותך פרטי ה הטבה כפי ש מופיעיםבאפליקציה : * רק חברי istudent נהנים מפיצה מיוחדת + 2 תוספותב-77 ₪ בלבד ב ה פיצה ה אט ! איך נהנים מ ה הטבה ? ישללחוץ על "לרכישה" ו לרכוש את ה קופון ב מחירהמיוחד ל חברי istudent . מייד לאחר ה רכישה , קוד/יההטבה שרכשת יישלח/ו אליך ב מייל ו ב -sms . ניתןלממש את קוד ה קופון ש נשלח אל אתה ב ה -smsבאמצעות : אתר פיצה ה אט , מוקד ה הזמנות אובסניפי ה רשת (למעט סניף אום אל פאחם , סניףיד אליהו ב ה דוכן בתוך היכל מנורה מבטחים , סניף טירה ו ב ה סניף מ לחה ב ירושלים תקף ב דוכןהטייק אווי בלבד ו לא ב ה ישיבה ב מסעדה) . ל צפייה ב רשימת ה סניפים >> LINK38ENDVAR ל משלוח 65 ₪ או ב התאם ל ה אזוריהחלוקה . ה תוקף ל ה מימוש הינו עד 30/6/2019 . ה תמונהלהמחשה בלבד . ה הטבה מסובסדת . ה חברה ו -istudentרשאיות להפסיק את ה מבצע ב כל עת . ט . ל . ח . שמחים ש ב ה חרת לרכושבאפליקציית istudent , זמינים עבור אתה ל כל שאלה ב : LINK22ENDVAR או PHONENUMBER3ENDVAR (שלוחה 2)
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+איך ש ה קלפים נעלמים בתוך ה חול זה מדהים ב עיניי
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב רכות ! הנה ה סיכום ה ראשון : ] MAILSUBJECTENDVAR היי , כאן ארבל , ו ברכות על הצטרפותך ! ENTERNEWLINEENDVAR אני כותב את ה מיילים של אני ב לשון זכר אך הם מיועדים מן ה סתם ל שני ה מינים . ENTERNEWLINEENDVAR אני מצרף ל אתה את ה סיכום ה ראשון של אתה , ו הוא של ה ספר ״הדבר האחד״ של גרי קלר . ENTERNEWLINEENDVAR אחד ה ספרים ה חשובים ביותר ל יצירת פוקוס ב ה חיים ה אישיים ו ה עיסקיים של אתה , הוא משלב גם טכניקות חשובות ל השגת מטרות ש נראות ״לא הגיוניות״ , ENTERNEWLINEENDVAR ו הוא גם אחד ה ספרים ש עזרו ל אני להתמקד ו לסדר את אורח ה חיים של אני ב ה צורה פורצת דרך . ENTERNEWLINEENDVAR ה סיכום הוא ב צורת סרטון , ו הוא אחד מ ה סיכומים ש נמצא ב ה פרויקט ה ״100 סיכומי ספרים״ . ENTERNEWLINEENDVAR לפני ש תצפה ב הוא , חשוב ש תעשה את ה דברים ה באים כדי ש תקבל את ארבעת ה סיכומים ה נוספים . ENTERNEWLINEENDVAR 1) אם ה מייל ה זה הגיע ל קידומי מכירות או ל ספאם , תעביר את הוא ל ה תיקייה ה ראשית . ENTERNEWLINEENDVAR 2) תסמן את ה מייל ה זה ב ה כוכב כדי ש בעוד מספר חודשים מהיום , תוכל לצפות ב ה סיכום שוב ! ENTERNEWLINEENDVAR 3) תשלח ל אני מייל ב חזרה , עם שלושת ה ספרים ש הכי השפיעו על אתה ל טובה , כי אני כל ה זמן מתעניין להכיר ספרים נוספים ו ללמוד מ הם . ENTERNEWLINEENDVAR אחרי ש עשית את שלושת ה דברים ה אלו , לחץ כאן לצפות ב ה סיכום ה ספר ENTERNEWLINEENDVAR אני מאמין ש זה הולך ל היות התחלה מדהימה ל מערכת ה יחסים בין אנחנו : ] ENTERNEWLINEENDVAR בנוסף , אם אהבת את ה סיכום ו מעניין את אתה לקבל 99 סיכומים נוספים ב ווידיאו של ה ספרים ה חשובים ביותר ל ה אדם , ה קישור ל ה הרשמה ל ה פרויקט נמצא כאן : ENTERNEWLINEENDVAR לחצ/י כאן ל כל ה פרטים ENTERNEWLINEENDVAR דבר אחרון , יש ל אני סרטון ב ערוץ יוטיוב ש ב הוא אני מדבר על 20 ספרים ש כל יזם או עצמאי חייב לקרוא . ENTERNEWLINEENDVAR אני מצרף ל אתה כאן את חלק א׳ , תגיד ל אני ב ה בקשה מה דעתך על הוא ו האם הוא עזר ל אתה לקבל עוד רעיונות ל ה ספרים . ENTERNEWLINEENDVAR לחץ כאן לראות את ה סרטון . ENTERNEWLINEENDVAR תעשה ל ה ייק ל סרטון אם אהבת , ו גם - תרשם ל ערוץ (subscribe) כדי לקבל עדכונים על סרטונים חשובים נוספים ש אני מעלה ! ENTERNEWLINEENDVAR שוב , אשמח ממש אם תכתוב בחזרה מייל עם שלושת ה ספרים ש הכי השפיעו על אתה ל טובה . ENTERNEWLINEENDVAR זהו לבינתיים , אל תשכח להוריד את ה סיכום ה ראשון של אתה ו לצפות ב ה סרטון ״20 ספרים ש כל יזם חייב ל קרוא״ ! ENTERNEWLINEENDVAR ב ה ימים ה קרובים אפתיע את אתה עם סיכום מטורף ו חשוב , ENTERNEWLINEENDVAR אז תתכונן ל ה מייל מן אני . ENTERNEWLINEENDVAR תצליח , ENTERNEWLINEENDVAR ארבל ה ולצמן . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : ארבל הולצמן . כתובת ה שולח : כל מקום , כל ה עולם . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אישור רכישת כרטיסים מ אתר זאפה MAILSUBJECTENDVAR Report שלום ימימה נחמיה , אנו מודים ל אתה על הזמנתך . LINK22ENDVAR הזמנה מספר : 2589360 מחירתעריףכיסאשורהאיזוראולםאירוע 315 . 00ש"חכרטיס רגיל108106 תחתוןאמפי קיסריהשלמהארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 315 . 00 ש "חכרטיס רגיל109106תחתוןאמפי קיסריהשלמה ארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 ה סכום ל ה חיוב הוא : 630 ש "חאופןקבלת ה כרטיסים ל מופע : כרטיס ב הדפסה ביתית -כרטיס ב הדפסה ביתית : יש להדפיס את כל קבציה-PDF אשר מצורפים ב תחתית מייל זה . - איסוף ב קופה : ב ערב ה מופע , ב הצגת כרטיסאשראי , תעודה מזהה של בעל ה כרטיס ו אישור זה . אישור זה אינו היווה את היא כרטיס כניסה ל ה מופע ל תשומת ליבך- •השעה ה מצוינת ב אישור ה ינהשעת תחילת ה מופע . יש להתעדכן ב שעות פתיחת ה דלתות ו תחילתהמופע ב ה אתר LINK20ENDVAR •הכניסה עם נשק אסורה בהחלט ! ! ! לא ניתןלהפקיד או לאחסן נשק ב ה כניסה ל ארוע •מחיר ה כרטיס כולל עמלת מכירה •ביטול או שינוי ה עסקה אפשרי עד 7 ימיעסקים לפני ה מופע . •ברכישת כרטיסי הנחה ל מיניהם יש להציגתעודה מתאימה . ב מידה ו לא תוצג תעודה זו , יחוייב ה לקוח ב ה הפרש . •הכנסת נשק , אלכוהול , בקבוקי זכוכיתופחיות , חפצים קשיחים , קסדות , סוללותלאפניים חשמליים , כסאות , מצלמות ו ידאוומכשירי הקלטה אסורים בהחלט ו לא ניתן יהיהלאפסנם ב ה כניסה ל ארוע
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בואו ננפץ מיתוסים ו מעשיות . . . MAILSUBJECTENDVAR View this email in your browser ( LINK92ENDVAR בואו ננפץ מיתוסים ו מעשיות . . . ------------------------------------------------------------שלום גיא , ב ימים האחרונים התחלתי לחשוב על ה מיתוסים (מעשיות) ש אני האמנתי ב ה הם כש עוד הייתי שקוע עמוק ב ה חיפוש אחר שקט נפשי ו חופש מ מאבק . כמובן , ש גם אני שומע כל יום מ אנשים ש איתם אנחנו מדברים ב שיחות ש ל אנחנו ( LINK23ENDVAR על איפה הם מרגישים תקועים ו מבולבלים . אנחנו מאמינים ב ה מיתוסים ה אלה כל כך ו הם הופכים את ה שקט ה נפשי ל מאוד לא זמין . מכירים את זה ? שקט נפשי ש הוא ב הבזקים , רוגע זמני בלבד , הקלה ב הפתעה , ו אז מ נסים לחזור אל ה תחושה ה זאת עם המון מאמץ ותקווה… זה כל כך מתסכל . הנה כמה מ ה מיתוסים : מיתוס 1# : ׳זה לא אפשרי להשיג שקט נפשי ב כל ה רגעים׳מיתוס 2# : ׳צריך להשיג מחשבות חיוביות או לא לא לחשוב ב כלל׳מיתוס 3# : ׳זה לא אפשרי ב חיי ה יומיום ה עמוסים׳מיתוס 4# : ׳זה מקרי , פשוט עניין של חסד , רק אחד מ מיליון יכול׳מיתוס 5# : ׳אני יכול/ה להשיג את זה ב כוחות עצמי׳אנחנו תומכים ב אנשים עסוקים ב רחבי ה עולם ל ה הנות מ שקט נפשי בלתי תלוי ו להפסיק עם ה מאמץ ו ה ניסיון לשחזר "חוויות מיוחדות" מ ה עבר או לחכות ו לקוות ש איכשהו זה יופיע מ תישהו ב ה עתיד . אנחנו מראים ל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ילדים יקרים , איך מצב ה רוח , איך ה משפחות ? מקווה ש כולכם ב ה סדר .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+נגה שלום , זמני פתיחת ה מועדון ב חג ה שבועות- שבת 8 . 6- 8 : 00-17 : 00 ENTERNEWLINEENDVAR ראשון 9 . 6 7 : 00-20 : 00 חג שמח ! ENTERNEWLINEENDVAR נגה שלום , ל תשומת לבכם ב ה יומיים ה קרובים יעשו תיקוני צבע ו גבס קטנים אנא ה ערכו בהתאם . סוויפט נתניה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש ירה ל אני ו משי גאולית מתחתנים ! ENTERNEWLINEENDVAR ה חתונה תתקיים ב-04 . 09 . 16 ב -׳אלכסנדר׳ , עמק חפר . ENTERNEWLINEENDVAR אנא אשרו הגעתכם עכשיו ו השיבו עם מספר ה מגיעים בלבד . ENTERNEWLINEENDVAR ל ה דוגמא , השיבו 0 אם אינכם מגיעים . ENTERNEWLINEENDVAR תודה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר , אנו מודים ל אתה על ה תקופה ב היא היית לקוח של אנחנו . לברור גמר חשבון ו קבלת פרטים נוספים , פנה ל ה שירות ה לקוחות ב מספר 55155* או PHONENUMBER4ENDVAR סלקום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+משפחת שחף ה יקרה , להזכירכם , תואם עבור אתם ביקור טכנאי HOT ל 14/09/2017 בין 11 : 00 - 13 : 00 , ל ביטול מועד ה ביקור השיבו 5 . ל שינוי מועד ה ביקור לחצו על ה קישור ה בא : LINK22ENDVAR ב ברכה , HOT
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+"מתגייסים יקרים , אנו שמחים להזמין את אתם להכיר את ה אתר ה חדש של יחידת מיטב ו את ה אפליקציה ""מתגייסים"" ה ניתנת ל הורדה ב ה חנות . ENTERNEWLINEENDVAR ה אתר הוא התחלה של מהפכת שירות מתוך ה רצון של צה""ל להיות ארגון שקוף , ו להפוך את תהליכי ה גיוס ל נגישים ו זמינים . ENTERNEWLINEENDVAR ה אתר מתעדכן ב אופן שוטף מתוך רצון ל שיפור ה שירות עבור אתם . ENTERNEWLINEENDVAR ב ה אתר תוכלו להתעדכן ב נתוניכם ה אישיים ו לקבל את כל ה פרטים על ה צו ראשון , ה תפקידים ה שונים , ה מיונים ו עוד . ENTERNEWLINEENDVAR ל ה כניסה ל ה אתר : LINK25ENDVAR ENTERNEWLINEENDVAR קוד אישי : " ENTERNEWLINEENDVAR 1111111
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+זה אומר כדורגל ב ה סופ"ש
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סרט ממש חינוכי מלא הסברים על חברות ו אהבה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רוצה לעבוד ב מכירות ? MAILSUBJECTENDVAR אנחנו מחפשים אנשי מכירות נוספים ל ה חברה , ENTERNEWLINEENDVAR אם מעניין את הם לעבוד ב מכירות מ ה בית , לחצו כאן ו השאירו פרטים - LINK36ENDVAR ENTERNEWLINEENDVAR ה עבודה דורשת מינימום של 6 שעות ב יום ENTERNEWLINEENDVAR ו היא על בסיס עמלות בלבד ENTERNEWLINEENDVAR אם זה מעניין את אתה , ל חצ/י כאן - LINK36ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : חובב ה ולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי , רוני ישי שלח/ה ל ך כסף דרך PayBox . ב לחיצה על ה לינק ניתן להוריד את ה אפליקציה ו למשוך את ה כסף ב צורה מאובטחת , קלה ו נוחה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הבוטקאמפ - שורה תחתונה [6 שעות אחרונות] MAILSUBJECTENDVAR בעוד קצת פחות מ -6 שעות , ENTERNEWLINEENDVAR ה הרשמה ל ה מחזור ה ראשון של ה בוטקאמפ ה דיגיטלי תסגר (3-6 חודשים בערך ל ה מחזור ה בא) ENTERNEWLINEENDVAR ו ה הנחות ה משמעותיות כבר לא יהיו תקפות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אז בוטום-ליין - מה זה ה בוטקאמפ ? ENTERNEWLINEENDVAR ה בוטקאמפ הוא תכנית אימונים + ליווי , ל חיזוק ה עוצמה ה פנימית ו ה הערכה ה עצמית תוך שישה שבועות (+ ימי ההכנה) . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR היא כוללת שיעור שבועי דיגיטלי ש אורך כ ה -25 דקות ב ממוצע (במשך 6 שבועות + ימי ה הכנה) ENTERNEWLINEENDVAR ו-7 חוברות של משימות ו תרגילים שבועיים (לפי 6 ש בועות + ימי ה הכנה) , ENTERNEWLINEENDVAR שבוניים על-מנת להטמיע את עקרונות ה פלדה ב אופי ש ל אתה ו להפוך את הם ל חלק בלתי נפרד מ מך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR תכנית פרקטיקל NLP ממוקדת ב תקשורת עם ה סובבים את אנחנו , ENTERNEWLINEENDVAR יצירת חיבור אישי עם אנשים , כריזמה , מנהיגות ו כו' . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אחרי ש הרבה מתלמידי/בוגרי פרקטיקל NLP בקשו תכנית ש תתמקד דווקא ב עבודה פנימית , ENTERNEWLINEENDVAR החלטתי ליצור את "הבוטקאמפ" ו אני חושב ש כל מי ש מרגיש ש הוא לא ממצה את ה פוטנציאל של הוא - צריך לעבור את היא . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אם זה משהו ש חשוב ל אתה , עכשיו זה ה זמן ה אחרון להצטרף . ENTERNEWLINEENDVAR (כאן : LINK31ENDVAR ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני יודע ש יש המון "בלופים" כ ה אלה של "הזמן עומד ל הגמר" ENTERNEWLINEENDVAR ו אז ה הרשמה נשארת פתוחה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל זה לא קורס דיגיטלי רגיל . . ENTERNEWLINEENDVAR יש משימות ש צריך להספיק לבצע לפני יום ראשון ENTERNEWLINEENDVAR ש ב הוא אנחנו מתחילים לעבוד ביחד כ קבוצה . . ENTERNEWLINEENDVAR אז אין שום סיכוי ב ה עולם ש מישהו יכנס אחרי 23 : 59 הלילה . ENTERNEWLINEENDVAR סורי . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב ENTERNEWLINEENDVAR גם ה וובינר יורד מ ה אוויר ב ה דיוק ב אותו ה זמן , ENTERNEWLINEENDVAR אז אם עדיית לא צפית עד ה סוף , הוא כאן : ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לוקח ל אני המון זמן לכתוב כאן הודעה בגלל ה מספרים ש תר את אתה ללחוץ כדי למצוא את ה אותיות . .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR ב מסגרת עמ"ט 'מיהו לוחם' , סוכם כי לוחמי ה חוד יענדו סיכה ייחודית . ENTERNEWLINEENDVAR נבחרו 3 דוגמאות ל סיכת לוחם ה חוד . ENTERNEWLINEENDVAR אשמח לקבל את חוות דעתך ל ה דגם ה מתאים ביותר מ בחינתך-טרם סיכום סופי .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+האם אתם מוכנים ? MAILSUBJECTENDVAR View this email in your browser ( LINK93ENDVAR אתם מוכנים ? שלום גיא , אני רוצה לשאול את אתם שאלה : האם אתם נמצאים ב ה נקודה ב ה חיים ש ב היא אתם מוכנים לקחת צעד ו סוף כל סוף להפוך את ה חלום של אתם ל מציאות ? אולי אתם נמצאים ב מקום ש ב הוא אני הייתי , עם ידיעה עמוקה ב ליבי ש ה חיים של אני יכולים ל היות אדירים אבל ב את הוא ה זמן קיימת תחושה של חוסר ו ודאות לגבי איזה צעד לקחת ש יוביל את אני ל ה שלב ה בא ? אולי אתם , כמו אני , ניסיתם מלא דברים ? אולי הם הביאו ל תוצאות מסוימות , אבל שום דבר לא הביא את ה שינוי ה קבוע ש אתם מחפשים את הוא ? ו זאת ה סיבה ש אתם ממשיכים לחפש . אם זה נשמע מוכר ו נכון לגבי אתם , ו אתם מסוג ה אנשים ש מוכנים לגרום ל ה זה ל ה קרות , יש לנו את ה צעד ה בא עבור אתם . ל ה צעד ה בא ה זה יש את ה כוח לשנות את ה חיים של אתם ב אופן משמעותי . אסכם בקצרה חלק מ ה שינויים ה עוצמתיים מאוד ש שיתפנו ל גביהם ב ה הדרכה היום : * איך להשיג חופש מוחלט מ כל ה מחשבות ו הרגשות ה שליליים מאוד , אפילו ב ה זמן של מחלה קשה או כאבים פיזיים . * איך להשיב אהבה , חמימות ו הנאה ל
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום אליאסף אביר נתבקשנו מ ה אחים גיל להעביר אל אתה משלוח מספר 2026120 אנא צור קשר עם ה נהג PHONENUMBER4ENDVAR ENTERNEWLINEENDVAR או ל ה שירות לקוחות PHONENUMBER1ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אורלי זה זהבית אני שולח ל אתה את ה הודעה מ כאן אני בלי סוללה ENTERNEWLINEENDVAR אני צריך את ה מזגן בגלל ש יש ל אנחנו סטודיו ש אנחנו עושים מוזיקה ו אין ל אנחנו תקציב ל ה מזגן ו אנחנו חיילים ו באמת אי אפשר לעבוד ב חום כ ה זה ו זה ה צ'אנס ש לנו להצליח ו מזגן מאוד מאוד יעזור ל אנחנו , אנחנו גם באים מ משפחות ש מ בחינה כלכלית לא יכולות לעזור ל אנחנו ל רכוש מזגן , אם תוכלו לעזור זה יהיה עולם ו מלואו
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה ופה ! דגן אפריאט העביר ל אתה 33 שקלים ב -Pepper Pay . כדי לקבל את ה כסף , ENTERNEWLINEENDVAR 1 . ה ורד את Pepper-Pay מ חנות ה אפליקציות ENTERNEWLINEENDVAR 2 . ה זן את מספר חשבון ה בנק של אתה . ENTERNEWLINEENDVAR ה זמן ל קבלת ה תשלום הוא 72 שעות מ קבלת ה הודעה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ליגת אלופות מתחיל ב ה רבע ל 10
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום עלמה , ENTERNEWLINEENDVAR תודה שרכשת בקופונופש - מועדון חברים ! ENTERNEWLINEENDVAR קוד הזמנתך הוא : PHONENUMBER4ENDVAR ENTERNEWLINEENDVAR ל פרטי ה הזמנה : ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR קופונופש , מועדון חברים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כתבות תוכן ב ה תחום ה נדל׳׳ן MAILSUBJECTENDVAR היי מה קורה ? ENTERNEWLINEENDVAR אני מחפש אנשים ש מעוניינים ללמוד את עולם ה כתיבה ה שיווקית ב ה אופן פרונטלי ממני אישית ו ב תמורה לקחת על עצמם לכתוב כתבות תוכן ב אתרי נדל׳׳ן חדשים ש הרמנו ל ה אוויר . ENTERNEWLINEENDVAR הקמנו 4 אתרים חדשים אז אני מחפש 4 אנשים , ש יגיעו ל תל אביב ל ״קורס״ בן יום שלם + ליווי ל 3 חודשים קדימה , ו ב תמורה יכתבו את ה כתבות ב אתרים אלו . ENTERNEWLINEENDVAR דרוש להכין לפחות 3 כתבות תוכן ו סביבות ה 4 5 שעות ב יום לצורך זה (כולל ה לימוד ו ה כשרה) ENTERNEWLINEENDVAR אז מי ש אין ל הוא זמן לצערי לא יוכל לקחת חלק ב ה פרויקט . ENTERNEWLINEENDVAR אם זה מעניין את אתה , הכנתי דף קצר עם סרטון ש מפרט יותר על מה מדובר , תוכל להשאיר שם פרטים אם זה רלוונטי - ל חצ/י כאן ENTERNEWLINEENDVAR מ בחינת שעות ו ימים אעדכן ב ה המשך , זה יהיה ב ה שבע של ה 14 - 19 ל חודש ה זה , אפריל , ו נבחר את אחד ה ימים ש הכי יתאים ל אנחנו . ENTERNEWLINEENDVAR זה ה קישור ל ה דף ENTERNEWLINEENDVAR תוכלו להפנות ל שם אנשים ש אתם מכירים ו חושבים שיכולים ל ה היות רלוונטיים ל ה נושא . ENTERNEWLINEENDVAR ב ה הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : אמרי ה ולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מזל טוב EMOJI😊ENDVAR MAILSUBJECTENDVAR נדמה ל אני ש מגיע ל אתה מזל טוב . ENTERNEWLINEENDVAR אתמול נרשמת לצפות ב ה הדרכה של אני על מסחר ב שוק ה הון , ENTERNEWLINEENDVAR ב ה מטרה לעשות איזה ש הוא שינוי ב ה חיים , ENTERNEWLINEENDVAR אני מניח . ENTERNEWLINEENDVAR ו הנה אנחנו שוב מתראים , ENTERNEWLINEENDVAR יומיים ב ה רצף ! ENTERNEWLINEENDVAR אז כל ה כבוד ו תודה ש נתת ל אני את ה זכות להדריך את אתה ב ה מסע ה זה . ENTERNEWLINEENDVAR אם צפית כבר ב ה סרטון ה ראשון , בטח הבנת ש זה הולך להיות מסע מרתק ו מהנה . ENTERNEWLINEENDVAR אם עדיין לא צפית ב הוא עד סופו , אז חשוב ש תעשה את זה כבר עכשיו . ENTERNEWLINEENDVAR לחץ כאן ל ה צפייה ב ה סרטון ה ראשון ENTERNEWLINEENDVAR " LINK84ENDVAR ENTERNEWLINEENDVAR ב ה ימים ה קרובים , אני הולך ל חלוק איתךסיפורים ש יתנו ל אתה השראה , טיפים ש ידהימו את אתה ו אפילו להראות ל אתה כמה דוגמאות של מסחר אמיתי ש יפתיעו את אתה . ENTERNEWLINEENDVAR אנחנו נמצאים ב תקופה ש ב היא כל רגעהנייד מצפצף ו מישהו מנסה להסיח את אנחנו מ ה דברים ה חשובים באמת ב ה חיים . ENTERNEWLINEENDVAR ל ה הדרכה ה זו נרשמת מ יוזמתך ה פרטית , ENTERNEWLINEENDVAR אז כ נראה ש יש ל ה זה משמעות גדולה עבור אתה . ENTERNEWLINEENDVAR אני רק רוצה לוודא ש ה תכנים ש אשלח נמצאים ב ראש סדר ה עדיפויות של אתה . ENTERNEWLINEENDVAR ככה זה הולך לעבוד . . . ENTERNEWLINEENDVAR ב כל כמה ימים , ENTERNEWLINEENDVAR אשלח אל אתה מייל עם שיעור חשוב על מסחר ב ה שוק ה הון ENTERNEWLINEENDVAR ב כתב או ב ה סרטון . ENTERNEWLINEENDVAR ב ה רגע ש ה הודעה מגיע אל אתה , אני ממליץ לפתוח ו לקרוא את היא ב אותו ה רגע . זה ייקח ל אתה 5-10 דקות מקסימום (ולפעמים אפילו פחות) . ENTERNEWLINEENDVAR זאת התחייבות קטנה יחסית , כש לוקחים ב חשבון אתהמטרה ה גדולה ש ל ה ך- ENTERNEWLINEENDVAR ל ה הפוך ל "סוחר חופש" ש חי את ה חיים בדיוק כמו ש הוא תמיד חלם על הם . ENTERNEWLINEENDVAR אני צודק או צודק ? ENTERNEWLINEENDVAR זה ה זמן ל ה גשת ו לצפות ב ה סרטון ה ראשון ENTERNEWLINEENDVAR "כרטיס הכניסה ש ל אתה לתחום ש מ גלגל 150 , 000 , 000 , 000$ בשנה" ENTERNEWLINEENDVAR ב מהלך ה סרטון תלמד - ENTERNEWLINEENDVAR אילו הזדמנויות נהדרות שוק ה הון ה אמריקאי יכול להציע ל אתה ENTERNEWLINEENDVAR ו מהם 5 ה גורמים ה עיקריים ש מונעים מ אנשים להצליח ב תחום ENTERNEWLINEENDVAR בנוסף , ENTERNEWLINEENDVAR תכיר את שלושת סגנונות ה מסחר ה עיקריים ו תבין איזה סגנון הכי מתאים ל אתה ו ב הוא יש ל אתה את ה סיכויי ה גבוה ביותר להשיג את ה מטרות ש ל אתה . ENTERNEWLINEENDVAR מציאת סגנון ה מסחר ה מתאים הוא צעד קריטי ב ה דרך ל ה הצלחהואחרי ה סרטון אתה תדע ב ה וודאות ב מה להתמקד ו מ מה להמנע . ENTERNEWLINEENDVAR תלחץ כאן ו תעבור מיידית ל ה צפייה ב ה סרטון ה ראשון . ENTERNEWLINEENDVAR " LINK84ENDVAR ENTERNEWLINEENDVAR אחינעם ברנד ENTERNEWLINEENDVAR ו צוות ב יג שוט . ENTERNEWLINEENDVAR נ . ב : ENTERNEWLINEENDVAR ה סרטון ה שני יגיע ממש ב ה קרוב ENTERNEWLINEENDVAR ו ב הוא אגלה ל אתה איך להרוויח ב ה מסחר , אפילו אם פוגעים רק ב עסקה 1 מתוך 5 . ENTERNEWLINEENDVAR זאת אומרת , ל היות רווחי ב ה מסחרעם 20% הצלחה בלבד . ENTERNEWLINEENDVAR ממליץ ל אתה לשים עין על תיבת ה מייל של אתה ב עוד יומיים , ENTERNEWLINEENDVAR ה כותרת של הוא תהיה : ENTERNEWLINEENDVAR " סרטון 2 ב ה אוויר " - ENTERNEWLINEENDVAR " 7 טעויות קריטיות ש סוחרים מתחילים עושים ו כיצד להימנע מ ה ן" ENTERNEWLINEENDVAR נ . ב . ב ENTERNEWLINEENDVAR להיות ב ה רשימה ו לקבל תכנים מאית של אנחנו זו זכות ו לא חובה . ENTERNEWLINEENDVAR ב כל רגע ש תחליט ש אתה לא מעוניים לקבל מאת אנחנו מיילים , מסרים ו סרטונים ב נושא שוק ה הון תוכל ללחוץ על כפתור "הסר" ו להסיר את עצמך מ ה רשימה ENTERNEWLINEENDVAR אני מבטיח ש לא אקח את זה אישית ו נשאר חברים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR Orin Shpelter , Igal alon 123 , Tel aviv , gosh dan 75824 , Israel ENTERNEWLINEENDVAR כדי לבטל את ה רשמתך בקר ב ה כתובת : ENTERNEWLINEENDVAR LINK101ENDVAR ENTERNEWLINEENDVAR כדי לשנות את ה פרטים ל יצירת קשר בקר ב ה כתובת : ENTERNEWLINEENDVAR LINK101ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מישהו מעוניין ב ה אקסבוקס עם מלא משחקים ב 2200 שח לא כולל מעמ עם מצלמת קינקט מחיר ל ה אקשרי קנו עכשיו עכשיו עכשיו
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אתה מחפש קשר רציני ש מותר סקס עם אחרים או לא מחפש קשר ? מה ה כיוון
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוחות יקרים , אנו שבים ו מזכירים כי ב ימי שבת ו ב שעות ה בוקר ה מוקדמות , הכניסה ל ה מועדון אך ו רק דרך ה חניון ה מקורה ב רח' בני ברמן . התנהגות פסולה כגון פריצת ה דלת ה ראשית של ה מגדל ב כוח , מצולמת ו מועברת מיידית ל טיפול ה משטרה ו כן גוררת הרחקה מ ה קניון . אנא הישמעו ל הוראות ו כבדו את כללי ה קניון ו מועדון ה כושר . תודה ו שבת שלום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הנה ה וובינר ל ה מסחר אלגוריתמי MAILSUBJECTENDVAR ה וובינר ה שלם למסחר אלגוריתמי תודה ש נרשמתם ל צפייה ב וובינר ל מסחר אלגוריתמי . ב ה לחיצה על ה תמונה ש למטה תתחיל ה צפייה , מומלץ לצפות ב סביבה רגועה , יש כאלה ש אוהבים לכתוב תוך כדי אז אולי שווה להכין מחברת . צפייה מהנה ו מועילה ! אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה אדיר 11 , כפר ורדיםנשלח באמצעות smoove
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI💨ENDVAR EMOJI☁ENDVAR ב עודי פותר בעיות לגבי הפעלה של קרדיטים ל ה ענן של גוגל עבור מי ש יצטרך עבור ה פרויקט , ש מתי לב ש עדיין אפשר ממילא לקבל הקצאה ב שווי 300$ ב הרשמה ראשונית ל שירותי ה ענן של גוגל . להלן ה לינק לגבי מכונות מותקנות מראש עבור python ו -deep learning , ה כולל ל עת עתה גם לינק ל הרשמה חינמית ל ה שירות . מומלץ לנסות להרשם . . . ENTERNEWLINEENDVAR LINK132ENDVAR ENTERNEWLINEENDVAR *אם נרשמתם ב ה עבר ל ענן של גוגל ייתכן ש ה לינק לא יקנה ל אתם את הקצאת ה חינם ב עת זו . ENTERNEWLINEENDVAR טיפים ל ה עבודה מושכלת ב ה ענן : ENTERNEWLINEENDVAR LINK79ENDVAR ENTERNEWLINEENDVAR ה קרדיטים טובים גם עבור צוותים ש צריכים ענן מ סיבות אחרות , למשל עבור שימוש ב -Firebase או דאטאבייס אחר .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תראה ש ה מזוזות ב פנים ו אל תשאיר את הם ב שמש . . אסור . ו תעטוף ה כל טוב טוב אפילו אם יש ל אתה איזה ספוג פצפצים או ב ה גד תעטוף איתם
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI😕ENDVAR ה קורס של ** לא יעזור ל אתה . . לא חבל על ה כסף ? MAILSUBJECTENDVAR ״חשבת לקנות קורס או לקבל ליווי אישי ב שיווק שותפים ? ״ ENTERNEWLINEENDVAR ב אותו מחיר , ו ב ה חסכון של אין סוף זמן , נבנה ל אתה עסק מוכן ו פעיל ה כולל דף נחיתה , מדריך PDF , סדרת מיילים אוטומטית , מודעות מטורגטות בפייסבוק , שיתוף עם ה קהלים ה רלוונטיים ו גם - גישה ל מסלול הכשרה מלא + ליווי ו תמיכה . ENTERNEWLINEENDVAR (זה ה קישור - LINK23ENDVAR ENTERNEWLINEENDVAR אז . . . . לא חבל ש תזרוק סתם כסף , זמן ו אנרגיה ל פח ? ENTERNEWLINEENDVAR תחסוך מ עצמך את כל ה הקמה של ה תשתית , ו תתחיל לייצר תזרים רווחי כבר מ ה יום ה ראשון . (שמעת נכון) ENTERNEWLINEENDVAR אנחנו בונים מספר קטן של עסקים מוכנים כ ה אלו ל ה קהל ה ישראלי , ו אז עוצרים . את ה שאר , אנחנו נבנה לקהל ה בין לאומי בלבד . ENTERNEWLINEENDVAR אם בא ל אתה לזכות ולהנות מ תשתית מוכנה ש מייצרת תזרים אוטומטי , ל חצ/י כאן - LINK22ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : נגה הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+״מזל ש לא זרקתי את ה ג׳ינסים ה ישנים . . . מי היה מאמין ש יעלו על אני ? ״ MAILSUBJECTENDVAR בוקר טוב , כש אנחנו רוצים להצליח ב משהו כל כך , אנחנו מוכנים להשקיע ב הוא הרבה מ ה זמן ו ה מחשבות ש לנו ככה אנחנו רואים הרבה מאוד אנשים ש משקיעים הרבה מאוד זמן ו מחשבה ב . . . - מה להכין ל צהריים - איפה אני אוכל את ה ארוחה ה באה של אני - כמה קופסאות להכין ל ה עבודה ה יום - מה מותר ל אני ל ה נשנש בין ה ארוחות - כמה ביסים מותר ל אני לאכול מ ה עוגה ה זאת , בלי להרוס את ה דיאטה - כמה אחוזי שומן זה ? - כמה קלוריות יש ב זה ? ו עוד ו עוד ו עוד . . . אבל ה אמת ה עצובה היא ש ב ה דיוק בגלל ה התעסקות ה זאת אנחנו כל פעם מחדש רואים תוצאות של ירידה ב ה משקל ו אז עולים ה כל בחזרה . . . תחשבו על ילד שלמד ל לכת או לנסוע ב אופניים , אם הוא היה צריך להשקיע כל ה זמן כל כך הרבה זמן ו מחשבה כדי להמשיך לעשות את זה , הוא היה מוותר מזמן כי כמות ה אנרגיה ש יש ל אנחנו כדי להשקיע ב משהו מסויים היא מוגבלת ו אם זה לא יהפוך ל ה הרגל , לעולם לא נצליח לשמור על ה תוצאות ו נעלה את כל ה משקל ש ירדמו בחזרה - תמיד ! ! זאת ה סיבה ש ה תכנית ש לנו ״ממאבק לשחרור״ כל כך שונה
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שימו לב , ב ה יומיים ה קרובים יותקנו גופי תאורה חדשים ב רחבי ה מועדון ב קומה 12 . יש לקחת ב חשבון כי ה עבודה כרוכה ב ה רעש ל ה עיתים ו חוסר נוחות . אנא היערכו ב התאם . תודה ENTERNEWLINEENDVAR לקוח/ה יקר/ה אנו מזכירים ל אתה כי ה מנוי ש ל אתה עתיד להתסיים בקרוב . על מנת לשמר את ה תנאים ה מיוחדים ל לקוחות ממשיכים יש לחדש את ה מנוי ב ה הקדם . נשמח לעמוד ל שירותך ב ה טלפון PHONENUMBER3ENDVAR . סוויפט נתניה .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כש יוצרים מכונות ב ענן של גוגל , ו בוחרים איפה לפתוח את הן , כדאי לבדוק כאן מי ה אזור ה טוב ביותר עבור אתם : ENTERNEWLINEENDVAR LINK22ENDVAR ENTERNEWLINEENDVAR אם אתם ב ה ארץ , אתם אמורים לקבל את לונדון (europe-west2) בתור ה פינג ה קצר ביותר . שם כדאי ליצור את ה מכונות .
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל מה ש לא תקרא ל כל ה חיילים של היא ש היא מדברת על הם כל ה יום
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*ים ! ! ! ! ! ! *
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יגל שלום , שעות פתיחה ב חג- 19 . 4 שישי 7 : 00-15 : 00 \ 20 . 4 שבת 8 : 00-17 : 00 \ חול ה מועד פתוח כרגיל \ 25 . 4 חמישי 7 : 00-15 : 00 \ 26 . 4 שישי 8 : 00-17 : 00 \ 27 . 4 שבת 8 : 00-17 : 00 חג שמח ! ENTERNEWLINEENDVAR יגל שלום , ב ימי א' 19 : 20 ENTERNEWLINEENDVAR ימי ב ' 8 : 00 ו -18 : 00 ENTERNEWLINEENDVAR ימי ג' 19 : 00 ENTERNEWLINEENDVAR ימי שבת 9 : 00 ו -10 : 00 ENTERNEWLINEENDVAR כל שיעורי ה -TRX ב ה סטודיו ה צהוב יהפכו ל ה אימונים פונקציונלים ו זאת ב אופן זמני עד ה פתיחה של ה מועדון ב עיר ימים . ה מדריכים נשארים זהים . אימון נעים
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יש לעלות מ ה מעלית ה צמודה ל ה קפיטריה ש ב ה בנין ! EMOJI☘ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיכום ה חודש ש לך ב ה -Waze Carpool EMOJI😎ENDVAR MAILSUBJECTENDVAR ה סיכום ש לך ל חודש אהליאב מוכן ! כל ה מידע על כמה EMOJI💰ENDVAR חסכה ה קהילה ב אזורך ו כמה תרמנו ENTERNEWLINEENDVAR ביחד ל הפחתת ה פקקים ו ל איכות ה סביבה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR היי ה דר , סיכמנו עבור אתה את ה חודש ה אחרון ב ה -Waze Carpool ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חסכת ה חודש ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪0 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR טיפ ל ה חודש ה בא : ENTERNEWLINEENDVAR מומלץ להציע נסיעה ישירות ל ה נוסעים ENTERNEWLINEENDVAR ו להתחלק ב ה עלויות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה ה זמן להציע נסיעה ENTERNEWLINEENDVAR ה קישור נפתח ב ה נייד בלבד ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אלו הישגי ה קהילה ב ה איזור ש ל אתה ה חודש ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪2 , 201 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ ה סף ש חסכנו ENTERNEWLINEENDVAR ב ה נסיעות קארפול ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 126 מושבים ריקים ש מילאנו ENTERNEWLINEENDVAR 28 עצים ש הצלנו ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מקווים לראות את אתה ב ה דרכים החודש ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה ה זמן להציע נסיעה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה קישור נפתח ב ה נייד בלבד ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נסיעה טובה , ENTERNEWLINEENDVAR צוות Waze Carpool ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה מידע נוסף ENTERNEWLINEENDVAR על ה שירות ENTERNEWLINEENDVAR שאלות ? אנחנו ENTERNEWLINEENDVAR פה כדי לעזור ENTERNEWLINEENDVAR קהילת ה -Carpool מחכה ל אתה ENTERNEWLINEENDVAR גם ב ה -Facebook ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR EMOJI©ENDVAR 2017 Google Ireland Ltd , Gordon House , Barrow Street , Dublin 4 , Ireland . ENTERNEWLINEENDVAR אם אינך מעוניין להמשיך לקבל הודעות על סיכום פעילות , ה סר מ רשימת ה תפוצה : ENTERNEWLINEENDVAR LINK121ENDVAR ENTERNEWLINEENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אסנת היקר/ה לידיעתך , ב חודש דצמבר שילמת 107 . 66 ש "ח עבור פוליסת ביטוח תאונות אישיות ב חברת AIG . ל פרטים נוספים PHONENUMBER3ENDVAR או חשבון ה אישי ה מקוון של אתה LINK21ENDVAR
+Model: MultinomialNB | Wrong count: 1
+-
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  End wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================
+=============================
+=============================
+=============================
+MODEL MultinomialNB
+AVERAGES: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9723
+WAcc score (lambda = 1): 0.9668
+TCR score (lambda = 1): 11.0224
+WAcc score (lambda = 99): 0.9943
+TCR score (lambda = 99): 1.1223
+WAcc score (lambda = 999): 0.9947
+TCR score (lambda = 999): 0.1221
+===
+LOWEST: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9684
+WAcc score (lambda = 1): 0.9623
+TCR score (lambda = 1): 9.2143
+WAcc score (lambda = 99): 0.9900
+TCR score (lambda = 99): 0.5345
+WAcc score (lambda = 999): 0.9904
+TCR score (lambda = 999): 0.0551
+++++++++++++++
+++++++++++++++
+++++++++++++++
+*_*	A_veF1	L_owF1	A_Acc1	L_Acc1	A_TCR1 	L_TCR1	A_cc99	L_cc99	A_CR99	L_CR99	A_c999	L_c999	A_R999	L_R999
+Mul	0.9723	0.9684	0.9668	0.9623	11.0224	9.2143	0.9943	0.99  	1.1223	0.5345	0.9947	0.9904	0.1221	0.0551
+
+Count times TCR was > 1 :
+Model MultinomialNB - 1 : 5 , 99 : 3 , 999 : 0
+
+&&& headlines (first row) &&&
+*
+Ave F1
+Low F1
+Ave WAcc 1
+Low WAcc 1
+Ave TCR 1
+Low TCR 1
+Ave WAcc 99
+Low WAcc 99
+Ave TCR 99
+Low TCR 99
+Ave WAcc 999
+Low WAcc 999
+Ave TCR 999
+Low TCR 999
+
+&&& models (first column) &&&
+MultinomialNB
+|||||||||||
+All the testing took 1334 seconds !
+All the process took 6793 seconds !
+
+Parameters:
+    model index: 1
+    model name: MultinomialNB
+    dataset: both_morphological
+    messages count: 5578
+    spam count: 1831
+    non spam count: 3747
+    include_dependency_tree_feature: False
+    include_pos: False
+    k_fold_number = 5
+    if k_fold_number is 1, split data = 0.25
+    
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@           Finished dataset both_morphological           @@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+All time: 6796 seconds.
+
+FINISHED

@@ -1,0 +1,27 @@
+wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+sudo tar -xvf go1.12.7.linux-amd64.tar.gz
+sudo mv go /usr/local
+export GOROOT=/usr/local/go
+mkdir yapproj; cd yapproj
+export GOPATH=/home/guyy18/yapproj/yapproj
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+mkdir datasets
+mkdir datasets/sms
+mkdir datasets/email
+mkdir output
+mkdir yapproj; cd yapproj
+mkdir src
+cd src
+sudo apt-get install git
+git clone https://github.com/OnlpLab/yap.git
+cd yap
+sudo apt-get install bzip2
+bunzip2 data/*.bz2
+go get .
+go build .
+./yap
+sudo apt-get update
+sudo apt-get install jq
+Y
+set +H

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+pkill python3
+
+FILENAME_output="output/[$(date '+%Y-%m-%d %H:%M:%S')] output.txt"
+FILENAME_bar="process_bar.txt"
+
+rm "$FILENAME_bar"
+python3 -u ~/spam/whatsapp/whatsapp.py &
+python3 -u go.py $1  2>> "$FILENAME_bar" 1>> "$FILENAME_output" &
+ps
+echo
+echo [*] Execute command \'ps\' to see the process run time, and read its output in "$FILENAME"
+echo [**] Execute command \'./current_state\' to print last output files.

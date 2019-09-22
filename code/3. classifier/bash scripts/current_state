@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+cd output
+./cat_oldest
+cd ..
+
+last_line=$(cat ./process_bar.txt | tail -1)
+if [[ "$last_line" =~ *"100%"* ]]; then
+  echo "May be not relevant to the last output row ^^" >> ./process_bar.txt
+fi
+cat ./process_bar.txt
+echo

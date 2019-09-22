@@ -1,0 +1,11 @@
+#!/bin/bash
+
+pkill python3
+
+FILENAME_output="output/[$(date '+%Y-%m-%d %H:%M:%S')] output.txt"
+FILENAME_bar="process_bar.txt"
+
+rm "$FILENAME_bar"
+python3 -u ~/spam/whatsapp/whatsapp.py &
+python3 -u go.py $1 | tee "$FILENAME_output"
+ps

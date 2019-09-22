@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#escaped=$(echo "$1" | sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/')
+#escaped=$(echo "$1" | tr "!" " ")
+#escaped=$(printf "%q\n" "$1")
+#json="{\"text\": \""$escaped"  \"}"
+
+all_args=""
+for Index in $@; do
+   all_args="$all_args $Index"
+done
+
+json="{\"text\": \""$all_args"  \"}"
+#json="{\"text\": \""$1"  \"}"
+
+#echo ""
+#echo "$json"
+#echo ""
+
+parsing=$(curl -s -X GET -H 'Content-Type: application/json' -d"$json" localhost:8000/yap/heb/joint | jq '.dep_tree' | sed -e 's/^.//' -e 's/.$//' -e 's/\\t/\t/g' -e 's/\\n/\n/g')
+parsing=$(echo "$parsing" | tr "\t" "~")
+
+#echo "||$parsing||"
+
+output=""
+for x in "${parsing[@]}"; do
+  line_output=`echo "$x" | cut -f 2,4,7,8 -d '~'`
+  output="$output$line_output"
+done;
+
+echo "$output" | tr "\n" " "

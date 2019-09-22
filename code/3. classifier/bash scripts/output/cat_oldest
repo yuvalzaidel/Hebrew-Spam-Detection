@@ -1,0 +1,5 @@
+#!/bin/bash
+
+filename="$(ls -1t | head -1)"
+echo "Last file's name: $filename"
+cat "$filename"

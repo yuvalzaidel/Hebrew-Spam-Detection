@@ -1,0 +1,4 @@
+#!/bin/bash
+
+set +H
+~/yapproj/yapproj/src/yap/yap api 2> ~/yapproj/trash &

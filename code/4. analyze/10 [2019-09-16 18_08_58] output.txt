@@ -1,0 +1,1225 @@
+
+==========
+
+sms_morphological UL COUNT (sentences that were mot accepted by YAP): 0
+email_morphological UL COUNT (sentences that were mot accepted by YAP): 0
+
+Starting cross-validation, with all the datasets:
+Testing model 5 (AdaBoost) for dataset 'sms_morphological':
+K-FOLD cross validation: 5-fold
+
+processing with model 5
+
+Starting training for iteration 1
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 6939.281364440918 seconds.
+-
+Finished training.
+All the training took 7202 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 1/5 took 238.3548653125763 seconds.
+
+Evaluation:
+---------------
+Iteration 1 , Model AdaBoost
+baseline_accuracy: 0.843
+model 5's accuracy: 0.987
+positive margin from baseline: 0.144
+confusion matrix:
+             non spam     spam 
+    non spam   1203.0     10.0 
+        spam      8.0    201.0 
+Recall (sensitivity): 0.9918
+Precision: 0.9617
+F1 score: 0.9765
+WAcc (Weighted accuracy) (lambda = 1): 0.9873
+TCR (Total Cost Ratio) (lambda = 1): 11.7222
+WAcc (Weighted accuracy) (lambda = 99): 0.9933
+TCR (Total Cost Ratio) (lambda = 99): 0.2631
+WAcc (Weighted accuracy) (lambda = 999): 0.9934
+TCR (Total Cost Ratio) (lambda = 999): 0.0264
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1213
+           1       0.95      0.96      0.96       209
+
+    accuracy                           0.99      1422
+   macro avg       0.97      0.98      0.97      1422
+weighted avg       0.99      0.99      0.99      1422
+
+
+Starting training for iteration 2
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 6832.088477134705 seconds.
+-
+Finished training.
+All the training took 7099 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 2/5 took 237.46138095855713 seconds.
+
+Evaluation:
+---------------
+Iteration 2 , Model AdaBoost
+baseline_accuracy: 0.843
+model 5's accuracy: 0.984
+positive margin from baseline: 0.141
+confusion matrix:
+             non spam     spam 
+    non spam   1197.0     10.0 
+        spam     13.0    202.0 
+Recall (sensitivity): 0.9917
+Precision: 0.9395
+F1 score: 0.9649
+WAcc (Weighted accuracy) (lambda = 1): 0.9838
+TCR (Total Cost Ratio) (lambda = 1): 9.2174
+WAcc (Weighted accuracy) (lambda = 99): 0.9892
+TCR (Total Cost Ratio) (lambda = 99): 0.1635
+WAcc (Weighted accuracy) (lambda = 999): 0.9892
+TCR (Total Cost Ratio) (lambda = 999): 0.0163
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1207
+           1       0.95      0.94      0.95       215
+
+    accuracy                           0.98      1422
+   macro avg       0.97      0.97      0.97      1422
+weighted avg       0.98      0.98      0.98      1422
+
+
+Starting training for iteration 3
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 6329.089063644409 seconds.
+-
+Finished training.
+All the training took 6589 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 3/5 took 238.21803522109985 seconds.
+
+Evaluation:
+---------------
+Iteration 3 , Model AdaBoost
+baseline_accuracy: 0.843
+model 5's accuracy: 0.983
+positive margin from baseline: 0.140
+confusion matrix:
+             non spam     spam 
+    non spam   1177.0     13.0 
+        spam     11.0    221.0 
+Recall (sensitivity): 0.9891
+Precision: 0.9526
+F1 score: 0.9705
+WAcc (Weighted accuracy) (lambda = 1): 0.9831
+TCR (Total Cost Ratio) (lambda = 1): 9.7500
+WAcc (Weighted accuracy) (lambda = 99): 0.9906
+TCR (Total Cost Ratio) (lambda = 99): 0.2123
+WAcc (Weighted accuracy) (lambda = 999): 0.9907
+TCR (Total Cost Ratio) (lambda = 999): 0.0213
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1190
+           1       0.94      0.95      0.95       232
+
+    accuracy                           0.98      1422
+   macro avg       0.97      0.97      0.97      1422
+weighted avg       0.98      0.98      0.98      1422
+
+
+Starting training for iteration 4
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 5401.947102546692 seconds.
+-
+Finished training.
+All the training took 5661 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 4/5 took 219.60600018501282 seconds.
+
+Evaluation:
+---------------
+Iteration 4 , Model AdaBoost
+baseline_accuracy: 0.843
+model 5's accuracy: 0.987
+positive margin from baseline: 0.144
+confusion matrix:
+             non spam     spam 
+    non spam   1179.0      6.0 
+        spam     13.0    223.0 
+Recall (sensitivity): 0.9949
+Precision: 0.9449
+F1 score: 0.9693
+WAcc (Weighted accuracy) (lambda = 1): 0.9866
+TCR (Total Cost Ratio) (lambda = 1): 12.0526
+WAcc (Weighted accuracy) (lambda = 99): 0.9891
+TCR (Total Cost Ratio) (lambda = 99): 0.1771
+WAcc (Weighted accuracy) (lambda = 999): 0.9891
+TCR (Total Cost Ratio) (lambda = 999): 0.0176
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1185
+           1       0.97      0.94      0.96       236
+
+    accuracy                           0.99      1421
+   macro avg       0.98      0.97      0.98      1421
+weighted avg       0.99      0.99      0.99      1421
+
+
+Starting training for iteration 5
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 5506.865328550339 seconds.
+-
+Finished training.
+All the training took 5738 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 5/5 took 218.68453741073608 seconds.
+
+Evaluation:
+---------------
+Iteration 5 , Model AdaBoost
+baseline_accuracy: 0.843
+model 5's accuracy: 0.988
+positive margin from baseline: 0.145
+confusion matrix:
+             non spam     spam 
+    non spam   1191.0      6.0 
+        spam     11.0    213.0 
+Recall (sensitivity): 0.9950
+Precision: 0.9509
+F1 score: 0.9724
+WAcc (Weighted accuracy) (lambda = 1): 0.9880
+TCR (Total Cost Ratio) (lambda = 1): 12.8824
+WAcc (Weighted accuracy) (lambda = 99): 0.9908
+TCR (Total Cost Ratio) (lambda = 99): 0.2000
+WAcc (Weighted accuracy) (lambda = 999): 0.9908
+TCR (Total Cost Ratio) (lambda = 999): 0.0199
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1197
+           1       0.97      0.95      0.96       224
+
+    accuracy                           0.99      1421
+   macro avg       0.98      0.97      0.98      1421
+weighted avg       0.99      0.99      0.99      1421
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  Start wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Message: (Wrong class: 0 (non spam))
+היי חברים של ליין ה מגמה ! ENTERNEWLINEENDVAR ב יום רביעי 3/7 חוגגים את פתיחת ה קיץ ב ה מוסד ENTERNEWLINEENDVAR עם הופעה של דודו פארוק ! ENTERNEWLINEENDVAR ל ה פרטים ו כרטיסים כ נסו : ENTERNEWLINEENDVAR LINK21ENDVAR ENTERNEWLINEENDVAR היי זה ל יין ה מגמה ! ENTERNEWLINEENDVAR מחר פתיחת ה קיץ ב ה מוסד עם הופעה של דודו פארוק ! ENTERNEWLINEENDVAR 3 קומות של ה מסיבה הכי גדולה ב ה ת"א . ENTERNEWLINEENDVAR ל ה פרטים כ נסו : ENTERNEWLINEENDVAR LINK21ENDVAR ENTERNEWLINEENDVAR מוסדניקים ! ENTERNEWLINEENDVAR היום פתיחת ה קיץ עם דודו פארוק ב הופעה ENTERNEWLINEENDVAR ה כל מתקיים כרגיל ! ENTERNEWLINEENDVAR ה כבישים לא חסומים , ה הפגנות בוטלו ו כל ה דרכים פנויות ENTERNEWLINEENDVAR 22 : 00 נפגש ב ה מוסד !
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי אשכל ה חתיך , רוצה לדעת מי קרא ל אתה ככה ? ה ורד עכשיו את ניימיט ו תוכל לגלות :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום , נשמח אם תקדיש דקה מ זמנך ל מילוי משוב קצרצר . תודה ש ב חרת בנו , ב יקורופא . ל מתן ה משוב לחץ
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי איציק קלה ה חתיך , רוצה לדעת מי קרא ל אתה ככה ? ה ורד עכשיו את ניימיט ו תוכל לגלות :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+רוצה נחת מ ה ילדים ? ! תעזור ללומדי ה תורה !
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אנחנו מתרגשים להכריז על ה חגיגה ה שנתית של ה צמד הכי חם ב ה עיר ל ה ייבו&זרחי היום הולדת . ENTERNEWLINEENDVAR ש בת ה קרובה ה חל מ- 17 : 00 ו עד ה חושך , סט שקיעה ארוך ו מיוחד של ה צמד . ENTERNEWLINEENDVAR ה כניסה חינם ב ה הרשמה מראש EMOJI❤ENDVAR ️ ENTERNEWLINEENDVAR לינק : LINK14ENDVAR ENTERNEWLINEENDVAR איוונט : LINK14ENDVAR ENTERNEWLINEENDVAR נתראה ב ה חוף ! EMOJI🥳ENDVAR ENTERNEWLINEENDVAR ה סר : LINK20ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+תניח ו תצליח ! שבוע טוב !
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+בינתיים תהני מ שינוי מספרים בחינם ל אייפון , כדי ש אני אוכל לגמור את ה גירסא ש מקליטה אוטומטי גם ל שיחות נכנסות אני צריכה גיוס LINK20ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מי ש בידי הוא תיעוד ישן ב ה תוקף לא נדרש ל ה הגיע-התיעוד יכובד ב ה מוסדות ה ציבוריים .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+עובדים יקרים , ב ימים אלו החלה מערכות חורפית משמעותית . אנו מבקשים ב כל לשון של בקשה לנהוג ב זהירות יתרה ו לשמור על בטיחותכם ! תודה רבה , אריה אלבז סמנכ"ל תפעול .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום ! ממתין ל נציג ? ב אתר Mitgaisim . idf . il ו באפליקציית 'מתגייסים ' תוכל להיכנס לאזור ה אישי של אתה ו גם למצוא את כל ה מידע על הליכי ה גיוס
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ה מחירים עולים ו מחאת ה אפודים ה צהובים צוברת תאוצה גם בישראל . אז מה מצבכם ה כלכלי ו מי באמת אחראי ל ה מצב ?
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ל ה שטח את עזה LINK22ENDVAR ENTERNEWLINEENDVAR מצביעים 'טב'
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי ירין יורם ENTERNEWLINEENDVAR שמחים שבחרת להזמין את ערב סטנד-אפ מ טורף ב ה -15 ש ''ח בלבד ! ב -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 543032 , 543472 , 546100 , 548518 , 548056 , 540522 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי , ה קישור ה סודי לוובינר נמצא כאן :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+הוא לא יכול להטריד את אתה יותר עם ה אפליקציה ש מזהה מ ספר חסוי כל מטריד נתפס ! ENTERNEWLINEENDVAR הקלטה אוטומטית של ה מטריד ENTERNEWLINEENDVAR חיפוש מידע על כל אחד ENTERNEWLINEENDVAR LINK21ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+יום שישי 22 . 6 ENTERNEWLINEENDVAR חלום ב ה חווה *אורבן* EMOJI📍ENDVAR ENTERNEWLINEENDVAR חוגרים בוגרים ENTERNEWLINEENDVAR LINK50ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+למה להמתין ל נציג ? ל עדכון רכבים , נהגים ו כרטיס אשראי ב ה אפליקציה ל חצו - LINK30ENDVAR . פנגו , פשוט ו קל .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+"הם יגדלו שם נכדים , נינים ו ניני-נינים" . ENTERNEWLINEENDVAR צפו ! link3d . xyz/ReXv7e
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח יקר , הנך נמצא ב תהליך מעבר ל חברה אחרת , נמליץ ליצור קשר עם נציג בכיר ל קבלת מידע חשוב אודות פרטי ה מעבר ל ה שיחה חייג PHONENUMBER4ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חייבת לספר ל אתה ש פתחתי ל אתה את ה אופציה ל שנות מספר בקקדו , ENTERNEWLINEENDVAR מקווה ש תפרגן ל אני חזרה ב ה לייק ב ה פייסבוק LINK21ENDVAR ENTERNEWLINEENDVAR אני זמינה ב ה וואטסאפ ל כל שאלה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+הצבעת בבחירות ה קודמות ו התאכזבת ? עוצמה כלכלית
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היום ב ה באולם ספורט של ב צפר עוזיאל ב שמונה ו חצי מסיבת ראש חודש אלול על ה אש ו זה יהיה מטורף ! אתה בא אחי ?
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אחריות ה מקרר ש ב רשותכם פגה ל חידוש נא לפנות ל בית ה טכנאים PHONENUMBER4ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מש כ נתא/הלוואה לנכס קיים/חדש/מימון ל ה בנייה גם ל ה מסובכים ב ה חובות PHONENUMBER3ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+היי זה דניאל דודזון ! ENTERNEWLINEENDVAR רציתי לחשוף ב פניך ב ה וובינר ה קרוב את ENTERNEWLINEENDVAR ה זהב ש קיבלתי ב אופן אישי מ טוני רובינס 100% בחינם + ENTERNEWLINEENDVAR תהיה ל אתה אפשרות לזכות ב ה כרטיס ל סמינר של טוני רובינס ב ישראל ENTERNEWLINEENDVAR כל ה פרטים כאן :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+יש ל אתם תמונות ש הייתם רוצים ש יופיעו ב עמוד ה אינסטגרם ה נוצץ של חיל ה טכנולוגיה ו ה אחזקה ש יושק בקרוב ? אם כן ה הודעה ה באה היא עבור אתם :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+טרם השתתפת ב ה סקר ה עוסק ב שירותך ה צבאי . נא לא לציין פרטים אישיים .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+את מי זרקו מ וועדות הכנסת אבל לא מספרי ה היסטוריה ?
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+עדין לא נרשמתם ? ENTERNEWLINEENDVAR ה במה ה מרכזית פתוחה ו כולכם מוזמנים לעלות ! ENTERNEWLINEENDVAR חיל ה לוגיסטיקה מזמין את אתם ל "כנס גלבע ה עתיד 2019" ש ייערך ב תאריך 23 . 7 . 2019 ב רמת אפעל . ENTERNEWLINEENDVAR שאלתם מה ה לו"ז ? אתם חלק מ ה לו"ז ! ENTERNEWLINEENDVAR יש ל אתם רעיון/לקח מ קצועי/יוזמה ש אתם רוצים להציג ל אנשי ה חיל ו ל ה חברים ? ENTERNEWLINEENDVAR מצוין ! ENTERNEWLINEENDVAR איך זה עובד ? ENTERNEWLINEENDVAR פשוט לחצו על ה קישור ב תחתית ה הודעה , רשמו את ה ספרה 1 ב ה תיבה ו אנחנו ניצור עמכם קשר ב ה ימים ה קרובים . ENTERNEWLINEENDVAR נתראה ב - 23 . 07 . 2019 ב רמת אפעל ! ENTERNEWLINEENDVAR רוצים לעלות על ה במה ה מרכזית ? לחצו
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח יקר , צור קשר עם סניפך ב- PHONENUMBER2ENDVAR לגבי שיק ש חזר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חברים ו חברות , ENTERNEWLINEENDVAR אנחנו מחפשים ל מטה דומינו'ס אחראי/ת שרות לקוחות . מישהו/י חנה שירותי/ת סבלני/ת ו אינטילגנט/ית . חובה ניסיון ב שירות לקוחות . ה עבודה ב משרה מלאה או חלקית ב תל אביב . תחילת עבודה : מיידית . ENTERNEWLINEENDVAR ה תפקיד אינו ניהולי אבל חשוב מאד , מאתגר , לא פשוט , ו ממוקם ב צומת קריטית ב ה חברה . ENTERNEWLINEENDVAR חוץ מ זה ש כמובן מרוויחים מ שפחה ל ה חיים ו עבודה ב ה סביבה כ יפית מאד . ENTERNEWLINEENDVAR ה תפקיד מורכב מ טיפול ב לקוחות ו ב תלונות לקוח מול לקוחות חיצוניים ו מול מנהלים ב ה שטח . ENTERNEWLINEENDVAR חשוב ל אנחנו לתת קודם כל הזדמנות ל ה אנשים ה נהדרים ש לנו ב ה שטח , ש רוטב ה עגבניות כבר זורם ל הם ב עורקים . ENTERNEWLINEENDVAR אז אם אתם כ אלה , או מכירים מישהו/י שתפור/ה ל ה תפקיד , העבירו קורות חיים עד תחילת ה שבוע ל : LINK18ENDVAR ENTERNEWLINEENDVAR או להתקשר לרונית או גלבע . ENTERNEWLINEENDVAR תודה , מחלקת משאבי אנוש .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אלישבע יאיר , לכבוד יום הולדתך כללית מברכת את אתה ב בריאות שלמה . ו מזמינה את אתה להיכנס ל ה לינק ה מצורף
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אני ממש תכף מתחיל , יאללה ! ENTERNEWLINEENDVAR ה מירוץ ל ה מיליון ה ראשון מתחיל עכשיו !
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+תניח כעת תפילין
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+עובד/ת יקר/ה ENTERNEWLINEENDVAR שנה עברה , שנה מלאת אתגרים , חידושים , ENTERNEWLINEENDVAR שיתופי פעולה , שיאים ו ה צלחות . ENTERNEWLINEENDVAR ב רצוני להודות ל אתה על ה תרומה , ENTERNEWLINEENDVAR ה שותפות , ו ה מאמצים ש לך ל דומינו'ס ENTERNEWLINEENDVAR ו ל הישגיה ב ה שנה ש חלפה , ENTERNEWLINEENDVAR ו לאחל ל אתה ו ל בני משפחתך ENTERNEWLINEENDVAR שנה טובה , ENTERNEWLINEENDVAR ב ריאות , אהבה , אושר ו הגשמה . ENTERNEWLINEENDVAR יוסי אלבז , ENTERNEWLINEENDVAR מנכ"ל דומינו'ס ישראל"
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שימו מים , תכינו קפה חזק , תביאו דף ו עט כי הולך להיות חזק , מעל 1 , 000 רשומים ! ENTERNEWLINEENDVAR שווה לשמור מקום מ ראש ENTERNEWLINEENDVAR זה הולך ל היות יום ש תזכרו כל ה חיים . ENTERNEWLINEENDVAR ה קישור :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+כחול לבן או ליכוד ? עצמאי , בחר עוצמה כלכלית :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+עכשיו ב פורטל תלמידים של משרד ה חינוך ! ENTERNEWLINEENDVAR תשובות ל בחינת ה בגרות מועד ב ה ' ב ה מתמטיקה ש התקיימה היום
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אגודת ה סטודנטים מזמינה את אתם למלא סקר חשוב ב עניין ה מכללה , בין ה עונים יוגרל טאבלט מתנת אגודת ה סטודנטים . ניתן לענות דרך פייסבוק אגודת ה סטודנטים או דרך אתר התאחדות ה סטודנטים
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+תזכורות ל מניעת דוחות , "זזתי"- סיום חניה אוטומטי , פטור מ עמלות בחניונים) ל- 6 . 90 ל חודש ל כל רכב ב חשבונך .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+בואו ללמוד לשכנע ו לעמוד מול קהל ב מועדון ה דיבייט של ה מכללה ! כ נס פתיחה יום ב ' 7 . 11 ב שעה 19 : 00 אולם 2 . ל הרשמה ללא עלות EMAILENDVAR %D%A%D%A
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ב ה רוכים ה באים ל יום 18 ENTERNEWLINEENDVAR היום אתם מוזמנים לכתוב מכתב ל ה ארץ של אתה , ארץ ה בית ש ל אתה . ENTERNEWLINEENDVAR ב ה מכתב תבטאי את כל ה רגשות ש ל אתה , ב יחס ל ה מדינה של אתה . כתבי כל מה ש את רוצה . ENTERNEWLINEENDVAR ו ה קדישי מחשבה ל מושג אחדות ב הקשר ל ה ארץ . ENTERNEWLINEENDVAR ה קישור ל ה מדיטציה- ENTERNEWLINEENDVAR LINK79ENDVAR ENTERNEWLINEENDVAR LINK53ENDVAR ENTERNEWLINEENDVAR תרגום יום 18 – חיים מתוך אחדות ENTERNEWLINEENDVAR ב ה רוכים ה באים ל יום 18 ENTERNEWLINEENDVAR כאשר אנו חיים רק על פי ה רובד ה פיזי , אנחנו תופסים את ה עולם דרך ה חושים ש ל אנחנו . ENTERNEWLINEENDVAR אם נסמוך רק על ה חושים ש לנו , נאמין ש ה עולם ה פיזי הוא ה מציאות ה נשמתית של אנחנו , מציאות ב היא כולם מופרדים זה מ זה ו כ ה זו ש ב היא יש ל אנחנו גישה מוגבלת ל ה משאבים . ENTERNEWLINEENDVAR מתוך נקודת מבט זו של מחסור , אנחנו מתחילים להאמין , למשל , ש אם מישהו אחר נהנה מ הצלחה או מוצא אהבה , אולי נישאר 'בחוץ' . ENTERNEWLINEENDVAR אנחנו הופכים שאפתנים ו תחרותיים , מה ש מציב את אתם אחד מול ה שני ו מונע מאת אתם לחוות אושר עילאי . ENTERNEWLINEENDVAR ה אמת היא ש על פי ה רובד ה מולקלורי ו ה רובד ה רוחי , אני ו אתה אחד , חולקים את ה אחדות של ה רוח ה נרחבת כולה , ו ב רגע ש אנחנו מבינים ש אנחנו לגמרי קשורים , רעיון ה תחרות נעלם , מפנה דרך ל שיתוף פעולה ו ל תודעה אחדותית . ENTERNEWLINEENDVAR ב מצב זה אנחנו יודעים , ש אם אדם אחד מצליח , כולנו מצליחים . מעבר ל ה זה , מכיוון ש אני אתה , אני לא קיים בלעדי אתה . ENTERNEWLINEENDVAR בודהה המחיש את זה על ידי שני צרורות של קני סוכר ה נשענות אחת על ה שנייה ל ה תמיכה , שני קני ה סוכר שגשגו , כי כש ה אחד קיים , גם ה אחר . ENTERNEWLINEENDVAR מ זיזים צרור אחד , ו ה צרור ה שני נופל . ENTERNEWLINEENDVAR ב חיינו ה אישיים , נוכל להבין את זה כש נחשוב על ה משפחה ש לנו , משפחה תומכת האחד ב שני ב שעת ה צורך , ו כש אח או אחות של אתם משיגים הצלחה , כל ה משפחה חוגגת . ENTERNEWLINEENDVAR ב ה רובד ה רוחני ה עמוק ביותר , אנחנו לא רק מקושרים ל הורינו ו אחינו אלא לעולם כולו , כש אנחנו גדלים ב ה מודעות ה זו , אנחנו חיים ב אחדות , חוגגים את ה צלחתם של כולם , ENTERNEWLINEENDVAR כש אנחנו נעים ל רעיון ה חיים ב ה אחדות , ה עצמי ה פרטי מתחלף ב עצמי מאוחד , אנחנו מפתחים רגשות כנים של קשר ל ה כולם ו אמפתיה גדולה יותר ל אחרים , כש אנחנו חולקים ב הצלחות ו ב ה אושר של הם . ENTERNEWLINEENDVAR אנחנו הופכים מתעניינים קבועים ב חייהם , מעניקים ל הם את תשומת לבנו ה בלתי מוסחת , ו עוזרים ל הם כאשר אנחנו מתבקשים . ENTERNEWLINEENDVAR ב זמן זה , ניסים הם דבר נפוץ , כאן , אנחנו יכולים ליצור כל מה ש נרצה , כולל שפע , ב כל צורה ש נבחר . ניסים קורים כי אנחנו חיים מתוך אהבה , שרות ו חמלה . ENTERNEWLINEENDVAR ה הבנה של חיים מתוך אחדות מביאה את היא כוח עצום , כש מספיק אנשים יגיעו ל ה הכרה ש אנחנו בעצם אחד ו ישחררו את תפישת ה נפרדות , נוכל להשיג מסה קריטית של תודעה גבוהה יותר , ש לא רק תיטיב עם חיינו , אלא גם תעזור ל אנחנו לרפא את ה עולם . ENTERNEWLINEENDVAR ב ל הוא זמן מסוים ב לתרגל אחדותיות , היו נוכחים ו התעניינו תדיר ב חיי ה אחרים כש אתם מדברים איתם . ב ה שיחות של אתם , העניקו את תשומת לבכם ה מוחלטת ו אם תראו מישהו עם צורך , הציעו עזרה . ENTERNEWLINEENDVAR לעשות את ה דברים ה אלה יעזור ל אתם ל פתח הבנה עמוקה יותר לגבי קשרים אמיתיים . ENTERNEWLINEENDVAR ה מחשבה ה מרכזית להיום : " אני חוגג את ה אחדות של אני עם ה חיים כולם מתוך ה ידיעה ש כולנו אחד" ENTERNEWLINEENDVAR ה מנטרה : ta twam hassi (אני רואה את עצמי ב אחר ו את ה אחר ב י)
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מבצע . . . ו יאגרה ENTERNEWLINEENDVAR סיאליס טייגר ENTERNEWLINEENDVAR PHONENUMBER4ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+בוקר טוב ENTERNEWLINEENDVAR זה דניאל דודזון , מזכיר ש ב שעה 10 : 00 שריינת מקום ל ה שידור ה חי של אני אשלח ל אתה ב מהלך ה בוקר את ה קישור ה סודי . נתראה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+Ruppin Student Day 2019 ENTERNEWLINEENDVAR ה אירוע ה שנתי ש ל אנחנו מגיע מחר ! ENTERNEWLINEENDVAR עדן בן זקן || Balkan beat box || סטטיק ו ב נאל || Rising dust ו עוד . ENTERNEWLINEENDVAR כרטיסים אחרונים ל ה רכישה -
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+סקר ארצי חדש - ב ואו להשפיע על מקבלי ה החלטות >>>
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ככה עשיתי את ה 230 דולר ה ראשונים של אני ENTERNEWLINEENDVAR ה צצה לשיטה ב ה לחיצה על ה לינק
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ב ה רוכים ה באים ל ה מועדון לקוחות של רשת ה חנויות פלטין מותגים . ENTERNEWLINEENDVAR ל השלמת ה רישום ו ה זכאות ל הטבות ה מגיעות ל אתה יש למלא את ה פרטים ב ה קישור
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+טרם השתתפת ב ה סקר ה עוסק ב שירותך ה צבאי . נא לא לציין פרטים אישיים . ENTERNEWLINEENDVAR LINK44ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+כ נס ל ה אתר של בוקמאפ ישראל ו התחל את ה קורס ה חינמי : LINK14ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+לקוח פנגו סימפל , רוצה לחסוך ? עם "זזתי" ה חדש חוסכים יותר . ל ה עדכון גרסה לחץ
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+הלילה זה ה לילה ! פאצו בת שנתיים . ערב של פיצה\בירה\ יין ללא תחתית ב מחיר קבוע ו פינוקים קטנים ל כבוד ה שמחה כפולה . לא לשכוח להזמין מקום . ל ה הסרה ה שב ה סר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+8 צעדים להפוך ל מכונת הכנסות ו להגיע ל חופש כלכלי פנומנלי ! הערב אני עולה ל שידור חי ב שעה 21 : 00 להסביר את ה צעדים , נראה את אתה ? אגב זו ה פעם ה ראשונה ש אני מתכוון לעצור את ה ובינר 8 פעמים ל אורך ה דרך ו לאפשר ל ה אנשים לשאול שאלות לגבי ה הצלחה ה אישית של הם ! הנה ה קישור ל הרשמה -
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אחר ה צהריים טובים , אבישג ליאורה לאור , ע"פ רישומינו טרם מימשת את זכותך להצביע . אני חוזרת ו מדגישה כי ה דבר חשוב ו מהותי להמשך ניהולה של ה עיר . מבקשת את תמיכתך ב אני ו ב סיעתי נתניה אחת ש סימנה ה אות "פ" , אנא עשו מאמץ ו בואו להצביע . ENTERNEWLINEENDVAR ב ה אם ממשת את זכותך ו ה לכת להצביע אני מודה ל אתה מאוד . ENTERNEWLINEENDVAR אוהבת מרים .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שלום ל ה כולן ENTERNEWLINEENDVAR שיעור מרתק ו מעניין - ל נשים ו בנות הערב ב שעה 20 : 45 ב בית ה כנסת , עם ה רב . ENTERNEWLINEENDVAR שעה של ה נאה , לימוד ו מנוחת ה נפש . ENTERNEWLINEENDVAR ל ה התראות . ENTERNEWLINEENDVAR שלום ל ה כולן ENTERNEWLINEENDVAR שיעור מרתק ו מעניין - ל נשים ו בנות הערב ב שעה 20 : 45 ב בית ה כנסת , עם ה רב . ENTERNEWLINEENDVAR שעה של ה נאה , לימוד ו מנוחת ה נפש . ENTERNEWLINEENDVAR ל ה התראות . ENTERNEWLINEENDVAR שיעור ה נשים ב סעודת שבע ב רכות ל ה בת של משה כרמל ENTERNEWLINEENDVAR שלום לכולן . שיעור נשים ו בנות ב בית הכנסת . ב שעה 20 : 45 . נלמד להבין מה עשה את היא לימוד ה תורה ל נפש . על ה הבדל בין לימוד ה תורה של יהודי ל גוי - לפי ה קבלה . ENTERNEWLINEENDVAR שלום לכולן . שיעור נשים ו בנות ב בית ה כנסת . ה יום ב שעה 20 : 45 . נלמד על טקס אליענה תורה . ו מ הן בדיוק עשרת ה דברות . ENTERNEWLINEENDVAR ה יום ב שעה 20 : 45 ב בית הכנסת שיעור נשים ו בנות ו התוודעות ל כבוד יב תמוז- נלמד על משמעות ה צדיק ו ה רבי ב תורת ה קהלה ו ה חסידות
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה ינך חסום ל ה גלישה ב חו"ל . ל ידיעתך , קיימות חבילות מוזלות ל גלישה סלולארית ב ה חו"ל לפי ש ימושים/יעדים . ל ה פרטים ו הצטרפות חייג ללא תשלום מ ה פלאפון 972507077860+ ENTERNEWLINEENDVAR ב ה רוכים ה באים ל ישראל ו ל רשת פלאפון . ENTERNEWLINEENDVAR נשמח לעמוד ל שירותך ב ה נסיעה ה באה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי איריס ש הם ENTERNEWLINEENDVAR שמחים שבחרת להזמין את ערב סטנד-אפ מ טורף ב ה -15 ש ''ח בלבד ! ב -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 543032 , 543472 , 546100 , 548518 , 548056 , 540522 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום תדהר תכלת אנוש , רוצה לדעת מה ה נטו של אתה החודש ? כ נס/י ל ה אזור ה אישי ! LINK16ENDVAR החל מ ה חודש לא תישלח הודעה עם סכום ה העברה ל ה בנק , אלא קישור ל תלוש ה שכר .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תקני חולצות ירוקות . . . ו חולצות לבנות . . . כי את תקבלי רק 3 חולצות לבנות בלבד . . . ו אני די אני בטוחה ש זה לא יספיק ל אתה ל חודש . . . תביאי את אתה אבקת כביסה כי את תיהי במטווחים ו זה שיא ה חום ו את שם מהבוקר עד ה ליילה ו את עוד תיסגרי שבת ותיהי מחוייבת ללכת ב מדיי ב ' ככה ש תוכלי לכבס ב יד . . . מ די אני א' הם מביאים 3 זוגות ו מ די אני ב ' הם מביאים 2 . . . אני מציעה ל אתה להביא שישייה של בקבוקיי מים קטנים כי את תאבדי שם ב קבוקים על ימיןועל שמאל ו אני די אני בטוחה שאת לא תישתי מ ה מימיות שם כי ל ה כי תדעי מי ש תה מהם ו איזה מחלות הם השאירו שם . . . אני מציעה ל אתה גם להביא גופיות לבנות כי ב תאכלס ממש חם . . ו מותר לל לשים גופייה מתחת ל ה מדים . . . תביאי ספריי ריח ל בגדים ל מקרה שהם יסריחו טיפה אז תוכלי להשפריץ ו זהו . . . תביאי את אתה דורדוראנט . . סכין גילוח מברשת ו משחת שיניים . . . תביאי המון המווןן חטיפים . . . . . ו דברים אכילים כי ה אוכל לא משהו . . . אם את מעשנת אני מציעה שתקני פאקט או אספקה טובה ש תספיק ל אתה . . . כי ה שקם (סוג של חנות קטנה ב בביס) לא תמיד פתוח ו את תוכלי להיתקע . . . . ENTERNEWLINEENDVAR אממממ . . . תביאי את אתה ב גדיי ספורט . . . ENTERNEWLINEENDVAR אם את שמה טייץ את חייבת לשים שורט מעל כי זה כביכול לא צנוע . . . לשת''ש (שעה של הפסקה לפני אני ה שיינה) תביאי חולצות ש הן לא לבנות . . . תביאי כל צבע רק ש לא יהיה לבן כי אסור . . . ו נעליי ספורט חובה ! אספקה של תחתונים . . . חזיות . . . גוזיות . . . גרבים לבנות ארוכות . . . . ENTERNEWLINEENDVAR אני מציעה ל אתה להביא גם כסף קטן כדי לקנות שתייה מתוקה מ ה מכונות . . . . אמממ . . . ENTERNEWLINEENDVAR מגבות ל מקלחת . . . . מציעה להביא 3 מגבות . . . אחת ל כל שבוע . . כי ב סופו של דבר ה מגבת מסריחה אחרי אני שבוע . . . תביאי את אתה ב קבוקים גדולים של שמפו מרכך סבון גוף ו ספוג ל גוף . . . ENTERNEWLINEENDVAR ו גם את לא תחוייבי להחזיר את ה כל ב ה בית . . . יעני אם את באה עם דברים ש אין ל אתה צורך להחזיר את הם יום אחרי אני או ב שישי כש את יוצאת ל ה בית תשאירי את ה דברים ה אלה שם . . . ENTERNEWLINEENDVAR אני אישית קיבלתי ב בקום ב סוף שקית עם כמה חטיפים מנה חמה פדים תחתוניות ו טמפונים . . . אבל מציעה ל אתה להביא מ ה בית ב מידה ו לא יביאו כי זה לא מאה אחוז . . . אני מציעה ל אתה לקנות מנעול ל תיק . . . . כי אנשים גונבים כסף על ימין ו על שמאל . . . תביאי מטען רגיל ו מטען נייד ל ה פלא . . . כ די ש תמיד תוכלי להטעין . . . תביאי אוזניות . . . תביאי שמיכה כרית ו סדינים . . . כי לא יביאן לך שם כ ריץ אלא עם כן את רוצה לישון בלי כרית . . . ו זהו ב תאכלס . . . . . כל פריט ש חשוב ל אתה תביאי (( : מקווה ש עזרתי . . . . ו ש יהיה ל אתה גיוס קל EMOJI😚ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר , ב מדינה זו ניתן לחייג ל ישראל הן ב חיוג ישיר ו הן ע"י חיוג ניתוק ו שיחה חוזרת , ב כל מקרה , ה חיוב יבוצע ב התאם ל תעריפי ה חבילה ש רכשת . ב מידה ו לא רכשת חבילה ה כוללת דקות שיחה , מחיר דקת שיחה ל ישראל הנו 9 . 90 ש "ח . פלאפון ל שירותך ב חו"ל 24/7 ללא תשלום , ב דרך שנוחה ל אתה : 444* או PHONENUMBER4ENDVAR ב חיוג מ ה פלאפון ו גם ב צ'אט עם נציג ב- SMS ל מספר PHONENUMBER4ENDVAR ENTERNEWLINEENDVAR נסיעה טובה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוחות יקרים , אנו שבים ו מזכירים כי ב ימי שבת ו ב שעות ה בוקר ה מוקדמות , הכניסה ל ה מועדון אך ו רק דרך ה חניון ה מקורה ב רח' בני ברמן . התנהגות פסולה כגון פריצת ה דלת ה ראשית של ה מגדל ב כוח , מצולמת ו מועברת מיידית ל טיפול ה משטרה ו כן גוררת הרחקה מ ה קניון . אנא הישמעו ל הוראות ו כבדו את כללי ה קניון ו מועדון ה כושר . תודה ו שבת שלום
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי כנרת אבשלום ENTERNEWLINEENDVAR שמחים שבחרת להזמין את 2 פיצות משפחתיות ב-89 שח בלבד כולל משלוח ב ה -istudent . ENTERNEWLINEENDVAR קוד/י הקופון איתם ניתן לממש את ה הטבה הם : 156-310375885 . ENTERNEWLINEENDVAR ל תשומת ליבך כי ה קודים תקפים תחת ה התניות ה מפורטות ב עמוד ה רכישה ו ב אפליקציית istudent .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חובה לחבוש כובעים ! חובה שני בקבוקי מים גדולים . לא סנדלים ו לא גופיות .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אבל הוד הוא טיפוס לא חברתי מ טבעו לכן ה ראש חוזר אל ה מערה של הוא ל עוד תנומה קטנה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל ה הזכירך-דבר דואר YY01872084405 ENTERNEWLINEENDVAR ג 2260 ENTERNEWLINEENDVAR עדיין ממתין ל אתה ב יחידת ה דואר - ה קולה (בית עסק) - כ תובת-המחקר 2 , נתניה לשעות פתיחה ל ה חץ LINK47ENDVAR ENTERNEWLINEENDVAR חדש ! ! ENTERNEWLINEENDVAR 1 . עד אליך בתוך דקות Gett Post ב אפליקציית Gett ENTERNEWLINEENDVAR LINK61ENDVAR ENTERNEWLINEENDVAR 2 . שליח עד ה בית - LINK24ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+למען ה סר ספק , ביצעתי וידוא מול לשכת רחט״ל . ENTERNEWLINEENDVAR כמובן ש אין צורך להגיע מחר עם מיגון אישי ו נשק כפי ש נכתב ב ה הודעה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אנו מתנצלים על ה עיכוב ב מתן ציונים ב ה בחינה ב תכנות מונחה עצמים , עקב מחלת ה דיקן . ה ציונים יינתנו בקרוב .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח/ה יקר/ה אנו מודים ל אתה ש ב חרת לרכוש ב יטוח תאונות אישיות ב- AIG . ENTERNEWLINEENDVAR החל מ מחר ניתן לצפות ב תנאי ה פוליסה ו חריגיה ב ה אתר LINK10ENDVAR ENTERNEWLINEENDVAR להלן קישור : LINK21ENDVAR ENTERNEWLINEENDVAR ב ברכה AIG . איי אי ג'י ישראל חברה ל ביטוח בע"מ
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+האם אי אלו מ ה נושאים ל דוגמה ש עלו ב ה פורום מדברים אל אתה ו אל אתם ? ENTERNEWLINEENDVAR LINK56ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+לקוח יקר , הנך חסום ל שירותי גלישה ב חו"ל שכן לא ביקשת את פתיחת ה שירות . ב אפשרותך לרכוש מסלול גלישה ב עלות חד פעמית של 29 ש"ח ל ה נסיעה , ה מאפשר ל אתה גלישה יומית של עד 50/3 מגה ל יום ב תשלום נוסף של 33/149 ₪ ב התאם ל ה יעד ה נסיעה ENTERNEWLINEENDVAR ל ה רכישה ש לח סמס חינם עם ה ספרה 9 ל מס' 3615 . ה שירות ייכנס ל תוקף רק עם קבלת הודעת אישור . המשך שהייה נעימה ב ה חו"ל , סלקום
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+משפחת שחף ה יקרה , להזכירכם , תואם עבור אתם ביקור טכנאי HOT ל 14/09/2017 בין 11 : 00 - 13 : 00 , ל ביטול מועד ה ביקור השיבו 5 . ל שינוי מועד ה ביקור לחצו על ה קישור ה בא : LINK22ENDVAR ב ברכה , HOT
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה ופה ! דגן אפריאט העביר ל אתה 33 שקלים ב -Pepper Pay . כדי לקבל את ה כסף , ENTERNEWLINEENDVAR 1 . ה ורד את Pepper-Pay מ חנות ה אפליקציות ENTERNEWLINEENDVAR 2 . ה זן את מספר חשבון ה בנק של אתה . ENTERNEWLINEENDVAR ה זמן ל קבלת ה תשלום הוא 72 שעות מ קבלת ה הודעה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR מיקום ה הופעה של אליעד נחום הועבר ל ה בר "מרפיס" ENTERNEWLINEENDVAR כתובת : גיבורי ישראל 17 , מרכז יכין , Y סנטר פולג , נתניה . ENTERNEWLINEENDVAR נתראה שם ! ENTERNEWLINEENDVAR ל ה הסרה :
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עם כיתת ה חינוך של אני לפני אתם חוינו אזעקה ב אמצע סיור ב בית ה משפט ה עליון ב ירושלים . עכשיו הם כותבים ל אני ש חווים ה כל מקרוב ו בתוך . נזכרים בדיוק ב ה סיור ה הוא . לילה טוב ו שקט .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום , ENTERNEWLINEENDVAR נבחרת לייצג את חיל ה שריון ב טקס יום הזכרון ב בית ה עלמין מחר ב 9 : 00 . ENTERNEWLINEENDVAR אנא ו ודא/י כי יש ב ה ידך את כל ה פרטים ה נדרשים . ENTERNEWLINEENDVAR מ צורף קישור ל ה אתר יזכור שם תוכל/י לקרוא אודות ה נופל אל הוא נשלחת : ENTERNEWLINEENDVAR LINK24ENDVAR ENTERNEWLINEENDVAR מ צורף קישור ל סרטון תדרוך קצר ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR שים/י לב , מחר ב שעה 9 : 00 תקבל/י הודעה ל צורך אישור התייצבותך ליד ה קבר . ENTERNEWLINEENDVAR ב ה רעות ש ריונאים
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*נריה רוזנר* ו לחצו על ה שם ב ה קוביה של ה אתר של אני (רקע אפור) ENTERNEWLINEENDVAR קישור : ENTERNEWLINEENDVAR LINK34ENDVAR ENTERNEWLINEENDVAR תודה רבה ל כל מי ש עזר EMOJI😋ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש ירה ל אני ו משי גאולית מתחתנים ! ENTERNEWLINEENDVAR ה חתונה תתקיים ב-04 . 09 . 16 ב -׳אלכסנדר׳ , עמק חפר . ENTERNEWLINEENDVAR אנא אשרו הגעתכם עכשיו ו השיבו עם מספר ה מגיעים בלבד . ENTERNEWLINEENDVAR ל ה דוגמא , השיבו 0 אם אינכם מגיעים . ENTERNEWLINEENDVAR תודה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ל כל המעוניין : כוכב יהיה ב ה מכללה ב יום א' , 15 . 10 החל מ שעה 12 : 00 ו ב יום ב' , 16 . 10 , החל מ שעה 18 : 00 , ל צורך פגישות של שני קורסי ה בחירה : תכנות מתקדם , ו תכנות ל מכשירים סלולריים , ב חדר 2401 .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה תרגיל ב ה מבנים אלגבריים יינתן עד סוף סמסטר קיץ מיד ב המשך ל ה שיעור , כפי ש נעשה ב ה שבועות ה אחרונים . ה מתרגל יהיה יאיר אבטליון .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+*למען הסר ספק ה הצעה לעיל אינה מחייבת אף אחד*
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי , רוני ישי שלח/ה ל ך כסף דרך PayBox . ב לחיצה על ה לינק ניתן להוריד את ה אפליקציה ו למשוך את ה כסף ב צורה מאובטחת , קלה ו נוחה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שלום רב , ENTERNEWLINEENDVAR ב קשתכם נדחתה ל שנה זו . ENTERNEWLINEENDVAR ה דחיה בוצעה ע"י מערכת ממוחשבת . ENTERNEWLINEENDVAR מדובר ב מערכת חדשה ו לכן ה בקשה תבדק שנית ע"י גורם אנושי מקצועי . ENTERNEWLINEENDVAR אנא התאזרו ב סבלנות . ENTERNEWLINEENDVAR ל שאלות או הבהרות ניתן לפנות ל מוקד ה עזרה ב ה דוא"ל LINK19ENDVAR ENTERNEWLINEENDVAR , או ב טלפון- ENTERNEWLINEENDVAR PHONENUMBER1ENDVAR ENTERNEWLINEENDVAR תודה , ENTERNEWLINEENDVAR מערך ה סיוע ל ה הלוואות ו מלגות ל ה סטודנטים ENTERNEWLINEENDVAR משרד ה חינוך
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+היי עקב ריבוי בקשות , לא תתאפשר יציאה ל לימודים מחר . ENTERNEWLINEENDVAR ה משך יום טוב
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+שימו לב , ב ה יומיים ה קרובים יותקנו גופי תאורה חדשים ב רחבי ה מועדון ב קומה 12 . יש לקחת ב חשבון כי ה עבודה כרוכה ב ה רעש ל ה עיתים ו חוסר נוחות . אנא היערכו ב התאם . תודה ENTERNEWLINEENDVAR לקוח/ה יקר/ה אנו מזכירים ל אתה כי ה מנוי ש ל אתה עתיד להתסיים בקרוב . על מנת לשמר את ה תנאים ה מיוחדים ל לקוחות ממשיכים יש לחדש את ה מנוי ב ה הקדם . נשמח לעמוד ל שירותך ב ה טלפון PHONENUMBER3ENDVAR . סוויפט נתניה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל יקר , ENTERNEWLINEENDVAR זוהי תזכורת ל זימונך ל יום מיון ל ה חטיבה ה טכנולוגית ב ה יבשה . ENTERNEWLINEENDVAR יום ה מיון יתקיים ב תאריך 05/05/19 ב שעה 08 : 30 ב ה חטיבה ה טכנולוגית ליבשה (חט"ל) ב בסיס תל ה שומר – חד"ן רחט"ל (בסמוך ל ה חדר אוכל) ENTERNEWLINEENDVAR הנך מתבקש להעביר קורות חיים ל ה ווטסאפ : PHONENUMBER4ENDVAR . ENTERNEWLINEENDVAR *אין לשלוח מידע צבאי על תפקידך* ENTERNEWLINEENDVAR ל פרטים נוספים ו שאלות ניתן לפנות ל ה מס' ה פלאפון ש צויין מעלה . ENTERNEWLINEENDVAR ב ה ברכה , ENTERNEWLINEENDVAR מפקדת זרוע ה יבשה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה בייתה ? ENTERNEWLINEENDVAR אין ל אני מושג כי השבוע מתחיל קורס אז או השבוע או שבוע ה בא
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש לום רב מ שפחת מרגלית ה הזמנה נקלטה ב הצלחה ! מספר הזמנה 708001032 הנכם מוזמנים ל תאריך 2016-07-11 ב שעה 18 : 30 : 00 עם מספר ה הזמנה יש לגשת ל עמדת ה רישום ב קניון עזריאלי תל אביב קומה 1 כ 90 דקות לפני מועד ה סיור ש קבעתם ל הסדר ה תשלום . לאחר מ כן מקומכם לא ישמר .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה ל הוא חמודים ! אתם ב ה בית ? ישנים ? המשיכו ליהנות אך נהגו ב אחריות לפי ה הוראות . אני ב בית ה ספר . . . ה מקום הכי מוגן יכולים לבקר היום . EMOJI😊ENDVAR EMOJI😄ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה המשך ל פנייתך מספר 279 ברצוננו להודיעך כי בעלי ה רכב אותרו , אין חשד , ENTERNEWLINEENDVAR ל ה ידיעתך ENTERNEWLINEENDVAR ל צורך שיפור ה שירות , ENTERNEWLINEENDVAR יישום סלולארי חדש ב ה משטרה –" 100 ב ה חירום" ENTERNEWLINEENDVAR יישום מציל חיים ! ENTERNEWLINEENDVAR ל הורדת ה יישום לחץ על ה קישור , ENTERNEWLINEENDVAR אנדרואיד – LINK21ENDVAR ENTERNEWLINEENDVAR אייפון – LINK22ENDVAR ENTERNEWLINEENDVAR ל ה שירותך ב כל עת , משטרת ישראל
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ש אלה , ה מסמך ל ה הרשמה ל פגישה מלא . ה אם יפתחו עוד סלוטים ל ה הרשמה ? ENTERNEWLINEENDVAR LINK21ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יחס ב ה נים>בנות
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חייל/ת יקר/ה , ENTERNEWLINEENDVAR ב מסגרת שבוע ה הוקרה לחיילי צה"ל – "תודה" ! , יתקיים ב יום חמישי , ה- 6/7 ב גני יהושע (פארק הירקון) ת"א , מופע 'יחד בפארק' ב ה השתתפות : אינפקטד משרום , ה תקווה 6 , אליעד , איתי טובה ו אדיר גץ . ENTERNEWLINEENDVAR ל רכישת כרטיסים במיוחד עבור אתם , ב הטבה ייחודית ו ב עלות סמלית של 20 ₪ בלבד , ה יכנס ל ה לינק ה מצורף : LINK21ENDVAR או ה יכנס לאתר מועדון 'יותר' : LINK15ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתגייס/ת יקר/ה , הינך זכאי/ת ל רכישת ציוד אישי באמצעות כרטיס ה כוכבים ה דיגיטלי . ל קבלת ה כוכבים אשר/י את ה תקנון HTTPS : //IDF . MLTP . CO . IL
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+"מתגייסים יקרים , אנו שמחים להזמין את אתם להכיר את ה אתר ה חדש של יחידת מיטב ו את ה אפליקציה ""מתגייסים"" ה ניתנת ל הורדה ב ה חנות . ENTERNEWLINEENDVAR ה אתר הוא התחלה של מהפכת שירות מתוך ה רצון של צה""ל להיות ארגון שקוף , ו להפוך את תהליכי ה גיוס ל נגישים ו זמינים . ENTERNEWLINEENDVAR ה אתר מתעדכן ב אופן שוטף מתוך רצון ל שיפור ה שירות עבור אתם . ENTERNEWLINEENDVAR ב ה אתר תוכלו להתעדכן ב נתוניכם ה אישיים ו לקבל את כל ה פרטים על ה צו ראשון , ה תפקידים ה שונים , ה מיונים ו עוד . ENTERNEWLINEENDVAR ל ה כניסה ל ה אתר : LINK25ENDVAR ENTERNEWLINEENDVAR קוד אישי : " ENTERNEWLINEENDVAR 1111111
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כש יוצרים מכונות ב ענן של גוגל , ו בוחרים איפה לפתוח את הן , כדאי לבדוק כאן מי ה אזור ה טוב ביותר עבור אתם : ENTERNEWLINEENDVAR LINK22ENDVAR ENTERNEWLINEENDVAR אם אתם ב ה ארץ , אתם אמורים לקבל את לונדון (europe-west2) בתור ה פינג ה קצר ביותר . שם כדאי ליצור את ה מכונות .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עדכון חם : ENTERNEWLINEENDVAR ב שעה 1230 יתחיל ב אולם אירוע ה גמר ב ראשות ר' אט"ל . ENTERNEWLINEENDVAR נתחיל ב ה עדכון לגבי מי מ ה צוותים עלה לגמר ו מייד נמשיך ב פיצ'ים של ה פיינליסטים אחד אחרי ה שני . כל צוות עד 3 דקות ! ENTERNEWLINEENDVAR עד אז זמן טוב ל ה אוכל , סידור ו ניקוי ה חדרים ו שיופים אחרונים . ENTERNEWLINEENDVAR נא להתיישב ב ה אולם ב שעה 1220 . ENTERNEWLINEENDVAR *בהצלחה ! ! ! *
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מתגייס/ת יקר/ה , הינך זכאי/ת ל רכישת ציוד אישי באמצעות כרטיס ה כוכבים ה דיגיטלי . ל קבלת ה כוכבים אשר/י את ה תקנון
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+נגה שלום , זמני פתיחת ה מועדון ב חג ה שבועות- שבת 8 . 6- 8 : 00-17 : 00 ENTERNEWLINEENDVAR ראשון 9 . 6 7 : 00-20 : 00 חג שמח ! ENTERNEWLINEENDVAR נגה שלום , ל תשומת לבכם ב ה יומיים ה קרובים יעשו תיקוני צבע ו גבס קטנים אנא ה ערכו בהתאם . סוויפט נתניה .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+אסנת היקר/ה לידיעתך , ב חודש דצמבר שילמת 107 . 66 ש "ח עבור פוליסת ביטוח תאונות אישיות ב חברת AIG . ל פרטים נוספים PHONENUMBER3ENDVAR או חשבון ה אישי ה מקוון של אתה LINK21ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI💨ENDVAR EMOJI☁ENDVAR ב עודי פותר בעיות לגבי הפעלה של קרדיטים ל ה ענן של גוגל עבור מי ש יצטרך עבור ה פרויקט , ש מתי לב ש עדיין אפשר ממילא לקבל הקצאה ב שווי 300$ ב הרשמה ראשונית ל שירותי ה ענן של גוגל . להלן ה לינק לגבי מכונות מותקנות מראש עבור python ו -deep learning , ה כולל ל עת עתה גם לינק ל הרשמה חינמית ל ה שירות . מומלץ לנסות להרשם . . . ENTERNEWLINEENDVAR LINK132ENDVAR ENTERNEWLINEENDVAR *אם נרשמתם ב ה עבר ל ענן של גוגל ייתכן ש ה לינק לא יקנה ל אתם את הקצאת ה חינם ב עת זו . ENTERNEWLINEENDVAR טיפים ל ה עבודה מושכלת ב ה ענן : ENTERNEWLINEENDVAR LINK79ENDVAR ENTERNEWLINEENDVAR ה קרדיטים טובים גם עבור צוותים ש צריכים ענן מ סיבות אחרות , למשל עבור שימוש ב -Firebase או דאטאבייס אחר .
+Model: AdaBoost | Wrong count: 1
+-
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  End wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================
+=============================
+=============================
+=============================
+MODEL AdaBoost
+AVERAGES: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9707
+WAcc score (lambda = 1): 0.9858
+TCR score (lambda = 1): 11.1249
+WAcc score (lambda = 99): 0.9906
+TCR score (lambda = 99): 0.2032
+WAcc score (lambda = 999): 0.9907
+TCR score (lambda = 999): 0.0203
+===
+LOWEST: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9649
+WAcc score (lambda = 1): 0.9831
+TCR score (lambda = 1): 9.2174
+WAcc score (lambda = 99): 0.9891
+TCR score (lambda = 99): 0.1635
+WAcc score (lambda = 999): 0.9891
+TCR score (lambda = 999): 0.0163
+++++++++++++++
+++++++++++++++
+++++++++++++++
+*_*	A_veF1	L_owF1	A_Acc1	L_Acc1	A_TCR1 	L_TCR1	A_cc99	L_cc99	A_CR99	L_CR99	A_c999	L_c999	A_R999	L_R999
+Ada	0.9707	0.9649	0.9858	0.9831	11.1249	9.2174	0.9906	0.9891	0.2032	0.1635	0.9907	0.9891	0.0203	0.0163
+
+Count times TCR was > 1 :
+Model AdaBoost - 1 : 5 , 99 : 0 , 999 : 0
+
+&&& headlines (first row) &&&
+*
+Ave F1
+Low F1
+Ave WAcc 1
+Low WAcc 1
+Ave TCR 1
+Low TCR 1
+Ave WAcc 99
+Low WAcc 99
+Ave TCR 99
+Low TCR 99
+Ave WAcc 999
+Low WAcc 999
+Ave TCR 999
+Low TCR 999
+
+&&& models (first column) &&&
+AdaBoost
+|||||||||||
+All the testing took 1152 seconds !
+All the process took 33477 seconds !
+
+Parameters:
+    model index: 5
+    model name: AdaBoost
+    dataset: sms_morphological
+    messages count: 7108
+    spam count: 1116
+    non spam count: 5992
+    include_dependency_tree_feature: True
+    include_pos: False
+    k_fold_number = 5
+    if k_fold_number is 1, split data = 0.25
+    
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@           Finished dataset sms_morphological           @@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Testing model 5 (AdaBoost) for dataset 'email_morphological':
+K-FOLD cross validation: 5-fold
+
+processing with model 5
+
+Starting training for iteration 1
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 2437.1945452690125 seconds.
+-
+Finished training.
+All the training took 2768 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 1/5 took 142.73092317581177 seconds.
+
+Evaluation:
+---------------
+Iteration 1 , Model AdaBoost
+baseline_accuracy: 0.513
+model 5's accuracy: 0.973
+positive margin from baseline: 0.459
+confusion matrix:
+             non spam     spam 
+    non spam    143.0      6.0 
+        spam      2.0    142.0 
+Recall (sensitivity): 0.9597
+Precision: 0.9861
+F1 score: 0.9727
+WAcc (Weighted accuracy) (lambda = 1): 0.9727
+TCR (Total Cost Ratio) (lambda = 1): 18.5000
+WAcc (Weighted accuracy) (lambda = 99): 0.9859
+TCR (Total Cost Ratio) (lambda = 99): 0.7255
+WAcc (Weighted accuracy) (lambda = 999): 0.9862
+TCR (Total Cost Ratio) (lambda = 999): 0.0739
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97       149
+           1       0.96      0.99      0.97       144
+
+    accuracy                           0.97       293
+   macro avg       0.97      0.97      0.97       293
+weighted avg       0.97      0.97      0.97       293
+
+
+Starting training for iteration 2
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 2483.2902750968933 seconds.
+-
+Finished training.
+All the training took 2822 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 2/5 took 145.22279453277588 seconds.
+
+Evaluation:
+---------------
+Iteration 2 , Model AdaBoost
+baseline_accuracy: 0.513
+model 5's accuracy: 0.973
+positive margin from baseline: 0.459
+confusion matrix:
+             non spam     spam 
+    non spam    143.0      4.0 
+        spam      4.0    142.0 
+Recall (sensitivity): 0.9728
+Precision: 0.9726
+F1 score: 0.9727
+WAcc (Weighted accuracy) (lambda = 1): 0.9727
+TCR (Total Cost Ratio) (lambda = 1): 18.2500
+WAcc (Weighted accuracy) (lambda = 99): 0.9728
+TCR (Total Cost Ratio) (lambda = 99): 0.3650
+WAcc (Weighted accuracy) (lambda = 999): 0.9728
+TCR (Total Cost Ratio) (lambda = 999): 0.0365
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       147
+           1       0.97      0.97      0.97       146
+
+    accuracy                           0.97       293
+   macro avg       0.97      0.97      0.97       293
+weighted avg       0.97      0.97      0.97       293
+
+
+Starting training for iteration 3
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 2473.0745902061462 seconds.
+-
+Finished training.
+All the training took 2805 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 3/5 took 146.9062066078186 seconds.
+
+Evaluation:
+---------------
+Iteration 3 , Model AdaBoost
+baseline_accuracy: 0.513
+model 5's accuracy: 0.945
+positive margin from baseline: 0.432
+confusion matrix:
+             non spam     spam 
+    non spam    145.0     11.0 
+        spam      5.0    132.0 
+Recall (sensitivity): 0.9295
+Precision: 0.9635
+F1 score: 0.9462
+WAcc (Weighted accuracy) (lambda = 1): 0.9454
+TCR (Total Cost Ratio) (lambda = 1): 8.9375
+WAcc (Weighted accuracy) (lambda = 99): 0.9663
+TCR (Total Cost Ratio) (lambda = 99): 0.2826
+WAcc (Weighted accuracy) (lambda = 999): 0.9666
+TCR (Total Cost Ratio) (lambda = 999): 0.0286
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95       156
+           1       0.92      0.96      0.94       137
+
+    accuracy                           0.95       293
+   macro avg       0.94      0.95      0.95       293
+weighted avg       0.95      0.95      0.95       293
+
+
+Starting training for iteration 4
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 2417.46284866333 seconds.
+-
+Finished training.
+All the training took 2734 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 4/5 took 155.37882280349731 seconds.
+
+Evaluation:
+---------------
+Iteration 4 , Model AdaBoost
+baseline_accuracy: 0.513
+model 5's accuracy: 0.962
+positive margin from baseline: 0.449
+confusion matrix:
+             non spam     spam 
+    non spam    145.0      5.0 
+        spam      6.0    137.0 
+Recall (sensitivity): 0.9667
+Precision: 0.9580
+F1 score: 0.9623
+WAcc (Weighted accuracy) (lambda = 1): 0.9625
+TCR (Total Cost Ratio) (lambda = 1): 12.9091
+WAcc (Weighted accuracy) (lambda = 99): 0.9603
+TCR (Total Cost Ratio) (lambda = 99): 0.2371
+WAcc (Weighted accuracy) (lambda = 999): 0.9603
+TCR (Total Cost Ratio) (lambda = 999): 0.0237
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       150
+           1       0.96      0.96      0.96       143
+
+    accuracy                           0.96       293
+   macro avg       0.96      0.96      0.96       293
+weighted avg       0.96      0.96      0.96       293
+
+
+Starting training for iteration 5
+Vectorizing ....
+Fitting model AdaBoost (1/1)....
+fitting took 2419.1557302474976 seconds.
+-
+Finished training.
+All the training took 2753 seconds !
+using model 5's vectorization function to vectorize test data ...
+Testing model AdaBoost (1/1)....
+
+Testing for iteration 5/5 took 142.23484802246094 seconds.
+
+Evaluation:
+---------------
+Iteration 5 , Model AdaBoost
+baseline_accuracy: 0.513
+model 5's accuracy: 0.952
+positive margin from baseline: 0.439
+confusion matrix:
+             non spam     spam 
+    non spam    138.0     10.0 
+        spam      4.0    141.0 
+Recall (sensitivity): 0.9324
+Precision: 0.9724
+F1 score: 0.9520
+WAcc (Weighted accuracy) (lambda = 1): 0.9522
+TCR (Total Cost Ratio) (lambda = 1): 10.7857
+WAcc (Weighted accuracy) (lambda = 99): 0.9714
+TCR (Total Cost Ratio) (lambda = 99): 0.3719
+WAcc (Weighted accuracy) (lambda = 999): 0.9718
+TCR (Total Cost Ratio) (lambda = 999): 0.0377
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95       148
+           1       0.93      0.97      0.95       145
+
+    accuracy                           0.95       293
+   macro avg       0.95      0.95      0.95       293
+weighted avg       0.95      0.95      0.95       293
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  Start wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Message: (Wrong class: 0 (non spam))
+[סקירה ו סיכום חודשי] כולם לחוצים ו מ פוחדים מאוד האם תהום לפני אנחנו ? סימני פחד הולכים ו מתגלים MAILSUBJECTENDVAR בוקר טוב ל אתה , ה סקירה ה בוקר ( LINK372ENDVAR ) היאחשובה ו ארוכה ב מקצת מ ה רגיל ו זאתמפני ש בחרתי לתת מענה מדוייקלשאלה ש הגיע אלי אתמולהאם האם תהום פעורה לפני אנחנו ? כיצד ננהג לאור ה דברים ? כל ה תשובה ב סקירה ו ב ה סיכום ה חודשי של אני [קישור ( LINK372ENDVAR )]ובכל מקרה עת מאוד מאוד מיוחדת , הזדמנות אחרונהלהצטרף ל ה הכשרה ה נוכחית ו להנות מ ה אפשרות ל ה היותהראשון ש מודע ו מצטרף ל הזדמנות הבאה . זה ה עת לשלוח מייל חוזר ו להצטרף ! ב ברכת חודש מבורך ו מוצלח ב ה שווקים - זהרUnsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני מוריה , תל-אביב 5120052
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור הזמנה ל אירוע חגיגות ה פרלמנט ! - מספר הזמנה 299098 MAILSUBJECTENDVAR היי תדהר , הזמנתך התקבלה ב הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה אירוע : חגיגות ה פרלמנט ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR התחלהיום שישי , 13 . 7 . 2018 , 23 : 00 ENTERNEWLINEENDVAR סיום ENTERNEWLINEENDVAR יום שבת , 14 . 7 . 2018 , 4 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חלום ב ה חווה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 - ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי הזמנה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מס ה הזמנה : 299098 ENTERNEWLINEENDVAR פרטי ה מזמין : תדהר טויטוסה"כ שולם : ₪ 65אמצעי ENTERNEWLINEENDVAR תשלום : כרטיס אשראי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סוג כרטיס ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ מות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מחיר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR רגיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סה"כ שולם : ENTERNEWLINEENDVAR ₪ 65 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה מוכר : ה פרלמנט - ENTERNEWLINEENDVAR צפייה ב ה פרופיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל מידע נוסף ו בקשות ביטול ב אירוע זה - ENTERNEWLINEENDVAR צור קשר עם ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה צפייה ב מדיניות ה ביטולים של ה מוכר - ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה חץ כאן ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נשמח לעמוד ל רשותך ב כל שאלה ,
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+[סקירה ו סיכום חודשי] כולם לחוצים ו מ פוחדים מאוד האם תהום לפני אנחנו ? סימני פחד הולכים ו מתגלים MAILSUBJECTENDVAR בוקר טוב ל אתה , ה סקירה ה בוקר ( LINK372ENDVAR ) היאחשובה ו ארוכה ב מקצת מ ה רגיל ו זאתמפני ש בחרתי לתת מענה מדוייקלשאלה ש הגיע אלי אתמולהאם האם תהום פעורה לפני אנחנו ? כיצד ננהג לאור ה דברים ? כל ה תשובה ב סקירה ו ב ה סיכום ה חודשי של אני [קישור ( LINK372ENDVAR )]ובכל מקרה עת מאוד מאוד מיוחדת , הזדמנות אחרונהלהצטרף ל ה הכשרה ה נוכחית ו להנות מ ה אפשרות ל ה היותהראשון ש מודע ו מצטרף ל הזדמנות הבאה . זה ה עת לשלוח מייל חוזר ו להצטרף ! ב ברכת חודש מבורך ו מוצלח ב ה שווקים - זהרUnsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני אבישי , תל-אביב 5120052
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור רכישת כרטיסים מ אתר זאפה MAILSUBJECTENDVAR Report שלום ליה אהובה , אנו מודים ל אתה על הזמנתך . LINK22ENDVAR הזמנה מספר : 2589360 מחירתעריףכיסאשורהאיזוראולםאירוע 315 . 00ש"חכרטיס רגיל108106 תחתוןאמפי קיסריהשלמהארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 315 . 00 ש "חכרטיס רגיל109106תחתוןאמפי קיסריהשלמה ארצי ב קיסריה 25 . 05 . 2019 ב שעה 21 : 00 ה סכום ל ה חיוב הוא : 630 ש "חאופןקבלת ה כרטיסים ל מופע : כרטיס ב הדפסה ביתית -כרטיס ב הדפסה ביתית : יש להדפיס את כל קבציה-PDF אשר מצורפים ב תחתית מייל זה . - איסוף ב ה קופה : ב ערב ה מופע , ב הצגת כרטיסאשראי , תעודה מזהה של בעל ה כרטיס ו אישור זה . אישור זה אינו היווה את היא כרטיס כניסה ל ה מופע ל תשומת ליבך- •השעה ה מצוינת ב אישור ה ינהשעת תחילת ה מופע . יש להתעדכן ב שעות פתיחת ה דלתות ו תחילתהמופע ב ה אתר LINK20ENDVAR •הכניסה עם נשק אסורה בהחלט ! ! ! לא ניתןלהפקיד או לאחסן נשק ב ה כניסה ל ארוע •מחיר ה כרטיס כולל עמלת מכירה •ביטול או שינוי ה עסקה אפשרי עד 7 ימיעסקים לפני ה מופע . •ברכישת כרטיסי הנחה ל מיניהם יש להציגתעודה מתאימה . ב מידה ו לא תוצג תעודה זו , יחוייב ה לקוח ב ה הפרש . •הכנסת נשק , אלכוהול , בקבוקי זכוכיתופחיות , חפצים קשיחים , קסדות , סוללותלאפניים חשמליים , כסאות , מצלמות ו ידאוומכשירי הקלטה אסורים בהחלט ו לא ניתן יהיהלאפסנם ב ה כניסה ל ה ארוע . •במופעים תחת כיפת ה שמיים- ה מופע יתקייםבכל מ זג אויר , ה הפקה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+RE : ה הזמנה של אתה מוכנה MAILSUBJECTENDVAR פברואר 2019 תן ל אני שנייה ל ה עצור אותך פה ! זה לא סיפור של איך לקנות דירת-גן ב ה יומיים . או איך לעשות 5 אלף דולר מ ה בית ב -5 דקות עבודה ב יום . . . אם ה ציפייה של אתה היא כ ה זאת , אז ניפרד כאן כ ה ידידים ו אאחל ל אתה המון ב הצלחה עם מוכרי ה חלומות . אם לא ? אז נעים מאוד ! קוראים ל אני שיר , אמא של מאיה ו אישתו של נמרוד . (טימור הוא ה כלב ב ה תמונה) . הזמנת שפע ? אתה סקרן ו רוצה כבר להציץ ? לחץ כא ן ו תגלה מה הזמנת ! אני כמו כולם ו אין ב אני משהו מיוחד למעט ש . . . אני מובטלת ! ! כן כן , מובטלת ! ! אבל לא מובטלת ב ה מובן ה רע של ה מילה . אחרי 4 ו חצי שנים של חיפושים אחרי נכס אמיתי ו בלי השקעה מ וגזמתלתשואה מינימלית - סוף סוף מצאתי ! מצאתי ו הצלחתי ! לחץ כאן ו תגלה ! סוף סוף ה צלחתי לפטר את ה בוס של אני ! אז איך ? ו למה דווקא אני ? ה תשובה פשוטה ! ב לחיצה כאן כמו מתווך נדל''ן , כמו חברת השקעות ב שוק ה הון , ו כמו ב כל דבר : חקרתי , גיליתי ו מצאתי ! מצאתי את ה אנשים ש ייבנו ל אני נכס מ ניב ! ו ב השקעה מזערית (יחסית לנדל''ן או פתיחת תיק אצל ברוקר) ו הצלחנו ! פשוט
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+יאללה מתחילים : ) MAILSUBJECTENDVAR זה ה קישור של אתה פנימה : ENTERNEWLINEENDVAR LINK59ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ה צצה ל ה דרך ש בזכות היא אנשים הופכים ל עשירי ה עולם ה חדש ! MAILSUBJECTENDVAR אפריל 2019 ש מי לורן , אני חיילת ב ודדהמשוחררת שנתייםוגרה ב ה קומה 32 בפנטהאוז תל אביבי מפנק EMOJI‼ENDVAR זה ה סיפור ה אישי של לורן , תלמידה ש לנו מ ה מחזור ה ראשון ! איך היא עשתה את זה ? לחצו כאן ! ב כנות ? אסביר ב-20 שניות : פעם עבדתי 8 שעות ב יום ! ! בשביל 248 שקל . 31 ל שעה . ? ! אז איך הגעתי ל מגדלי Yoo ? ! ב ה התחלה קיבלתי מ ה מדינה סיוע ב שכר דירהלדירת חדר ב דרום ת"אואפילו הציעו ל אני מלגה 50% ל תואר לאחר ה צבא . אבל מה זה עוזר ? -לא באמת רציתי ללמוד אף פעם . . . עד לפני אני שנה עוד הייתי נואשת ו עצבנית ! אבל נפלה ב חלקי ה הזדמנות ללמוד (וליישם ! )לחצו כאן ל קבלת שיעור מלא ב ה מתנה ש יראה ל אתה איך התחלתי ! איך לעבוד חצי מ ה זמן - ו להרוויח פי 10 מ ה כסף EMOJI‼ENDVAR ️ראיתי מודעה תוך כדי משמרת ב עבודה , לחצתי ו פשוט השארתי פרטים(כי מה יש ל אני כבר להפסיד . . . )כשהגעתי הביתה גיליתי ש קיבלתי 4 סרטונים חינםאז התחלתי להציץלאט לאט ה סרטונים ש אבו את אני ! ! ! חרשתי כל ה לילה - 6 שעות על ה מחשב . . . בוא תראה גם אתה את ה סרטונים ב ה בוקר קמתי פתחתי מ חשב . . . ו הייתי ב -ה-ל-ם ! ! ! נכנסו ל אני ל חשבון ה תמים ו ה ריק
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+דניאל דודזון : ה מירוץ ל ה מיליון ש ל אתה מתחיל עכשיו Confirmation MAILSUBJECTENDVAR Dear Guy , Thank you for registering for "דניאל דודזון : ה מירוץ ל ה מיליון ש ל אתה מתחיל עכשיו" . : הדרכה ב שידור חי של דניאל דודזון ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ! ה מירוץ ל ה מיליון ה ראשון מתחיל עכשיו ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ! יוצאים ל דרך ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR Please send your questions , comments and feedback LINK89ENDVAR How To Join The Webinar*********************************************************** Thu , Nov 29 , 2018 9 : 00 PM - 11 : 59 PM IST 1 . Click the link to join the webinar at the specified time and date : LINK65ENDVAR https : //link . gotowebinar . com/email-welcome ? role=attendee&source=registrationConfirmationEmail&language=english&experienceType=CLASSICNote : This link should not be shared with others; it is unique to you . Before joining , be sure to check system requirements to avoid any connection issues . 2 . Choose one of the following audio options : TO USE YOUR COMPUTER'S AUDIO : <br>When the webinar begins , you will be connected to audio using your computer's microphone and speakers (VoIP) . A headset is recommended . ***********************************************************To Cancel this RegistrationIf you can't attend this webinar , you may cancel your registration at any time . LINK138ENDVAR You are receiving this email because you registered for this webinar . Your email address and personal information will be used by the Webinar organizer to communicate with you about this event and their other services . To review the organizer's privacy policy or stop receiving their communications , please contact the organizer directly . Cancel registration ( LINK80ENDVAR Stop GoToWebinar emails EMAILENDVAR EMAILENDVAR &locale=en_US)Report spam EMAILENDVAR EMAILENDVAR &locale=en_US)This email is sent on behalf of the organizer by GoToWebinar . LogMeIn , Inc . | 7414 Hollister Avenue | Goleta , CA 93117Privacy Policy ( LINK62ENDVAR Policy ( LINK80ENDVAR EMOJI©ENDVAR 2018 LogMeIn , Inc . All rights reserved .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אנחנו בפנים ! אתה בא ? MAILSUBJECTENDVAR ENTERNEWLINEENDVAR יאללה , התחלנו >> ENTERNEWLINEENDVAR LINK61ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ירין ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אישור הזמנה ל אירוע חגיגות ה פרלמנט - פתיחת עונת ה רחצה ! - מספר הזמנה 269944 MAILSUBJECTENDVAR היי יצחק , הזמנתך התקבלה ב הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה אירוע : חגיגות ה פרלמנט - פתיחת עונת ENTERNEWLINEENDVAR ה רחצה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR התחלהיום שישי , 22 . 6 . 2018 , 23 : 00 ENTERNEWLINEENDVAR סיום ENTERNEWLINEENDVAR יום שבת , 23 . 6 . 2018 , 4 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חלום ב ה חווה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 65 - ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי הזמנה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מס ה הזמנה : 269944 ENTERNEWLINEENDVAR פרטי ה מזמין : יצחק טויטוסה"כ שולם : ₪ 55אמצעי ENTERNEWLINEENDVAR תשלום : כרטיס אשראי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סוג כרטיס ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ מות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מחיר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מוקדמות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סה"כ שולם : ENTERNEWLINEENDVAR ₪ 55 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פרטי ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שם ה מוכר : ה פרלמנט - ENTERNEWLINEENDVAR צפייה ב ה פרופיל ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל מידע נוסף ו בקשות ביטול ב אירוע זה - ENTERNEWLINEENDVAR צור קשר עם ה מוכר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה צפייה ב מדיניות ה ביטולים של ה מוכר - ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה חץ כאן ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נשמח לעמוד ל רשותך ב כל שאלה ,
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חג שמח מ רשת בורגרים ! MAILSUBJECTENDVAR ============================================================Copyright EMOJI©ENDVAR 2017 Burgerim , All rights reserved . **Powered by( LINK27ENDVAR email was sent to EMAILENDVAR (mailto : EMAILENDVAR )why did I get this ? ( LINK114ENDVAR unsubscribe from this list ( LINK120ENDVAR update subscription preferences ( LINK112ENDVAR . ה מחשב 3 , נתניה . , . USA
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ה חלום להשתחרר מ עבודת ה 9 עד 5 . . . (הזמדנות אחרונה) MAILSUBJECTENDVAR כך תקבל/י עסק מוכן ו פעיל ב שיווק שותפים תוך פחות מ 30 יום , ה פועל ב צורה אוטומטית - ו ב השקעה מינימלית של זמן , כסף ו התעסקות מ צדך - ל ה חצ/י כאן ENTERNEWLINEENDVAR זוהי ה הזדמנות ה אחרונה ש ניתן להצטרף ו לקבל עסק פעיל ש כ ה זה . . . . לכן חשוב ש תלחצ/י כאן כדי לשמוע את כל ה פרטים ש יש ל אנחנו עבור אתה . ENTERNEWLINEENDVAR עכשיו , יש ל אני שאלה אל אתה : ENTERNEWLINEENDVAR גם ל אתה מכרו את ה חלום ש ״קורס״ כלשהו יהפוך את אתה ל עשיר ו ישחרר את אתה מ ״עבדות״ של 9 עד 5 אל ״חופש כ לכלי״ ו עבודה מ ה בית״ ? ENTERNEWLINEENDVAR כנראה כבר הבנת ש קורס כלשהו הוא רק חלק אחד קטן מתוך ה מסע ש ל אתה להפסיק לעבוד אצל מישהו אחר , ו להתחיל לעבוד מ ה בית ENTERNEWLINEENDVAR מתי ו כמה ש את היא תחליט ENTERNEWLINEENDVAR מבלי להתבאס כל מוצ׳׳ש מחדש . ENTERNEWLINEENDVAR לחצ/י כאן ל כל ה פרטים עכשיו ENTERNEWLINEENDVAR אחרי ש מעל 20 , 000 מ שווקים נרשמו ל מערכת ה שותפים ש לנו ב ה תקווה להתחיל ו להרוויח כסף ENTERNEWLINEENDVAR גילינו ש ה בעיה ה מרכזית אצל רובם לא היתה ה עובדה ש הם לא למדו מספיק קורסים , ENTERNEWLINEENDVAR או לא צפו ב מספיק סרטונים ב ה יוטיוב . ENTERNEWLINEENDVAR ה בעיה ה מרכזית היא , ש ל רוב המשווקים אין את ה זמן , אנרגיה ו ה כסף כדי לבנות עסק שלם ש בנוי ב ה צורה ה נכונה , ו פועל בתור מערכת מאוחדת ש מייצרת עבור הם כסף כל חודש . ENTERNEWLINEENDVAR בלי מלאי של ציוד , בלי עובדים , ENTERNEWLINEENDVAR ו בלי בוס על ה ראש . ENTERNEWLINEENDVAR אם את , או אתה מתאימים ל אחד מ ה קריטריונים ה באים , תוכלו להשאיר פרטים ב אחת ה תיבות כאן למטה ו לקבל את כל ה פרטים על קבלת עסק מוכן ו פעיל ב שיווק שותפים . ENTERNEWLINEENDVAR אתה כבר שנים עובד ב ה עבודה ש לא הכי מספקת את אתה ו מתגמלת את אתה ב סכום כסף קבוע בעל תקרת זכוכית - לחצ/י כאן ENTERNEWLINEENDVAR אין ל אתה מספיק אנרגיה להתחיל ו לבנות עסק אינטרנטי לצד ה עבודה של אתה ENTERNEWLINEENDVAR לא מעניין את אתה ל בנות בית , אלא לקנות בית מוכן ש כבר מייצר הכנסה ENTERNEWLINEENDVAR מעניין את אתה למנף את ה כסף ש ב רשותך ו להשקיע חלק מן אנחנו ב תזרים הכנסה פאסיבי ENTERNEWLINEENDVAR השתחררת מ ה צבא ו את/ה מחפש/ת מקור הכנסה נוסף ENTERNEWLINEENDVAR אם אחד מ ה קריטריונים ה אלו מתארים את ה סיטואציה ה נוכחית של אתה , ל חצ/י כאן עכשיו כדי להבין איך עסק ב שיווק שותפים יכול לעזור ל אתה . ENTERNEWLINEENDVAR (זוהי ה הזדמנות ה אחרונה) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : אודליה הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ליווי MAILSUBJECTENDVAR אנחנו יוצאים ל ה דרך עם ה מחזור ה חדש ש ל קופי חודר שריוןשכולל מפגש חוף , אתגר ביזנס ש ב ועישאנחנו מפצחים ביחד ו . . . ליווי אישי ל מכירה ל המוניםבאונליין . תרצה להצטרף אל אנחנו ? ו ולר Unsubscribe [/ LINK475ENDVAR | My subscriptions[/ LINK477ENDVAR Cobra Marketing<br /> . <br /> . <br />Tel-Aviv 938659<br />Israel - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+RE : ה הזמנה של אתה מוכנה MAILSUBJECTENDVAR מרץ 2019 תן ל אני שנייה ל ה עצור אותך פה ! זה לא סיפור של איך לקנות דירת-גן ב ה יומיים . או איך לעשות 5 אלף דולר מ ה בית ב -5 דקות עבודה ב יום . . . אם ה ציפייה של אתה היא כ ה זאת , אז ניפרד כאן כ ה ידידים ו אאחל ל אתה המון ב הצלחה עם מוכרי ה חלומות . הזמנת שפע ל חייךאז נעים מאוד ! קוראים ל אני שיר ו ה הזמנה מוכנה ! אמא של מאיה ו אישתו של נמרוד . (טימור הוא ה כלב ב ה תמונה) . אתה סקרן ו רוצה כבר להציץ ? ל ה חץ כאן ! אני כמו כולם ו אין ב אני משהו מיוחד למעט ש . . . אני מובטלת ! ! כן כן , מובטלת ! ! אבל לא מובטלת ב ה מובן ה רע של ה מילה . אחרי 4 ו חצי שנים של חיפושים אחרי נכס אמיתי ו בלי השקעה מ וגזמתלתשואה מינימלית - סוף סוף מ צאתי ! מצאתי ו הצלחתי ! לחץ כאן ו תגלה ! סוף סוף הצלחתי לפטר את ה בוס של אני ! אז איך ? ו למה דווקא אני ? ה תשובה פשוטה ! ב ה לחיצה כאן כמו מתווך נדל''ן , כמו חברת השקעות ב שוק ה הון , ו כמו ב כל דבר : חקרתי , גיליתי ו מצאתי ! מצאתי את ה אנשים ש ייבנו ל אני נכס מ ניב ! ו ב השקעה מזערית (יחסית לנדל''ן או פתיחת תיק אצל
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+מגיע ל אתה MAILSUBJECTENDVAR ENTERNEWLINEENDVAR אל תתן ל אף אחד להגיד ל אתה אחרת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מ עצם היותך אתה (או את כמובן) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מגיע ל אתה כבוד ENTERNEWLINEENDVAR מגיעה ל אתה אהבה ENTERNEWLINEENDVAR מגיע ל אתה ש יקשיבו ל אתה ENTERNEWLINEENDVAR מגיע ל אתה ש ישתפו את אתה פעולה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מגיע ל אתה ו משום מה זה לא מגיע אל אתה . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אחת ה תכונות ה חשובות ביותר ב ה חיים היא : ENTERNEWLINEENDVAR אסרטיביות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו למרות ה דעה ה רווחת , ENTERNEWLINEENDVAR הוכחתי אלפי פעמים (עם ל ה מעלה מ-2 , 000 אנשים) ENTERNEWLINEENDVAR ש זו תכונה נרכשת ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו אני מראה ל אתה את ה דרך ה פשוטה ביותר ל ה היות אסרטיבי ENTERNEWLINEENDVAR כאן : LINK32ENDVAR ENTERNEWLINEENDVAR (חשוב לקרוא מ ה התחלה ו עד ה סוף) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כי אחד ה דברים ש הכי כואבים ל אני , ENTERNEWLINEENDVAR זה לראות מישהו עם פוטנציאל מטורף ש הולך ל ה פח ENTERNEWLINEENDVAR רק בגלל "מחלות" כמו ביישנות ו פסיביות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אם יש ב אתה צורך לפרוץ קדימה ENTERNEWLINEENDVAR ו כבר הבנת ש מגיע ל אתה יותר , ENTERNEWLINEENDVAR ה מכתב ה זה ב ה דיוק ב שבילך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+חוק צמצום ה מזומן MAILSUBJECTENDVAR 20/12/18 לקוחות יקרים , ה חוק ל צמצום ה שימוש ב ה מזומן יכנס לתוקפו ב 1/1/19 . אלו מן אתם ש נרשמו ל ה טיולים עתידיים ו מעוניינים לשלם ב ה מזומן טרם כניסת ה חוק ה חדש ל ה תוקף , מוזמנים להגיע ל משרדנו ב כתובת יוסף לישנסקי 4 , ראשון ל ה ציון על מנת להסדיר תשלומים עד ה 31/12/18 . ל ה צפיה ב פרטי ה חוק לחצו כ אן>> ב ה ברכה , צוות איילה גיאוגרפית אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת LINK21ENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש לרעה נשלח באמצעות smoove פלטפורמת שיווק
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+אני רוצה ש תראה את זה . . MAILSUBJECTENDVAR ENTERNEWLINEENDVAR אני ב ה שלהי פרוייקט מרתק , ENTERNEWLINEENDVAR ו בקרוב אשלח ל אתה את כל ה פרטים . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בינתיים , אני רק מניח את זה כאן כדי ש תצפה ב ה זה ב ה הקדם : ENTERNEWLINEENDVAR LINK30ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR השקעתי ב ה סרטון ה זה המון ואני בטוח ש תאהב את הוא =) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+Fw : מכתב אישי מ ה עתיד MAILSUBJECTENDVAR ENTERNEWLINEENDVAR ל ה כבוד : עצמי מה-26/10/2017 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR יש מעט זמן ב ה יום ENTERNEWLINEENDVAR ו יש מעט זמן ב ה חיים ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני ו אתה , אנחנו צריכים לבזבז את ה זמן ה זה ב לעשות ENTERNEWLINEENDVAR כל ש ב יכולתינו על-מנת לחוות את ה חיים ש לנו ב מלואם ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מי אתה ? ו מי אני ? ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני , הוא אתה בעוד כמה שנים . . . ENTERNEWLINEENDVAR ו אתה ? ! אתה , אתה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חולם על ה חיים ש אני חי עכשיו . ENTERNEWLINEENDVAR חיים מדהימים ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR סוף סוף הבנת את ה סוד ה יחיד ENTERNEWLINEENDVAR ל השגת כל דבר ש אתה רוצה ב חייך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו ה חלק הכי טוב ב כל ה סיפור , ENTERNEWLINEENDVAR הוא ש ה יום הוא ה יום ב הוא גילית את ה סוד ה זה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR עשית את זה כש הסתכלת כאן לפני ה לילה ב ה חצות >> ENTERNEWLINEENDVAR LINK31ENDVAR ENTERNEWLINEENDVAR ו החלטת לפעול ו להצטרף ל ה תכנית ה אימונים ה זאת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כן . . . אני זוכר את זה טוב (כאילו זה היה אתמול) . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אחרי ש עברת את ה שלב ה זה , ENTERNEWLINEENDVAR זה כבר היה כמו לפתוח ב רז של שפע . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה כל פשוט התחיל "לזרום" . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה בקשה עשה זאת היום ENTERNEWLINEENDVAR ה כל תלוי ב ה זה ! ENTERNEWLINEENDVAR כולל ה אושר של שנינו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נשיקות : * ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אתה מ ה עתיד . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR ה עתיד מדהים ! ENTERNEWLINEENDVAR אני מודה מ עומקי נשמתי ל ה ירין ב ה ארי ה עתידי , ENTERNEWLINEENDVAR על ש ה סכים להעביר אל אתה את ה הודעה ה זו דרך הוא ;) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+ככה עשיתי את ה 230 דולר ה ראשונים של אני MAILSUBJECTENDVAR אפריל 2019 "זה מרגש את אני לדעת ש יש ל אני חשבון חופשות ו ב זכותו ו בזכות ה עבודה ה חדשה של אני אני יכול לנהל חיים ש עד לפני חצי שנה רק חלמתי עליהם" הודעה ש קיבלנו מ לקוח ש לנו לפני מספר ימים ב ה מייל ה זה אני לא מתכוון לספר ל אתה סיפורים אלה לתת ל אתה הזדמנות ש יכולה לשנות חייך אם אתה ראה את היא את ה מייל ה זה כנראה ש תחום ה מסחר ב ה אינטרנט מעניין את אתה אם אתה ראה את היא את ה מייל ה זה סביר להניח ש אתה מודע להקיף ה גדילה של ה שוק ה זה ו ל גודל ה פוטנציאל ו אם ב עצם אנחנו מודעים ל כל ה נתונים ה אלה מה ה סיבה ש עדיין לא פעלנו ? פחד ! אולי זה לא בשביל אני ? אולי לא אצליח ? אבל אם ל ה רגע נחליט כן לחקור את ה עולם ה זה יותר ל עומק נגלה כמה ש זה קל ו פשוט ב סופו של דבר ה צלחה נמדדת על רמת ה ביצוע ש לנו הרבה אנשים רוצים לעשות הרבה דברים מעט אנשים מייצרים ב יצוע על מה ש הם רוצים לעשות אני מזמין את אתה לראות מספר הדרכות ב נושא סדרה של 4 סרטונים + שיעור מ ה תוכנית ה מלאה של אנחנו ה מטרה זה ל ה גרום ל אתה להבין כמה ש ה דברים פשוטים ו בזכות ה הבנה ה זאת נוכל סוף סוף לצאת ל דרך ולעשות צעד
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+שמעת על Solo Ads ? (יותר טוב מ פייסבוק) MAILSUBJECTENDVAR לא קשה לראות ש לאחרונה נהיה די סיוט לעבוד עם פייסבוק ו לשווק דרכם . ENTERNEWLINEENDVAR חשבונות נחסמים על ימין ו על שמאל , ENTERNEWLINEENDVAR עלויות פרסום עולות ל ה מחירים ה גבוהים ביותר ב ה היסטוריה של פייסבוק , ENTERNEWLINEENDVAR ו קשה מאוד ל יצור מודעות ״שיווקיות״ ה משלבות תמונות של לפני ו אחרי או מילים ש קשורות ל הכנסה/כסף ו כ ו׳ . ENTERNEWLINEENDVAR ב ה שבועות ה אחרונים התחלתי לרכז את מירב מאמצי ה שיווק של אני ב מה ש נקרא "Solo Ads" ENTERNEWLINEENDVAR ה מטרה היא למנף את ה רשימות תפוצה/רשימות צ׳טבוט של אנשים אחרים , ו ש הם ישלחו מייל עם ה דף נחיתה/משפך שיווקי שלי , ו כך 2 דברים מדהימים קורים : ENTERNEWLINEENDVAR 1) אני יכול לכתוב מ ייל/מודעה לצ׳טבוט עם איזה מילים ש אני רוצה , ו כמה ש יווקית שרק ארצה , ו אני לא מוגבל ל מילים מסוימות ש ״אסור ל אני ל ה פרסם״ כ תוצאה מ מדיניות פרסום כ ה זו או אחרת . ENTERNEWLINEENDVAR 2) אני משתמש ב סמכות של את הוא אדם כדי ש ״ימליץ״ על דף ה הצעה ש אני מנסה לקדם . ENTERNEWLINEENDVAR בחו׳׳ל ה דבר עובד כבר שנים , ENTERNEWLINEENDVAR ו ל אני אישית הוא עובד ממש ממש טוב , ו לכן רציתי להמליץ גם ל אתה לנסות זאת . ENTERNEWLINEENDVAR אם בפייסבוק ה תקציב ה מינימלי הוא ב סביבות 20 , 25 שקל ל יום כככה ש מגיעים ל ה אזור ה 750 ש קל ב ה חודש , ENTERNEWLINEENDVAR ב שליחת Solo Ad , תוכלו להגדיר תקציב מינימום גם ל ה אזור ה 400 ש קל , ו לחשוף את דף ה נחיתה ש ל ה כם/האתר ש ל ה כם/המשפך ה שיווקי ש ל אתם ל אותו כמות אנשים ו אפילו ל יותר . ENTERNEWLINEENDVAR אני כמובן תמיד ממליץ לנסות ו לעשות טסטים , ו להחליט ב ה עצמך מה עובד ל אתה יותר טוב . ENTERNEWLINEENDVAR אם זה משהו ש מעניין את אתה , ENTERNEWLINEENDVAR הכנסתי סרטון עם ה סבר קצת יותר מורחב ו דוגמאות חיות על זה . ENTERNEWLINEENDVAR לחצ/י כאן לצפות ב ה סרטון ENTERNEWLINEENDVAR ב ה מידה ו תרצה להשתמש ב ה שירות של Solo Ads ל ה עסק/משפך שיווקי ש ל אתה , תוכל לעשות זאת כאן - לחצ/י כאן ENTERNEWLINEENDVAR אשמח ל ה עדכון מה דעתך , ENTERNEWLINEENDVAR חגלה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : חגלה הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 0 (non spam))
+הודעה חשובה : אפליקציית פנגו משתדרגת MAILSUBJECTENDVAR ENTERNEWLINEENDVAR אם אינך רואה מייל זה אנא לחץ/י כאן היי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR רצינו ליידע את אתה ש "החניון ה מהיר" ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ש ל אנחנו משתדרג . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כדי להמשיך ליהנות מ ה שירות , על אתה לבצע עדכון גרסה ל ה אפליקציה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR (ולא לשכוח להפעיל שירותי מיקום) . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה פרטים מטה . חג אביב שמח , ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR פנגו *לתנאי ה שירות חניון מהיר לחץ כאן ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR *הודעה זו נשלחה מ תיבת דוא"ל ל משלוח הודעות יוצאות בלבד ש אין ב אפשרותה לקלוט הודעות נכנסות . נא לא להשיב ל הודעה זו .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה אישה ה רזה ה זאת ! מה היא יודעת ש אני לא ? MAILSUBJECTENDVAR צהריים טובים , כאן שוב יגאל רווה מצוות ה אחים גיל , למה ל אחרים מותר ו ל אני אסור ? זו שאלה ש רוב רובם של עושי ה דיאטותשואלים את עצמם בין הם לבין עצמם . ה סיבה היא שדיאטה תמיד נתפסת כ סוג של החמצה , הקרבה . ו זו גם ה סיבה ש ה דרך ה יחידה לעבור את תקופת ה דיאטה ב שלוםזה לחשוב עליה כ "עונש" זמני על התנהגות לא טובה של אנחנו . אז איך ניתן לשנות את תחושת ה החמצה ה זו ? איך ניתן לפרק מאית של אנחנו את ה תחושהשאנחנו מקריבים את "טעם החיים" עבור בריאות ו הורדה ב ה משקל ? הרי תחושות ה אלו הן אלו ש מזיזות את נדנדת ה דיאטות ! ! אז ככה - ל מכורים ל מתוקים ו מ אפיםהעולם מחולק ל שניים -הטעם ה טוב של ה חייםוהטעם ה רע של ה חיים . ה טעם ה טוב הם ה מתוקים , ה מאפים ו האכילה ה ספונטנית מתי ש בא ל אני . ה טעם ה רע של ה חיים זה חיים של "מותר/אסור" , הימנעות מ חיי חברה ו עונש לחיות חיי שעמום עם ברוקולי ו גזר גמדי . אני רוצה לשתף את אתם ב תשובה שכתבתי ל לקוחה ב תכנית של אנחנו "ממאבק לשחרור" - ה כל ייפתר אם נצליח לראות ש זה לא עונש אלא פרס . איך נעשה את ה שינוי ה תודעתי ה זה ? - תדמיינו שאתם נמצאים ב ה כפר מכורים . ל
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מסר חדש מ -נועם אלישע MAILSUBJECTENDVAR פורסם תרגיל 3לידיעתכם-אלו תרגילים ש אתם מסוגלים לפתור כ מושעשינו ב כיתה(תוך מאמץ . . . )בהצלחה ! נועם---------------------------------------------------------------------זהו העתק הודעה אשר נשלחה אל אתה מ ה אתר "בית" . גש/ילקישור LINK64ENDVAR להגיב .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יוכבד מצאנו ל אתה את ה דרך איך למצוא עבודה מדהימה ! MAILSUBJECTENDVAR לחצו על ה כפתור בתוך ה מייל : LINK184ENDVAR : LINK184ENDVAR רוצה למצוא עבודה שווה ? ? היי מה ש לומך יוכבד ? למעלה מ -20 שנים ש ב- Coding Academy מכשירים מפתחים ב ה רמה ה מקצועית ה גבוהה ביותר . יכולת לימוד עצמי , תרגול מעשי , טכנולוגיה מתקדמת , ו מוכנות ל תעסוקה הם רק חלק מ ה שלבים איתם עוברים את אתה ה מרצים ה מעולים ב -Coding Academy . ה קורס מעניק ל אתה את כל מה ש צריך כדי לצאת ל שוק ה עבודה עם ה ידע ו ה כלים ה אמיתיים ל הצלחה ! *אין צורך ב ידע מקדים ב תחום רוצה טלפון/מייל עם הסבר ו פרטים נוספים ? ? ל חץ/י כאן ו יחזרו אלייך&nbsp;&gt;&gt; : LINK184ENDVAR רוצה טלפון/מייל עם הסבר ו פרטים נוספים ? ? ל חץ/י כאן ו יחזרו אל את >> אשמח ש ייצרו את אני קשר ל ה הסבר , תודה ! : LINK184ENDVAR אשמח ש ייצרו את אני קשר ל ה הסבר , תודה ! ה בונים 14 , רמת-גן | LINK17ENDVAR | 1-800-311-311 ה סר : LINK118ENDVAR ה סר | דווח כ ספאם : LINK124ENDVAR דווח כ ספאם נשלח באמצעות תוכנת ActiveTrail : LINK81ENDVAR <div style="text-align : center;padding-top : 7px;" dir="rtl"><span style="font-size : 12px; font-family : Arial;color : #606060;">נשלח באמצעות תוכנת&nbsp;<a rel="nofollow" href=" LINK81ENDVAR " target="_blank" style="font-size : 12px; font-family : Arial , Tahoma; color : #08c;text-decoration : none;">ActiveTrail</a></span></div>
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ה צצה ל ה דרך ש בזכות היא אנשים הופכים ל עשירי ה עולם ה חדש ! MAILSUBJECTENDVAR אפריל 2019 ש מי לורן , אני חיילת ב ודדהמשוחררת שנתייםוגרה ב ה קומה 32 בפנטהאוז תל אביבי מפנק EMOJI‼ENDVAR זה ה סיפור ה אישי של לורן , תלמידה ש לנו מ ה מחזור ה ראשון ! איך היא עשתה את זה ? לחצו כאן ! ב כנות ? אסביר ב-20 שניות : פעם עבדתי 8 שעות ב יום ! ! בשביל 248 שקל . 31 ל שעה . ? ! אז איך הגעתי ל מגדלי Yoo ? ! ב ה התחלה קיבלתי מ ה מדינה סיוע ב שכר דירהלדירת חדר ב דרום ת"אואפילו הציעו ל אני מלגה 50% ל תואר לאחר ה צבא . אבל מה זה עוזר ? -לא באמת רציתי ללמוד אף פעם . . . עד לפני אני שנה עוד הייתי נואשת ו עצבנית ! אבל נפלה ב חלקי ה הזדמנות ללמוד (וליישם ! )לחצו כאן ל קבלת שיעור מלא ב ה מתנה ש יראה ל אתה איך התחלתי ! איך לעבוד חצי מ ה זמן - ו להרוויח פי 10 מ ה כסף EMOJI‼ENDVAR ️ראיתי מודעה תוך כדי משמרת ב עבודה , לחצתי ו פשוט השארתי פרטים(כי מה יש ל אני כבר להפסיד . . . )כשהגעתי הביתה גיליתי ש קיבלתי 4 סרטונים חינםאז התחלתי להציץלאט לאט ה סרטונים ש אבו את אני ! ! ! חרשתי כל ה לילה - 6 שעות על ה מחשב . . . בוא תראה גם אתה את ה סרטונים ב ה בוקר קמתי פתחתי מ חשב . . . ו הייתי ב -ה-ל-ם ! ! ! נכנסו ל אני ל חשבון ה תמים ו ה ריק
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+בואו ננפץ מיתוסים ו מעשיות . . . MAILSUBJECTENDVAR View this email in your browser ( LINK92ENDVAR בואו ננפץ מיתוסים ו מעשיות . . . ------------------------------------------------------------שלום גיא , ב ימים האחרונים התחלתי לחשוב על ה מיתוסים (מעשיות) ש אני האמנתי ב ה הם כש עוד הייתי שקוע עמוק ב ה חיפוש אחר שקט נפשי ו חופש מ מאבק . כמובן , ש גם אני שומע כל יום מ אנשים ש איתם אנחנו מדברים ב שיחות ש ל אנחנו ( LINK23ENDVAR על איפה הם מרגישים תקועים ו מבולבלים . אנחנו מאמינים ב ה מיתוסים ה אלה כל כך ו הם הופכים את ה שקט ה נפשי ל מאוד לא זמין . מכירים את זה ? שקט נפשי ש הוא ב הבזקים , רוגע זמני בלבד , הקלה ב הפתעה , ו אז מ נסים לחזור אל ה תחושה ה זאת עם המון מאמץ ותקווה… זה כל כך מתסכל . הנה כמה מ ה מיתוסים : מיתוס 1# : ׳זה לא אפשרי להשיג שקט נפשי ב כל ה רגעים׳מיתוס 2# : ׳צריך להשיג מחשבות חיוביות או לא לא לחשוב ב כלל׳מיתוס 3# : ׳זה לא אפשרי ב חיי ה יומיום ה עמוסים׳מיתוס 4# : ׳זה מקרי , פשוט עניין של חסד , רק אחד מ מיליון יכול׳מיתוס 5# : ׳אני יכול/ה להשיג את זה ב כוחות עצמי׳אנחנו תומכים ב אנשים עסוקים ב רחבי ה עולם ל ה הנות מ שקט נפשי בלתי תלוי ו להפסיק עם ה מאמץ ו ה ניסיון לשחזר "חוויות מיוחדות" מ ה עבר או לחכות ו לקוות ש איכשהו זה יופיע מ תישהו ב ה עתיד . אנחנו מראים ל
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+10 עובדות ש לא ידעת על מסחר אלגוריתמי MAILSUBJECTENDVAR 10 עובדות ש לא ידעת על מסחר אלגוריתמי1 . 80% מנפח ה מסחר ב ה עולם מתבצע באמצעות רובוטים ו לכן ה מסחר ה ידני עובר מ ה עולם . 2 . 80% מ ה סוחרים ה ידניים לא שורדים את ה שנתיים ה ראשונות , 40% מהם כלל לא שורדים את ה חודש ה ראשון . 3 . רוב ה הפסדים ב מסחר ידני נובעים מ ישיבה מול ה מסך ו קבלת החלטות אקראיות ש נובעות מ עירוב ה רגש ב ה מסחר . 4 . ה תשואה ה שנתית ה ממוצעת של סוחר ידני ש שרד היא - 6 . 5% מתחת ל ה מדד ה מוביל ב שוק . 5 . מסחר יומי נחשב ל מקצוע עם שיעור ה כישלון ה גבוה ביותר ב ה שנה ה ראשונה . 6 . להיות סוחר אלגוריתמי לא מצריך ידע או ניסיון קודם ב ה מסחר ידני . 7 . מסחר אלגוריתמי מבוסס על מחקר סטטיסטי שכול אחד יכול ללמוד לעשות . 8 . מסחר אלגוריתמי לא מצריך ישיבה מול ה מסך ב שעות ה מסחר . 9 . ה השקעה ה יומית ה דרושה כדי להצליח לא צריכה לעלות על חצי שעה ב יום . 10 . שלושת ה יתרונות ה גדולים של ה רובוט על ה אדם : - יכולת עיבוד נתונים ו הסקת מסקנות ב אלפיות ה שנייה- יכולת הוצאה ל ה פועל של מספר עסקאות במקביל - הוצאה ל ה פועל של עסקאות ללא מעורבות רגשוזה ה מקום להתחיל ב ה ו- LINK30ENDVAR אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+״מזל ש לא זרקתי את ה ג׳ינסים ה ישנים . . . מי היה מאמין ש יעלו על אני ? ״ MAILSUBJECTENDVAR בוקר טוב , כש אנחנו רוצים להצליח ב משהו כל כך , אנחנו מוכנים להשקיע ב הוא הרבה מ ה זמן ו ה מחשבות ש לנו ככה אנחנו רואים הרבה מאוד אנשים ש משקיעים הרבה מאוד זמן ו מחשבה ב . . . - מה להכין ל צהריים - איפה אני אוכל את ה ארוחה ה באה של אני - כמה קופסאות להכין ל ה עבודה ה יום - מה מותר ל אני ל ה נשנש בין ה ארוחות - כמה ביסים מותר ל אני לאכול מ ה עוגה ה זאת , בלי להרוס את ה דיאטה - כמה אחוזי שומן זה ? - כמה קלוריות יש ב זה ? ו עוד ו עוד ו עוד . . . אבל ה אמת ה עצובה היא ש ב ה דיוק בגלל ה התעסקות ה זאת אנחנו כל פעם מחדש רואים תוצאות של ירידה ב ה משקל ו אז עולים ה כל בחזרה . . . תחשבו על ילד שלמד ל לכת או לנסוע ב אופניים , אם הוא היה צריך להשקיע כל ה זמן כל כך הרבה זמן ו מחשבה כדי להמשיך לעשות את זה , הוא היה מוותר מזמן כי כמות ה אנרגיה ש יש ל אנחנו כדי להשקיע ב משהו מסויים היא מוגבלת ו אם זה לא יהפוך ל ה הרגל , לעולם לא נצליח לשמור על ה תוצאות ו נעלה את כל ה משקל ש ירדמו בחזרה - תמיד ! ! זאת ה סיבה ש ה תכנית ש לנו ״ממאבק לשחרור״ כל כך שונה
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיכום ה חודש ש לך ב ה -Waze Carpool EMOJI😎ENDVAR MAILSUBJECTENDVAR ה סיכום ש לך ל חודש אהליאב מוכן ! כל ה מידע על כמה EMOJI💰ENDVAR חסכה ה קהילה ב אזורך ו כמה תרמנו ENTERNEWLINEENDVAR ביחד ל הפחתת ה פקקים ו ל איכות ה סביבה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR היי ה דר , סיכמנו עבור אתה את ה חודש ה אחרון ב ה -Waze Carpool ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חסכת ה חודש ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪0 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR טיפ ל ה חודש ה בא : ENTERNEWLINEENDVAR מומלץ להציע נסיעה ישירות ל ה נוסעים ENTERNEWLINEENDVAR ו להתחלק ב ה עלויות ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה ה זמן להציע נסיעה ENTERNEWLINEENDVAR ה קישור נפתח ב ה נייד בלבד ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אלו הישגי ה קהילה ב ה איזור ש ל אתה ה חודש ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ₪2 , 201 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כ ה סף ש חסכנו ENTERNEWLINEENDVAR ב ה נסיעות קארפול ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 126 מושבים ריקים ש מילאנו ENTERNEWLINEENDVAR 28 עצים ש הצלנו ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מקווים לראות את אתה ב ה דרכים החודש ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה ה זמן להציע נסיעה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה קישור נפתח ב ה נייד בלבד ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נסיעה טובה , ENTERNEWLINEENDVAR צוות Waze Carpool ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה מידע נוסף ENTERNEWLINEENDVAR על ה שירות ENTERNEWLINEENDVAR שאלות ? אנחנו ENTERNEWLINEENDVAR פה כדי לעזור ENTERNEWLINEENDVAR קהילת ה -Carpool מחכה ל אתה ENTERNEWLINEENDVAR גם ב ה -Facebook ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR EMOJI©ENDVAR 2017 Google Ireland Ltd , Gordon House , Barrow Street , Dublin 4 , Ireland . ENTERNEWLINEENDVAR אם אינך מעוניין להמשיך לקבל הודעות על סיכום פעילות , ה סר מ רשימת ה תפוצה : ENTERNEWLINEENDVAR LINK121ENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+[סדרת סרטונים חדשה] בוא לגלות איך לחיות בלי דיאטות , בלי משקל עודף ו בלי אכילה בלתי נשלטת ! MAILSUBJECTENDVAR ו-ו-א-ו-ו חשפנו סוף סוף את סדרת ה סרטונים ה חדשה ש ל אנחנו ! ! ! אנחנו שמחים ו מאוד מאוד מתרגשים להזמין את אתם לצפות ב היא . אחרי הרבה עבודה , זיעה , מאמץ ו ניסיון אנחנו חושפים את סדרת ה סרטוניםהיחידה ש תעזור ל אתם : לרדת ב משקל (בין אם זה רק 4-5 קילו או יותר ) , להפסיק להתעסק עם ה אוכל ו ה ארוחה ה באה , להיות משוחררים ב ראש , ו שוב לרדת ב משקל אבל סוף סוף גם לשמור על הוא ! קדימה , זאת ה הזדמנות של אתם ! לחצו על ה קישור עכשיו כדי לצפות ב היא : לחצו כאן ו צפו ב סרטון מס׳ 1 ב סדרה >>> נתראה בפנים , אביב , יגאל ו נח אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה ל מדן 2 , תל אביבנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+EMOJI😕ENDVAR ה קורס של ** לא יעזור ל אתה . . לא חבל על ה כסף ? MAILSUBJECTENDVAR ״חשבת לקנות קורס או לקבל ליווי אישי ב שיווק שותפים ? ״ ENTERNEWLINEENDVAR ב אותו מחיר , ו ב ה חסכון של אין סוף זמן , נבנה ל אתה עסק מוכן ו פעיל ה כולל דף נחיתה , מדריך PDF , סדרת מיילים אוטומטית , מודעות מטורגטות בפייסבוק , שיתוף עם ה קהלים ה רלוונטיים ו גם - גישה ל מסלול הכשרה מלא + ליווי ו תמיכה . ENTERNEWLINEENDVAR (זה ה קישור - LINK23ENDVAR ENTERNEWLINEENDVAR אז . . . . לא חבל ש תזרוק סתם כסף , זמן ו אנרגיה ל פח ? ENTERNEWLINEENDVAR תחסוך מ עצמך את כל ה הקמה של ה תשתית , ו תתחיל לייצר תזרים רווחי כבר מ ה יום ה ראשון . (שמעת נכון) ENTERNEWLINEENDVAR אנחנו בונים מספר קטן של עסקים מוכנים כ ה אלו ל ה קהל ה ישראלי , ו אז עוצרים . את ה שאר , אנחנו נבנה לקהל ה בין לאומי בלבד . ENTERNEWLINEENDVAR אם בא ל אתה לזכות ולהנות מ תשתית מוכנה ש מייצרת תזרים אוטומטי , ל חצ/י כאן - LINK22ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : נגה הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יש ל אתה ב קשת נסיעה חדשה . ל ה פרטים >> MAILSUBJECTENDVAR היי שוהם , ENTERNEWLINEENDVAR נוסע ב ה שירות ה קארפול מחפש נסיעה ב ה מסלול ש ל אתה . ENTERNEWLINEENDVAR רוצה לעזור ? ENTERNEWLINEENDVAR יש לפתוח את Waze ל אישור ה בקשה . ENTERNEWLINEENDVAR ב שירות ה קארפול של Waze כולם נהנים : ENTERNEWLINEENDVAR נהגים מקבלים דמי השתתפות עבור הוצאות ה נסיעה . ENTERNEWLINEENDVAR כולם נהנים מ נסיעה חברותית יותר . ENTERNEWLINEENDVAR ו ביחד אנחנו מפחיתים את מספר ה רכבים ב ה כבישים . ENTERNEWLINEENDVAR נאלצת לדחות ב קשה ? ENTERNEWLINEENDVAR ב ה לחיצה על כפתור ״לא הפעם״ המערכת תמשיך לחפש נהג עבור ה נוסע . נשמח לדעת את ENTERNEWLINEENDVAR ה סיבה כדי ש נוכל להציע ל אתה בקשות נסיעה מ דוייקות יותר . יש לפתוח את Waze ו לבחור ENTERNEWLINEENDVAR את ה סיבה מ ה רשימה . ENTERNEWLINEENDVAR נסיעה טובה , ENTERNEWLINEENDVAR צוות Waze Carpool ENTERNEWLINEENDVAR קהילת ה קארפול מחכה ל אתה ב ה -Facebook ENTERNEWLINEENDVAR EMOJI©ENDVAR 2017 Google Ireland Ltd , Gordon House , Barrow Street , Dublin 4 , Ireland . ENTERNEWLINEENDVAR זוהי הודעת שירות הכרחית מ מערכת ה נסיעה ה שיתופית של Waze ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+יסודות ה פלדה ל הערכה עצמית ו עוצמה פנימית Confirmation MAILSUBJECTENDVAR Dear מאיר , Thank you for registering for "יסודות ה פלדה ל הערכה עצמית ו עוצמה פנימית" . סדנא ב שידור לחי ל יצירת עוצמה פנימית ו ל חיזוק ה הערכה ה עצמיתPlease send your questions , comments and feedback LINK81ENDVAR How To Join The Webinar*********************************************************** Sun , Oct 22 , 2017 9 : 00 PM - 11 : 00 PM IDT 1 . Click the link to join the webinar at the specified time and date : LINK65ENDVAR https : //care . citrixonline . com/gtwav/systemcheck ? role=attendee&source=registrationConfirmationEmail&language=english&experienceType=BROADCASTNote : This link should not be shared with others; it is unique to you . Before joining , be sure to check system requirements to avoid any connection issues . ***********************************************************To Cancel this RegistrationIf you can't attend this webinar , you may cancel your registration at any time . LINK138ENDVAR You are receiving this email because you registered for this webinar . Your email address and personal information will be used by the Webinar organizer to communicate with you about this event and their other services . To review the organizer's privacy policy or stop receiving their communications , please contact the organizer directly . Cancel registration ( LINK80ENDVAR Stop GoToWebinar emails EMAILENDVAR EMAILENDVAR &locale=en_US)Report spam EMAILENDVAR EMAILENDVAR &locale=en_US)This email is sent on behalf of the organizer by GoToWebinar . LogMeIn , Inc . | 7414 Hollister Avenue | Goleta , CA 93117Privacy Policy ( LINK62ENDVAR Policy ( LINK80ENDVAR EMOJI©ENDVAR 2017 LogMeIn , Inc . All rights reserved .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+צריך את עזרתך . . . MAILSUBJECTENDVAR היי בן טויטו , אני בדיוק ב תהליך של יצרת מפת דרכים חדשה ! אשר מטרתה היא לרכז ל אתה אתכל ה מידע ה נחוץ כדי להתחיל לסחור ו להצליח ב שוק . . . אודה ל אתה אם תיקחדקה או ש תים כדי לענות על שאלה חשובה , ו ב תמורה אני מבטיח לשלוח ל אתה אתמפת ה דרכים ה מלאה לפני כולם ו בחינם ! אם אם עדיין לא ענית , אשמח אם תכנס לכאן כדי לקחת חלק ב יצירת מפתהדרכים ה חדשה ( LINK113ENDVAR )מעריך מאוד את עזרתך , זהרנ . ב . השאלה LINK32ENDVAR ( LINK113ENDVAR )Unsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני אילת , תל-אביב 5120052
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+תיאור ה אירוע של דוח ה מהירות MAILSUBJECTENDVAR ה שוטר הראה ל אני את ה מהירות על ה מכשיר . ENTERNEWLINEENDVAR ה דבר ה ראשון ש אמרתי ל הוא זה ש אין סיכוי ש נסעתי ב ה מהירות ה זאת ו ש זו טעות : ENTERNEWLINEENDVAR ישר אחר כך הוא שאל את אני איפה אני גר , עניתי שמנתניה ו הוא שאל אם 3 שעות ENTERNEWLINEENDVAR מספיקות ל אני להגיע הביתה כי הוא שולל ל אני את ה רישיון , בנוסף הוא איים ב ה דוח של ENTERNEWLINEENDVAR 1500 שקלים ו ב תאוריה חוזרת . ENTERNEWLINEENDVAR כל זאת ב ה זמן ש לא הבנתי איך זה יכול להיות כי אני בטוח ש לא נסעתי ב מהירות כ ה זו או ENTERNEWLINEENDVAR ב צורה מסכנת חיים ו כ ה מובן ש התחלתי להיכנס ל ה לחץ . ENTERNEWLINEENDVAR לאור ה דברים ש ה שוטר מציג ל אני , מן ה סתם ש אני אכנס ל ה מגננה ו אתחנן רק ש לא ישאר ENTERNEWLINEENDVAR ב ה עמדה של הוא ו ש לא ישלול ל אני את ה רישיון ש מ בחינתי זה ה דבר ה גרוע מ כל . ENTERNEWLINEENDVAR הסברתי ל הוא ש אני חייל ו ש אני בעל ה קלות ב תנאי ה שירות בשל ה עובדה ש אבא של אני חולה ENTERNEWLINEENDVAR דיאליזה , סיעודי , עם נכות 100% ו אובדן כושר עבודה ו ש אני חייב את ה רישיון על מנת ENTERNEWLINEENDVAR לסייע ל הוא לחיות חיים נורמטיביים ו ש אני לא יכול ש הוא ישלול ל אני את ה רישיון . ENTERNEWLINEENDVAR ה שוטר ״התרכך״ ו אמר ש הוא יראה מה הוא יכול לעשות ו ש אני אחכה בעוד ש הוא נכנס ENTERNEWLINEENDVAR ל ה ניידת . ENTERNEWLINEENDVAR לאחר מספר דקות הוא קרא ל אני ל ה ניידת , אמר ל אני ״בטוב ל יבו״ ש הוא לא שולל ל אני את ENTERNEWLINEENDVAR ה רישיון ו ש הוא ״הפחית״ את ה קנס ל -750 שקלים ו -8 נקודות , הדפיס את ה דוח ו נתן ל אני ENTERNEWLINEENDVAR לחתום . כמובן ש מלית ברירה מ ה לחץ ש הוא הכניס את אני הסכמתי לקבל את ה דוח כדי ש הוא ENTERNEWLINEENDVAR לא יתן ל אני את ה גרוע מ כל ו ישלול ל אני את ה רישיון . ENTERNEWLINEENDVAR לקחתי את ה דוח ו חזרתי ל ה אוטו , קראתי את הוא ו ראיתי ש ה שוטר רשם ב ה דיוק את ה מהירות ENTERNEWLINEENDVAR ש הוצגה ב מכשיר (128) ו ה וריד 5 קמ״ש כ ה חוק ל -123 ו ש הוא רשם משפט קצר מאוד ש לא ENTERNEWLINEENDVAR מתאר ב כלל את מה ש אמרתי ל הוא ״אני מודה תעזור ל אני אבא של אני חולה״ , אני מעולם לא ENTERNEWLINEENDVAR הודיתי ש נסעתי ב ה מהירות ה זאת , הסכמתי לקבל את ה דוח רק בעקבות ה עמדה ה בריונית ENTERNEWLINEENDVAR ה מאיימת ש ה שוטר נקט ב היא . ENTERNEWLINEENDVAR זאת פעם ראשונה ש קורה ל אני דבר כ ה זה ו כאשר נתבקשתי לחתום חשבתי ש אני חותם על כך ENTERNEWLINEENDVAR ש קיבלתי את ה דוח , לא על אישור ה תוכן של הוא , ש כן בכלל לא ידעתי ש ה שוטר מתעד את מה ENTERNEWLINEENDVAR ש אני אומר , הוא גם לא טרח לשאול את אני אם יש ל אני משהו להעלות ב כתב ו אם אני מאשר ENTERNEWLINEENDVAR את מה ש הוא כתב , כאשר היה ל הוא מובן ש לא הייתי חותם אם הייתי יודע ש זה מה ש הוא ENTERNEWLINEENDVAR רשם , לא ציין את רוב ה דברים ש אמרתי , לא הודיתי שנסעתי ב מהירות כ ה זו ו הוא רשם ENTERNEWLINEENDVAR חצאי דברים ש בכלל לא משקפים את כל ה אירוע . ENTERNEWLINEENDVAR בדיעבד כאשר בדקתי את דרגות ה ענישה , גיליתי ש מהירות ב ה גובה 26-40 קמ״ש מעל ה מותר ENTERNEWLINEENDVAR ב ה דרך ב ין עירונית תגרור קנס של 750 שקלים ו -8 נקודות כפי ש קיבלתי , ו בהתאם ENTERNEWLINEENDVAR ל ה מהירות ש הוצגה ב ה מכשיר (38 קמ״ש מעל ה מותר , ש זה 33 קמ״ש לאחר ה פחתה) . ENTERNEWLINEENDVAR כלומר מלכתחילה מבלי ש אצטרך להגיד ל שוטר דבר , הוא אמור היה להגיד ל אני ש ה קנס הוא ENTERNEWLINEENDVAR 750 שקלים ו -8 נקודות , ו לא להכניס את אני ל לחץ כדי ש אני אגיד כן ל כל מה ש הוא אומר ENTERNEWLINEENDVAR מלית ברירה על מנת לזכות ב רחמיו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בנוסף יש לציין דברים נוספים ש רשמנו ב ה מכתב ש שלחנו , כמו ש ה שוטר כנראה היה עייף ENTERNEWLINEENDVAR לקראת סוף משמרת (האירוע היה ב ה 17 : 00) כי הוא רשפ ש היו את אני עוד 3 נוסעים ב ה רכב ENTERNEWLINEENDVAR ו ב כלל היו עוד 4 , הוא רשם שהייתי בודד ב ה כביש אבל היו את אני לפחות עוד שתי ENTERNEWLINEENDVAR מכוניות , ו עוד דברים ש רשומים ב ה מכתב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR יש לציין ש אני בעל רישיון נהיגה מעל 3 שנים ו בעל שעות נהיגה רבות ו זאת הפעם ENTERNEWLINEENDVAR ה יחידה ש קרה ל אני משהו כ ה זה , אני תמיד נוסע כ חוק .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+האם אתם מוכנים ? MAILSUBJECTENDVAR View this email in your browser ( LINK93ENDVAR אתם מוכנים ? שלום גיא , אני רוצה לשאול את אתם שאלה : האם אתם נמצאים ב ה נקודה ב ה חיים ש ב היא אתם מוכנים לקחת צעד ו סוף כל סוף להפוך את ה חלום של אתם ל מציאות ? אולי אתם נמצאים ב מקום ש ב הוא אני הייתי , עם ידיעה עמוקה ב ליבי ש ה חיים של אני יכולים ל היות אדירים אבל ב את הוא ה זמן קיימת תחושה של חוסר ו ודאות לגבי איזה צעד לקחת ש יוביל את אני ל ה שלב ה בא ? אולי אתם , כמו אני , ניסיתם מלא דברים ? אולי הם הביאו ל תוצאות מסוימות , אבל שום דבר לא הביא את ה שינוי ה קבוע ש אתם מחפשים את הוא ? ו זאת ה סיבה ש אתם ממשיכים לחפש . אם זה נשמע מוכר ו נכון לגבי אתם , ו אתם מסוג ה אנשים ש מוכנים לגרום ל ה זה ל ה קרות , יש לנו את ה צעד ה בא עבור אתם . ל ה צעד ה בא ה זה יש את ה כוח לשנות את ה חיים של אתם ב אופן משמעותי . אסכם בקצרה חלק מ ה שינויים ה עוצמתיים מאוד ש שיתפנו ל גביהם ב ה הדרכה היום : * איך להשיג חופש מוחלט מ כל ה מחשבות ו הרגשות ה שליליים מאוד , אפילו ב ה זמן של מחלה קשה או כאבים פיזיים . * איך להשיב אהבה , חמימות ו הנאה ל
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+RE : ה הזמנה של אתה מוכנה MAILSUBJECTENDVAR פברואר 2019 תן ל אני שנייה ל ה עצור אותך פה ! זה לא סיפור של איך לקנות דירת-גן ב ה יומיים . או איך לעשות 5 אלף דולר מ ה בית ב -5 דקות עבודה ב יום . . . אם ה ציפייה של אתה היא כ ה זאת , אז ניפרד כאן כ ה ידידים ו אאחל ל אתה המון ב הצלחה עם מוכרי ה חלומות . אם לא ? אז נעים מאוד ! קוראים ל אני שיר , אמא של מאיה ו אישתו של נמרוד . (טימור הוא ה כלב ב ה תמונה) . הזמנת שפע ? אתה סקרן ו רוצה כבר להציץ ? לחץ כא ן ו תגלה מה הזמנת ! אני כמו כולם ו אין ב אני משהו מיוחד למעט ש . . . אני מובטלת ! ! כן כן , מובטלת ! ! אבל לא מובטלת ב ה מובן ה רע של ה מילה . אחרי 4 ו חצי שנים של חיפושים אחרי נכס אמיתי ו בלי השקעה מ וגזמתלתשואה מינימלית - סוף סוף מצאתי ! מצאתי ו הצלחתי ! לחץ כאן ו תגלה ! סוף סוף ה צלחתי לפטר את ה בוס של אני ! אז איך ? ו למה דווקא אני ? ה תשובה פשוטה ! ב לחיצה כאן כמו מתווך נדל''ן , כמו חברת השקעות ב שוק ה הון , ו כמו ב כל דבר : חקרתי , גיליתי ו מצאתי ! מצאתי את ה אנשים ש ייבנו ל אני נכס מ ניב ! ו ב השקעה מזערית (יחסית לנדל''ן או פתיחת תיק אצל ברוקר) ו הצלחנו ! פשוט
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הבוטקאמפ - שורה תחתונה [6 שעות אחרונות] MAILSUBJECTENDVAR בעוד קצת פחות מ -6 שעות , ENTERNEWLINEENDVAR ה הרשמה ל ה מחזור ה ראשון של ה בוטקאמפ ה דיגיטלי תסגר (3-6 חודשים בערך ל ה מחזור ה בא) ENTERNEWLINEENDVAR ו ה הנחות ה משמעותיות כבר לא יהיו תקפות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אז בוטום-ליין - מה זה ה בוטקאמפ ? ENTERNEWLINEENDVAR ה בוטקאמפ הוא תכנית אימונים + ליווי , ל חיזוק ה עוצמה ה פנימית ו ה הערכה ה עצמית תוך שישה שבועות (+ ימי ההכנה) . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR היא כוללת שיעור שבועי דיגיטלי ש אורך כ ה -25 דקות ב ממוצע (במשך 6 שבועות + ימי ה הכנה) ENTERNEWLINEENDVAR ו-7 חוברות של משימות ו תרגילים שבועיים (לפי 6 ש בועות + ימי ה הכנה) , ENTERNEWLINEENDVAR שבוניים על-מנת להטמיע את עקרונות ה פלדה ב אופי ש ל אתה ו להפוך את הם ל חלק בלתי נפרד מ מך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR תכנית פרקטיקל NLP ממוקדת ב תקשורת עם ה סובבים את אנחנו , ENTERNEWLINEENDVAR יצירת חיבור אישי עם אנשים , כריזמה , מנהיגות ו כו' . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אחרי ש הרבה מתלמידי/בוגרי פרקטיקל NLP בקשו תכנית ש תתמקד דווקא ב עבודה פנימית , ENTERNEWLINEENDVAR החלטתי ליצור את "הבוטקאמפ" ו אני חושב ש כל מי ש מרגיש ש הוא לא ממצה את ה פוטנציאל של הוא - צריך לעבור את היא . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אם זה משהו ש חשוב ל אתה , עכשיו זה ה זמן ה אחרון להצטרף . ENTERNEWLINEENDVAR (כאן : LINK31ENDVAR ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני יודע ש יש המון "בלופים" כ ה אלה של "הזמן עומד ל הגמר" ENTERNEWLINEENDVAR ו אז ה הרשמה נשארת פתוחה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל זה לא קורס דיגיטלי רגיל . . ENTERNEWLINEENDVAR יש משימות ש צריך להספיק לבצע לפני יום ראשון ENTERNEWLINEENDVAR ש ב הוא אנחנו מתחילים לעבוד ביחד כ קבוצה . . ENTERNEWLINEENDVAR אז אין שום סיכוי ב ה עולם ש מישהו יכנס אחרי 23 : 59 הלילה . ENTERNEWLINEENDVAR סורי . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב ENTERNEWLINEENDVAR גם ה וובינר יורד מ ה אוויר ב ה דיוק ב אותו ה זמן , ENTERNEWLINEENDVAR אז אם עדיית לא צפית עד ה סוף , הוא כאן : ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כתבות תוכן ב ה תחום ה נדל׳׳ן MAILSUBJECTENDVAR היי מה קורה ? ENTERNEWLINEENDVAR אני מחפש אנשים ש מעוניינים ללמוד את עולם ה כתיבה ה שיווקית ב ה אופן פרונטלי ממני אישית ו ב תמורה לקחת על עצמם לכתוב כתבות תוכן ב אתרי נדל׳׳ן חדשים ש הרמנו ל ה אוויר . ENTERNEWLINEENDVAR הקמנו 4 אתרים חדשים אז אני מחפש 4 אנשים , ש יגיעו ל תל אביב ל ״קורס״ בן יום שלם + ליווי ל 3 חודשים קדימה , ו ב תמורה יכתבו את ה כתבות ב אתרים אלו . ENTERNEWLINEENDVAR דרוש להכין לפחות 3 כתבות תוכן ו סביבות ה 4 5 שעות ב יום לצורך זה (כולל ה לימוד ו ה כשרה) ENTERNEWLINEENDVAR אז מי ש אין ל הוא זמן לצערי לא יוכל לקחת חלק ב ה פרויקט . ENTERNEWLINEENDVAR אם זה מעניין את אתה , הכנתי דף קצר עם סרטון ש מפרט יותר על מה מדובר , תוכל להשאיר שם פרטים אם זה רלוונטי - ל חצ/י כאן ENTERNEWLINEENDVAR מ בחינת שעות ו ימים אעדכן ב ה המשך , זה יהיה ב ה שבע של ה 14 - 19 ל חודש ה זה , אפריל , ו נבחר את אחד ה ימים ש הכי יתאים ל אנחנו . ENTERNEWLINEENDVAR זה ה קישור ל ה דף ENTERNEWLINEENDVAR תוכלו להפנות ל שם אנשים ש אתם מכירים ו חושבים שיכולים ל ה היות רלוונטיים ל ה נושא . ENTERNEWLINEENDVAR ב ה הצלחה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : אמרי ה ולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+סיכום עסקה ו קוד/י קופון - רכישה ב ה -istudent MAILSUBJECTENDVAR סיכום עסקה ו קוד/י קופון - רכישה ב ה -istudent היי אמיר , ש מחים ש בחרת לרכוש *פיצה מיוחדת + 2 תוספות ב ה -77 שח בלבד כ וללמשלוח* *סיכום עסקה* כמות : *1* מחיר ליח' : *77 . 00 ש ''ח * סה"כ : *77 . 00 ש ''ח * *להלן קוד/י ההטבהשרכשת* PHONENUMBER0(*934-843082188*)ENDVAR *לנוחיותך פרטי ה הטבה כפי ש מופיעיםבאפליקציה : * רק חברי istudent נהנים מפיצה מיוחדת + 2 תוספותב-77 ₪ בלבד ב ה פיצה ה אט ! איך נהנים מ ה הטבה ? ישללחוץ על "לרכישה" ו לרכוש את ה קופון ב מחירהמיוחד ל חברי istudent . מייד לאחר ה רכישה , קוד/יההטבה שרכשת יישלח/ו אליך ב מייל ו ב -sms . ניתןלממש את קוד ה קופון ש נשלח אל אתה ב ה -smsבאמצעות : אתר פיצה ה אט , מוקד ה הזמנות אובסניפי ה רשת (למעט סניף אום אל פאחם , סניףיד אליהו ב ה דוכן בתוך היכל מנורה מבטחים , סניף טירה ו ב ה סניף מ לחה ב ירושלים תקף ב דוכןהטייק אווי בלבד ו לא ב ה ישיבה ב מסעדה) . ל צפייה ב רשימת ה סניפים >> LINK38ENDVAR ל משלוח 65 ₪ או ב התאם ל ה אזוריהחלוקה . ה תוקף ל ה מימוש הינו עד 30/6/2019 . ה תמונהלהמחשה בלבד . ה הטבה מסובסדת . ה חברה ו -istudentרשאיות להפסיק את ה מבצע ב כל עת . ט . ל . ח . שמחים ש ב ה חרת לרכושבאפליקציית istudent , זמינים עבור אתה ל כל שאלה ב : LINK22ENDVAR או PHONENUMBER3ENDVAR (שלוחה 2)
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+3 שלבים ל בניית אסטרטגיית השקעה נכונה MAILSUBJECTENDVAR שלום לכולם ! לפני ש מתחילים להשקיע , תבנו את ה אסטרטגיה של אתם : 1 . תגדירו את ה מטרות ש לכם2 . תערכו סקר בין מס' השקעות3 . ו תאתרו את ה השקעה ה מתאימה ביותר זאת ש עונה על כל ה צרכים ש ל כםבהצלחה ! קורל ו ש יראללקבלת פגישת ייעוץ ב מתנה ללא עלות לחצו כאן אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה יגאל אלון 94 , תל אביבנשלח באמצעות smoove
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+עוד מלגה ללא התנדבות נפתחה ל הגשה ! הרשמה ל חבילת ה הגשות תגדיל את ה סיכוי ל ה מלגה ב פי 2 ! (פרסומ . ת) MAILSUBJECTENDVAR ה רשמו עכשיו ל חבילת ה הגשות ב הנחה שווה ב ה מיוחד ! : LINK184ENDVAR : LINK184ENDVAR מצאנו ל אתם עוד מלגה ללא תמורה ! EMOJI🔊ENDVAR סטודנטים ה רשומים ב ה -Milgapo יקבלו כמובן הגשה אוטומטית ! מלגה ע&quot;ש מרים ל אה הגות &gt;&gt; : LINK184ENDVAR מלגה ע"ש מרים לאה הגות >> EMOJI✅ENDVAR EMOJI✅ENDVAR EMOJI✅ENDVAR עיתאב ש קרה , סטודנטית באונ' ת"א : "יששש ! קיבלתי מלגה ב שווי 8 , 000 שקלים ! בכלל לא הכרתי את ה מלגה ה זו" ל הצטרפות לשירות ה הגשות &gt;&gt; : LINK184ENDVAR ל הצטרפות ל שירות ה הגשות >> : LINK184ENDVAR בשביל הודעות כ אלה אנחנו קמים ב ה בוקר ! EMOJI💚ENDVAR EMOJI💙ENDVAR EMOJI💜ENDVAR ​ בלה רון , סטודנט באונ' בן-גוריון : "מלגהפה , רציתי להגיד תודה רבה . ה מקצועיות , ה דיוק ב הגשות ו ה יחס ה אישי הפכו עבור אני את ה שירות ל ה חוויה ! זכיתי ב מלגה בלי התנדבות ! ! " הטבות שוות חבילות ה הגשה : ל שנה : 10% הנחה ! ל שנתיים : 20% הנחה ! ל-3 שנים : 33% הנחה ! EMOJI👇ENDVAR EMOJI👇ENDVAR EMOJI👇ENDVAR ל ה צפייה ב חבילות ה הגשה &gt;&gt; : LINK184ENDVAR ל צפייה ב חבילות ה הגשה >> : LINK184ENDVAR כיף "לחפור" ל אתם עם מלגות שוות ב מיוחד ללא תמורה EMOJI😉ENDVAR EMOJI💵ENDVAR עד סוף ה חודש בלבד . . . מלגת קק"ל ! ! ה מלגה ב שווי 25 , 500 ש "ח (8 , 500 ש "ח כל שנה ל -3 ש נים) . ל עיון ב פרטי ה מלגה : לחצו כאן ל מלגת קק&quot;ל &gt;&gt; : LINK184ENDVAR לחצו כאן ל מלגת
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חשוב : ככה נכנסים ל ה שידור MAILSUBJECTENDVAR ENTERNEWLINEENDVAR ו ואו איזו התרגשות ! ENTERNEWLINEENDVAR אני ממש מקווה ש אתה מגיע ל ה ערב ה זה עם פרפרים ב בטן (כמוני) , ENTERNEWLINEENDVAR כי ה שיעור ה זה הולך ל היות אדיר ב ה כל-כך ה רבה מובנים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אתה נכנס מ כאן : ENTERNEWLINEENDVAR LINK65ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חשוב : תגיע לפחות 10 דקות קודם כדי לשמר מקום ENTERNEWLINEENDVAR [כרגע נרשמו הרבה יותר מ מה ש ה חדר מ כיל] . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR חשוב יותר : אני כותב "תגיע" ו "נכנס" , ENTERNEWLINEENDVAR רק בגלל מגבלות ה שפה ה עברית ו כ ה אלה . ENTERNEWLINEENDVAR אני לגמרי מדבר גם אלייך : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מצרכים ל ה הצלחה : ENTERNEWLINEENDVAR מחברת , עט , משהו לשתות ו ל ה נשנש ו מלא אנרגיות ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נתראה ב ה ערב : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR אני מזכיר שוב : ENTERNEWLINEENDVAR יום ראשון 22/10/2017 ENTERNEWLINEENDVAR ב ה שעה 21 : 00 ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+כל ה פרטים על ה תכנית ליווי + קישורים + קוד קופון MAILSUBJECTENDVAR הנה כל ה פרטים של ה תכנית + ה קישור ש ימו לב הקופון (רק ל מי ש היה ב ה וובינר) ללחוץ ב קוד קופון : 4444 ו זה ישנה ל אתם את ה מחיר לחצו כאן עכשיו ל עמוד ה רישמי של ה תכנית ל עמוד הרשמה לחצו כאן ל ה שיחה עם נציג ש לנו לחצו כאן ה בונוס של ה 20 ה ראשונים נגמר . ב ה בקשה לא לבקש את הוא יותר . אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת LINK25ENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש לרעה זרחין 10 , רעננהנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מזל טוב EMOJI😊ENDVAR MAILSUBJECTENDVAR נדמה ל אני ש מגיע ל אתה מזל טוב . ENTERNEWLINEENDVAR אתמול נרשמת לצפות ב ה הדרכה של אני על מסחר ב שוק ה הון , ENTERNEWLINEENDVAR ב ה מטרה לעשות איזה ש הוא שינוי ב ה חיים , ENTERNEWLINEENDVAR אני מניח . ENTERNEWLINEENDVAR ו הנה אנחנו שוב מתראים , ENTERNEWLINEENDVAR יומיים ב ה רצף ! ENTERNEWLINEENDVAR אז כל ה כבוד ו תודה ש נתת ל אני את ה זכות להדריך את אתה ב ה מסע ה זה . ENTERNEWLINEENDVAR אם צפית כבר ב ה סרטון ה ראשון , בטח הבנת ש זה הולך להיות מסע מרתק ו מהנה . ENTERNEWLINEENDVAR אם עדיין לא צפית ב הוא עד סופו , אז חשוב ש תעשה את זה כבר עכשיו . ENTERNEWLINEENDVAR לחץ כאן ל ה צפייה ב ה סרטון ה ראשון ENTERNEWLINEENDVAR " LINK84ENDVAR ENTERNEWLINEENDVAR ב ה ימים ה קרובים , אני הולך ל חלוק איתךסיפורים ש יתנו ל אתה השראה , טיפים ש ידהימו את אתה ו אפילו להראות ל אתה כמה דוגמאות של מסחר אמיתי ש יפתיעו את אתה . ENTERNEWLINEENDVAR אנחנו נמצאים ב תקופה ש ב היא כל רגעהנייד מצפצף ו מישהו מנסה להסיח את אנחנו מ ה דברים ה חשובים באמת ב ה חיים . ENTERNEWLINEENDVAR ל ה הדרכה ה זו נרשמת מ יוזמתך ה פרטית , ENTERNEWLINEENDVAR אז כ נראה ש יש ל ה זה משמעות גדולה עבור אתה . ENTERNEWLINEENDVAR אני רק רוצה לוודא ש ה תכנים ש אשלח נמצאים ב ראש סדר ה עדיפויות של אתה . ENTERNEWLINEENDVAR ככה זה הולך לעבוד . . . ENTERNEWLINEENDVAR ב כל כמה ימים , ENTERNEWLINEENDVAR אשלח אל אתה מייל עם שיעור חשוב על מסחר ב ה שוק ה הון ENTERNEWLINEENDVAR ב כתב או ב ה סרטון . ENTERNEWLINEENDVAR ב ה רגע ש ה הודעה מגיע אל אתה , אני ממליץ לפתוח ו לקרוא את היא ב אותו ה רגע . זה ייקח ל אתה 5-10 דקות מקסימום (ולפעמים אפילו פחות) . ENTERNEWLINEENDVAR זאת התחייבות קטנה יחסית , כש לוקחים ב חשבון אתהמטרה ה גדולה ש ל ה ך- ENTERNEWLINEENDVAR ל ה הפוך ל "סוחר חופש" ש חי את ה חיים בדיוק כמו ש הוא תמיד חלם על הם . ENTERNEWLINEENDVAR אני צודק או צודק ? ENTERNEWLINEENDVAR זה ה זמן ל ה גשת ו לצפות ב ה סרטון ה ראשון ENTERNEWLINEENDVAR "כרטיס הכניסה ש ל אתה לתחום ש מ גלגל 150 , 000 , 000 , 000$ בשנה" ENTERNEWLINEENDVAR ב מהלך ה סרטון תלמד - ENTERNEWLINEENDVAR אילו הזדמנויות נהדרות שוק ה הון ה אמריקאי יכול להציע ל אתה ENTERNEWLINEENDVAR ו מהם 5 ה גורמים ה עיקריים ש מונעים מ אנשים להצליח ב תחום ENTERNEWLINEENDVAR בנוסף , ENTERNEWLINEENDVAR תכיר את שלושת סגנונות ה מסחר ה עיקריים ו תבין איזה סגנון הכי מתאים ל אתה ו ב הוא יש ל אתה את ה סיכויי ה גבוה ביותר להשיג את ה מטרות ש ל אתה . ENTERNEWLINEENDVAR מציאת סגנון ה מסחר ה מתאים הוא צעד קריטי ב ה דרך ל ה הצלחהואחרי ה סרטון אתה תדע ב ה וודאות ב מה להתמקד ו מ מה להמנע . ENTERNEWLINEENDVAR תלחץ כאן ו תעבור מיידית ל ה צפייה ב ה סרטון ה ראשון . ENTERNEWLINEENDVAR " LINK84ENDVAR ENTERNEWLINEENDVAR אחינעם ברנד ENTERNEWLINEENDVAR ו צוות ב יג שוט . ENTERNEWLINEENDVAR נ . ב : ENTERNEWLINEENDVAR ה סרטון ה שני יגיע ממש ב ה קרוב ENTERNEWLINEENDVAR ו ב הוא אגלה ל אתה איך להרוויח ב ה מסחר , אפילו אם פוגעים רק ב עסקה 1 מתוך 5 . ENTERNEWLINEENDVAR זאת אומרת , ל היות רווחי ב ה מסחרעם 20% הצלחה בלבד . ENTERNEWLINEENDVAR ממליץ ל אתה לשים עין על תיבת ה מייל של אתה ב עוד יומיים , ENTERNEWLINEENDVAR ה כותרת של הוא תהיה : ENTERNEWLINEENDVAR " סרטון 2 ב ה אוויר " - ENTERNEWLINEENDVAR " 7 טעויות קריטיות ש סוחרים מתחילים עושים ו כיצד להימנע מ ה ן" ENTERNEWLINEENDVAR נ . ב . ב ENTERNEWLINEENDVAR להיות ב ה רשימה ו לקבל תכנים מאית של אנחנו זו זכות ו לא חובה . ENTERNEWLINEENDVAR ב כל רגע ש תחליט ש אתה לא מעוניים לקבל מאת אנחנו מיילים , מסרים ו סרטונים ב נושא שוק ה הון תוכל ללחוץ על כפתור "הסר" ו להסיר את עצמך מ ה רשימה ENTERNEWLINEENDVAR אני מבטיח ש לא אקח את זה אישית ו נשאר חברים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR Orin Shpelter , Igal alon 123 , Tel aviv , gosh dan 75824 , Israel ENTERNEWLINEENDVAR כדי לבטל את ה רשמתך בקר ב ה כתובת : ENTERNEWLINEENDVAR LINK101ENDVAR ENTERNEWLINEENDVAR כדי לשנות את ה פרטים ל יצירת קשר בקר ב ה כתובת : ENTERNEWLINEENDVAR LINK101ENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+חסרת ל אני ב שיעור כריזמה ו קסם אישי - ה הקלטה של אתה ב פנים MAILSUBJECTENDVAR Dear גיא , צר ל אני ש לא הצלחת להגיע בסוף . . . : /אני מצרף ל אתה הקלטה (לזמן מוגבל) ו מקווה שתפה ב היא בקרוב : )אם כבר הבנת ש ה תכנית ה מלאה תטיס את אתה קדימה , אפשר להירשם כאן : LINK34ENDVAR בארי*********************************************************** You are receiving this email because you registered for this webinar . Your email address and personal information will be used by the Webinar organizer to communicate with you about this event and their other services . To review the organizer's privacy policy or stop receiving their communications , please contact the organizer directly . Stop GoToWebinar emails EMAILENDVAR EMAILENDVAR &locale=en_US)Report spam EMAILENDVAR EMAILENDVAR &locale=en_US)This email is sent on behalf of the organizer by GoToWebinar . LogMeIn , Inc . | 7414 Hollister Avenue | Goleta , CA 93117Privacy Policy ( LINK62ENDVAR Policy ( LINK80ENDVAR EMOJI©ENDVAR 2017 LogMeIn , Inc . All rights reserved .
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+מי אתה בכלל ? ! MAILSUBJECTENDVAR ENTERNEWLINEENDVAR אחד ה משפטים ה מוזרים ב עיני , ENTERNEWLINEENDVAR הוא "אני נוסע לחפש את עצמי" . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מה תמצא שם ש לא תמצא כאן ? ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR הרי , ENTERNEWLINEENDVAR לא משנה לא תלך , אתה תמיד אתה . ENTERNEWLINEENDVAR ו יותר מ זה . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR . . "אתה" זה לא איזו עובדה מוגמרת - אלא בחירה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב כל רגע נתון אדם יכול לבחור מי הוא ENTERNEWLINEENDVAR ו אני הולך לתת ל אתה כלים לעשות את זה ב מהלך ה שבוע ה קרוב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל אל תתבלבל . . . ENTERNEWLINEENDVAR ה כלים ה אלו אמנם לא עולים ל אתה כסף , ENTERNEWLINEENDVAR אבל אתה תגלה מהר מאד - ש הם שווים המון . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ל ה מעשה , ENTERNEWLINEENDVAR אחד מ הם אפילו שווה ל אתה כסף ב בנק . . . ENTERNEWLINEENDVAR . . אבל נדבר על זה מחר . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בינתיים , ENTERNEWLINEENDVAR נתחיל מ משימה פשוטה אבל חשובה : ENTERNEWLINEENDVAR עשה רשימה של ה דברים ש אתה לא מרוצה מ הם ב ה חיים של אתה ENTERNEWLINEENDVAR ו לאחר מ כן , מה היית רוצה ש יהיה ב ה מקום כל אחד מ ה סעיפים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הנה ה וובינר ל ה מסחר אלגוריתמי MAILSUBJECTENDVAR ה וובינר ה שלם למסחר אלגוריתמי תודה ש נרשמתם ל צפייה ב וובינר ל מסחר אלגוריתמי . ב ה לחיצה על ה תמונה ש למטה תתחיל ה צפייה , מומלץ לצפות ב סביבה רגועה , יש כאלה ש אוהבים לכתוב תוך כדי אז אולי שווה להכין מחברת . צפייה מהנה ו מועילה ! אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת EMAILENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה אדיר 11 , כפר ורדיםנשלח באמצעות smoove
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הקלטת ה סדנא מ אתמול MAILSUBJECTENDVAR היה דיצה עוצמתי אתמול , תודה ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מצרף ל אתה הקלטה ו משאיר את היא ב ה אוויר ENTERNEWLINEENDVAR כנראה עד יום חמישי - ב הצלחה ! =) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR LINK28ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR מ תחת , צירפתי ל אתה גם פרטים ENTERNEWLINEENDVAR על ה תכנית ה חדשה של אני "הבוטקאמפ" . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני אשלח ל אתה על היא מייל מפורט יותר ב ה המשך , ENTERNEWLINEENDVAR כרגע רק בקצרה : ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 1 . זו תכנית ליווי וירטואלית , דיצה-יישומית , ENTERNEWLINEENDVAR ל בניית הערכה עצמית יציבה ו חזקה , ENTERNEWLINEENDVAR ו עוצמה פנימית כמו ש לא חלמת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR 2 . אנשים משלים על היא 12 , 400 ש"ח , ENTERNEWLINEENDVAR אבל הצלחתי לעשות כמה שינויים קטנים ENTERNEWLINEENDVAR ו להוריד את ה מחיר (משמעותית) ל-5 , 820 ש"ח ENTERNEWLINEENDVAR כרגע לזמן ה השקה של ה תכנית אפשר להצטרף ב ה -1970 ש "ח בלבד ENTERNEWLINEENDVAR או ב 12 תשלומים של 197 ש "ח ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כיף , לא ? =) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה אומר : ENTERNEWLINEENDVAR - תכנית אימונים מלאה ENTERNEWLINEENDVAR - ליווי מלא במשך 6 שבועות ENTERNEWLINEENDVAR - חברות ל כל ה חיים ב קהילת VIP יחודית ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו בגלל ש זו הרשמת "מייסדים" , מגיע ל אתה גם : ENTERNEWLINEENDVAR - 2 קורסים נוספים (חדשים לגמרי) ENTERNEWLINEENDVAR - 2 הדרכות אקסקלוסיביות מ שנות חיים ENTERNEWLINEENDVAR - ו עוד . . . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו כל זה , ב פחות מ-330 ש "ח לשבוע ב ה תוכנית ENTERNEWLINEENDVAR (פחות מ ה מחיר ל שעת אימון עם מאמן מ מוצע) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני שם ל אתה לינק כאן : ENTERNEWLINEENDVAR LINK31ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו אני מקווה מאד ש לפחות תעיף מבט ENTERNEWLINEENDVAR ל ה בדוק אם זה משהו ש יכול להתאים ל אתה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נ . ב . ENTERNEWLINEENDVAR אם יש ל אתה שאלות על ה תכנית לפני ש אתה נרשם , ENTERNEWLINEENDVAR שלח ל אני ב מייל ל כאן : ENTERNEWLINEENDVAR EMAILENDVAR ENTERNEWLINEENDVAR (אפשר גם לשלוח שם ו מספר ו אחזור אלךיך) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה רוך ה בא ! MAILSUBJECTENDVAR תסכימ/י את אני ש מ גיל קטן הורגלנו לחיות לפי ה נוסחה ה באה : ENTERNEWLINEENDVAR תלמד , תעבוד , תרוויח - ENTERNEWLINEENDVAR זוהי ה נוסחה ש כולנו גדלנו על היא , ENTERNEWLINEENDVAR אותה ה נוסחה ש תמיד מנעה מאת אנחנו ל חשוב חכם היא ה משוואה של - ENTERNEWLINEENDVAR זמן = כ ה סף . ENTERNEWLINEENDVAR ה נוסחה ה זאת גורמת ל אנחנו ל חיות לפי ה משפט - ENTERNEWLINEENDVAR "אני עובד בשביל ה כסף״ , ו לא : אני עובד כש בא ל אני לעבוד , ו ה כסף מוזרם אל אני מ מקורות הכנסה אוטומטיים ש בניתי ב ה עבר״ . ENTERNEWLINEENDVAR לא משנה כמה מאמץ תשקיע ב ה קריירה של אתה , כמה שעות ב יום תעבוד , ENTERNEWLINEENDVAR על כמה זמן תוותר עם ה ילדים ו ה משפחה , תמיד אתה תרגיש תקוע ב אותו ה מצב כל עוד ה זמן ש ל אתה שווה ל ה כסף ש ל אתה . ENTERNEWLINEENDVAR ו כל חייך מוכתבים בגלל את היא ה נוסחה ? ENTERNEWLINEENDVAR בטח כבר קראת על זה נו . . . ב ה ספר ״אבא עשיר אבא עני״ ? ENTERNEWLINEENDVAR קראת ו אמרת ל עצמך : ״וואו ! אני חייב לאמץ את ה גישה ה זו של מקורות הכנסה נוספים . . . אבל איך אני עכשיו עושה את זה ? ״ ENTERNEWLINEENDVAR ל רוב ה רציונליזציה ה עצמית של ה אנשים תתנהל ב ה סגנון ה זה : ENTERNEWLINEENDVAR "מה אתה משוגע ? תישאר במקום ה עבודה של אתה . יש ל אתה משכורת קבועה ו לאט לאט עם ה זמן תתקדם ל תפקיד בכיר יותר" . ENTERNEWLINEENDVAR ו שוב פעם . . ENTERNEWLINEENDVAR כל זה בגלל את היא ה נוסחה . ENTERNEWLINEENDVAR ה נוסחה ש מעצימה את ה פחד של הם ל ממדים מפלצתיים ו מונעת מהם להצליח בגדול . ENTERNEWLINEENDVAR יש כל כך הרבה דרכים לצאת מ ה נוסחה ה זאת ו להפסיק את ה מרדף ה מתסכל ה זה . ENTERNEWLINEENDVAR אחת מ ה דרכים היא לרכוש עסק מוכן ו פעיל ב שיווק שותפים . ENTERNEWLINEENDVAR אם רכשת קורס כלשהו ו לא הצלחת להרוויח כסף , זה בדיוק בגלל זה . ב ה מקום להשקיע קודם ב ה שורשים , ניסית להשקיע קודם ב ה פירות , ENTERNEWLINEENDVAR אך שנינו יודעים ש עץ בריא מתחיל ב שורשים בריאים . ENTERNEWLINEENDVAR זאת ה דרך לנצח את ה נוסחה . ENTERNEWLINEENDVAR אם מעניין את אתה ללמוד עוד על איך לקבל תשתית מוכנה ש עובדת ו מייצרת כבר כסף ב שיווק שותפים , ENTERNEWLINEENDVAR כ נס ל ה פה כדי ל דעת ה כל >> זה ה קישור ש ב הוא תשאיר פרטים ENTERNEWLINEENDVAR ב תור אחד ש כבר שנים מתעסק ב שיווק שותפים ו ב שיווק דיגיטלי , אני ממליץ על כך ב ה חום . ENTERNEWLINEENDVAR לא רק ש זה יחסוך ל אתם שבועות שלמים של עבודה ו ניסוי ו טעיה כושל , זה גם יחסוך ל אתם עשרות אלפי שקלים על פרסום ממומן שגוי , ו אין סוף אנרגיה מבוזבזת לשווא . ENTERNEWLINEENDVAR לחצו כאן לקבל פרטים על עסק מוכן ב שיווק שותפים ש מייצר הכנסה לפני ש מסתיימת ה אפשרות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : בניאל הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+רוצה לעבוד ב מכירות ? MAILSUBJECTENDVAR אנחנו מחפשים אנשי מכירות נוספים ל ה חברה , ENTERNEWLINEENDVAR אם מעניין את הם לעבוד ב מכירות מ ה בית , לחצו כאן ו השאירו פרטים - LINK36ENDVAR ENTERNEWLINEENDVAR ה עבודה דורשת מינימום של 6 שעות ב יום ENTERNEWLINEENDVAR ו היא על בסיס עמלות בלבד ENTERNEWLINEENDVAR אם זה מעניין את אתה , ל חצ/י כאן - LINK36ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : חובב ה ולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+הודעה על יצירת ה עברה בנקאית מ אפליקציית Paybox MAILSUBJECTENDVAR LINK24ENDVAR ENTERNEWLINEENDVAR ב ה קשתך נרשמה ב ה הצלחה ENTERNEWLINEENDVAR ה שימוש ב ה PayBox חינם ! ENTERNEWLINEENDVAR שלום מטר גדעון , נרשמה משיכה על סך 21 ILS ל חשבונך ב ה הצלחה . ה משיכה תתממש תוך 1 ימי עסקים ENTERNEWLINEENDVAR תאריך : 7 : 54 : 19 , 3/8/2019 ENTERNEWLINEENDVAR תאריך ב ה יצוע : 7 : 54 : 19 , 4/8/2019 ENTERNEWLINEENDVAR פרטי חשבון בנק : בנק דיסקונט - 042 - 126870235 ENTERNEWLINEENDVAR סכום : 21 ILS ENTERNEWLINEENDVAR מספר אישור : vdog8rX3dbs6PaN9v ENTERNEWLINEENDVAR צפה ב ה יתרה ה אישית LINK21ENDVAR ENTERNEWLINEENDVAR ב מידת ה צורך ניתן ליצור קשר עם מוקד שירות ה לקוחות ENTERNEWLINEENDVAR צור קשר EMAILENDVAR ENTERNEWLINEENDVAR PayBox Payment Solutions LTD | Israel 2016
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ספר ספציפי ש עזר ל אני לחבר את כל חלקי ה פאזל EMOJI👍ENDVAR MAILSUBJECTENDVAR הרבה אנשים שואלים את אני על ספר ספציפי ש עזר ל אני ל חבר המון מ חלקי ה פאזל של שיווק באינטרנט , ו אומנם אין ב ה דיוק ״ספר אחד״ מאחר ו יש לא מעט ספרים , אך כן הייתי ממליץ ב ה חום על ה ספר ״Dot Com Secrets" של ראסל ברנסון . ENTERNEWLINEENDVAR תוכלו לקבל את ה ספר ״כביכול״ בחינם , ב קישור כאן - LINK22ENDVAR ENTERNEWLINEENDVAR למה כביכול ? ENTERNEWLINEENDVAR כי אומנם ה ספר עצמו בחינם , אך תצטרו לשלם עבור ה משלוח חח ENTERNEWLINEENDVAR אז זה יוצא כמה עשרות שקלים בודדים , אך הם יהיו שווים לכן הרבה יותר ב ה המשך . ENTERNEWLINEENDVAR אם הוא עזר ל אני מאוד , אני בטוח ש הוא יעזור גם ל אתה . ENTERNEWLINEENDVAR זה ה קישור ל רכישת ה ספר ״בחינם״ - LINK22ENDVAR ENTERNEWLINEENDVAR : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : אלול הולצמן . כתובת ה שולח : רחוב ה ארבעה 21 , תל אביב . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב ה סדר ב סדר עוד ו ובינר , הנה ה ערב ב 21 : 00 MAILSUBJECTENDVAR אני מרגיש כאילו תקפו את אני היום : ) מעל 400 מיילים של אנשים ש לא הצליחו להגיע ל וובינר ב ה בוקר ! ו ואו ! אז הנה , ל כל מי ש ביקש ו ובינר הערב ב שעה 21 : 00 ** אין הקלטה ** אז תגיעו - חובה להירשם מראש לחצו כאן עכשיו ב ה שביל להירשם אם אינכם רואים מייל זה , אנא לחצו כאן הודעה זו נשלחה אל EMAILENDVAR מאת LINK25ENDVAR עדכן פרופיל/כתובת מייל | הסרה | דיווח על שימוש ל רעה זרחין 10 , רעננהנשלח באמצעות smoove פלטפורמת שיווק מ בית V . I . Plus
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+RE : מה עכשיו ? ? MAILSUBJECTENDVAR ENTERNEWLINEENDVAR ו ואו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR קיבלתי יותר מ -100 מיילים אםפ תמול , ENTERNEWLINEENDVAR עם נוסח (פחות או יותר) כ ה זה : ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נו . . הכנתי רשימה , מה הלאה ? ! ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אז קודם כל , ENTERNEWLINEENDVAR סחטיין על על ה עשייה ו על ה השקעה ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR זה בכלל לא מובן מאל הוא ENTERNEWLINEENDVAR ו זה מה ש מבדיל ב סופו של דבר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR בין מצליחנים ו לוזרים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR עשייה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR דבר שני , ENTERNEWLINEENDVAR אתם צודקים . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כמו ש כתבתי ב ה מייל ה קודם - זאת רק ה התחלה ENTERNEWLINEENDVAR ו עכשיו צריך להתחיל לשנות דברים , ENTERNEWLINEENDVAR להתחיל ל ה היות מי ש אני בוחר להיות ENTERNEWLINEENDVAR ו לחיות את ה חיים ש אני בוחר לחיות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אנחנו הולכים ל געת ב כמה אספקטים של זה ה שבוע , ENTERNEWLINEENDVAR ש ה ראשון בניהם הוא כסף . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR כן , ENTERNEWLINEENDVAR אמרתי את זה . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR משום מה , ENTERNEWLINEENDVAR יש איזה איסור לא מוצהר ל ה דבר על כסף . ENTERNEWLINEENDVAR זה כאילו "לא בסדר" ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אבל כסף , אם נרצה ו אם לאו , ENTERNEWLINEENDVAR הוא אחד ה גורמים ה משפיעים ביותר ב ה עולם ש ל אנחנו . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני לא נכנס ל ה דיון של ה אם זה אמור להיות ככה או ל הוא , ENTERNEWLINEENDVAR ו ב כנות זה לא ממש מעניין את אני . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ה שורה ה תחתונה אצל אני היא מה ש חשוב ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו ה שורה ה תחתונה היום היא שבלי כסף , ENTERNEWLINEENDVAR אי אפשר לחיות טוב . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני לא מדבר על ל ה היות מולטי מליונר ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מדבר עלך ל חיות ב ה כבוד , ENTERNEWLINEENDVAR בלי לרדוף אחרי ה משכורת ה באה ENTERNEWLINEENDVAR כדי לסגור את ה חודש ב ה זמן ENTERNEWLINEENDVAR ש אנחנו צוברים חובות . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR אני מדבר על לאפשר ל עצמי ו ל משפחה של אני נחת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR - בלי להכנס ל ברוך ב כל פעם ש ה מכונית מתקלקלת . ENTERNEWLINEENDVAR - בלי לתפוס את ה ראש ב כל פעם ש רואים את ה מחירים של ספרי ה לימוד . ENTERNEWLINEENDVAR - בלי לקוות ש ה בנק יוותר ל אני עוד חודש עד ש אני "קם על ה רגליים" ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נחת . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ו בשביל אתה זה , ENTERNEWLINEENDVAR לא צריך להיות "עשיר" ENTERNEWLINEENDVAR צריך רק לחשוב כמו עשיר - ו לדעת לנהל את ה כסף כמו ש צריך . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR הנה שיעור חשוב על זה ENTERNEWLINEENDVAR מ ה מנטור של אני ל ה עניינים ה אלו (וחבר מאד יקר) : ENTERNEWLINEENDVAR LINK32ENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR נמשיך מחר : ) ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ב ה אהבה , ENTERNEWLINEENDVAR ירין ב ה ארי ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+[תמונת מצב 06 . 11 . 18] ה מסלול ה ירוק MAILSUBJECTENDVAR בוקר טוב , [קישור ל ה סקירה יומית] ( LINK276ENDVAR )אתמול לא העליתי סקירה שבועית , אני די מקפיד לעלות עם סקירות , ה אמתשלא עליתי כי לא הספקתי ו לא הלחצתי את עצמי כי אנחנו ב ה שבוע ש הוא לאכל כך חשוב להצטרף אליו ב תחילתו בעיקר אולי ב סופו , ככל ש נקבל סימניםמצטברים על ה מצב ש אל הוא הוא נכנס . ב כל זאת על מנת להקל את צורת התבוננות צירפתי לךגיא מילכה סקירה יומית ש באה ל אתה ל ה הסבירלך היכן אנחנו נמצאים ו מה היא נטיית ה הבנה של אני את ה מציאות ה נוכחיתואפילו צרפתי ל אתה גרף ה מכיל ב תוכו את ״המסלול הירוק״ ב כדי להקל עליךלהבין עד מתי ו איך יראה ב עיני שוק שוורי בעת ה זאת . אני מזמין את אתה להתייחס ו להגיב ל סקירה - זה תמיד מוסיף עניין ו עומקלדיון , התייחסות יכולה ל היות אמירה או אפילו שאלה , אפילו אי ה סכמהמתקבלת ו מובנת ב דרך חיובית ש הרי אולי אינני רואה או מבחין ב משהוחשוב . גיא מילכה זאת סיומת ש הוסיף ואכתובשוב ו שוב , חשוב ל אני השתתפות פעילה( LINK276ENDVAR )Unsubscribe ( LINK53ENDVAR ) | Update yourprofile ( LINK63ENDVAR ) |לחי 31 , בני יהוידע , תל-אביב 5120052
+Model: AdaBoost | Wrong count: 1
+-
+Message: (Wrong class: 1 (spam))
+ב רכות ! הנה ה סיכום ה ראשון : ] MAILSUBJECTENDVAR היי , כאן ארבל , ו ברכות על הצטרפותך ! ENTERNEWLINEENDVAR אני כותב את ה מיילים של אני ב לשון זכר אך הם מיועדים מן ה סתם ל שני ה מינים . ENTERNEWLINEENDVAR אני מצרף ל אתה את ה סיכום ה ראשון של אתה , ו הוא של ה ספר ״הדבר האחד״ של גרי קלר . ENTERNEWLINEENDVAR אחד ה ספרים ה חשובים ביותר ל יצירת פוקוס ב ה חיים ה אישיים ו ה עיסקיים של אתה , הוא משלב גם טכניקות חשובות ל השגת מטרות ש נראות ״לא הגיוניות״ , ENTERNEWLINEENDVAR ו הוא גם אחד ה ספרים ש עזרו ל אני להתמקד ו לסדר את אורח ה חיים של אני ב ה צורה פורצת דרך . ENTERNEWLINEENDVAR ה סיכום הוא ב צורת סרטון , ו הוא אחד מ ה סיכומים ש נמצא ב ה פרויקט ה ״100 סיכומי ספרים״ . ENTERNEWLINEENDVAR לפני ש תצפה ב הוא , חשוב ש תעשה את ה דברים ה באים כדי ש תקבל את ארבעת ה סיכומים ה נוספים . ENTERNEWLINEENDVAR 1) אם ה מייל ה זה הגיע ל קידומי מכירות או ל ספאם , תעביר את הוא ל ה תיקייה ה ראשית . ENTERNEWLINEENDVAR 2) תסמן את ה מייל ה זה ב ה כוכב כדי ש בעוד מספר חודשים מהיום , תוכל לצפות ב ה סיכום שוב ! ENTERNEWLINEENDVAR 3) תשלח ל אני מייל ב חזרה , עם שלושת ה ספרים ש הכי השפיעו על אתה ל טובה , כי אני כל ה זמן מתעניין להכיר ספרים נוספים ו ללמוד מ הם . ENTERNEWLINEENDVAR אחרי ש עשית את שלושת ה דברים ה אלו , לחץ כאן לצפות ב ה סיכום ה ספר ENTERNEWLINEENDVAR אני מאמין ש זה הולך ל היות התחלה מדהימה ל מערכת ה יחסים בין אנחנו : ] ENTERNEWLINEENDVAR בנוסף , אם אהבת את ה סיכום ו מעניין את אתה לקבל 99 סיכומים נוספים ב ווידיאו של ה ספרים ה חשובים ביותר ל ה אדם , ה קישור ל ה הרשמה ל ה פרויקט נמצא כאן : ENTERNEWLINEENDVAR לחצ/י כאן ל כל ה פרטים ENTERNEWLINEENDVAR דבר אחרון , יש ל אני סרטון ב ערוץ יוטיוב ש ב הוא אני מדבר על 20 ספרים ש כל יזם או עצמאי חייב לקרוא . ENTERNEWLINEENDVAR אני מצרף ל אתה כאן את חלק א׳ , תגיד ל אני ב ה בקשה מה דעתך על הוא ו האם הוא עזר ל אתה לקבל עוד רעיונות ל ה ספרים . ENTERNEWLINEENDVAR לחץ כאן לראות את ה סרטון . ENTERNEWLINEENDVAR תעשה ל ה ייק ל סרטון אם אהבת , ו גם - תרשם ל ערוץ (subscribe) כדי לקבל עדכונים על סרטונים חשובים נוספים ש אני מעלה ! ENTERNEWLINEENDVAR שוב , אשמח ממש אם תכתוב בחזרה מייל עם שלושת ה ספרים ש הכי השפיעו על אתה ל טובה . ENTERNEWLINEENDVAR זהו לבינתיים , אל תשכח להוריד את ה סיכום ה ראשון של אתה ו לצפות ב ה סרטון ״20 ספרים ש כל יזם חייב ל קרוא״ ! ENTERNEWLINEENDVAR ב ה ימים ה קרובים אפתיע את אתה עם סיכום מטורף ו חשוב , ENTERNEWLINEENDVAR אז תתכונן ל ה מייל מן אני . ENTERNEWLINEENDVAR תצליח , ENTERNEWLINEENDVAR ארבל ה ולצמן . ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR ENTERNEWLINEENDVAR שולח : ארבל הולצמן . כתובת ה שולח : כל מקום , כל ה עולם . ENTERNEWLINEENDVAR ה סר (unsubscribe) את אני מ רשימת ה תפוצה ENTERNEWLINEENDVAR אם דיוור זה חשוד ב ה עינייך כ ספאם , אנא ידע את אנחנו . ENTERNEWLINEENDVAR נשלח באמצעות מערכת דיוור אלקטרוני שלח מסר מ ביתקומסטאר
+Model: AdaBoost | Wrong count: 1
+-
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++  End wrong sentences ++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================
+=============================
+=============================
+=============================
+MODEL AdaBoost
+AVERAGES: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9612
+WAcc score (lambda = 1): 0.9611
+TCR score (lambda = 1): 13.8765
+WAcc score (lambda = 99): 0.9713
+TCR score (lambda = 99): 0.3964
+WAcc score (lambda = 999): 0.9715
+TCR score (lambda = 999): 0.0401
+===
+LOWEST: K-FOLD cross-validation with a split of 5:
+F1 score: 0.9462
+WAcc score (lambda = 1): 0.9454
+TCR score (lambda = 1): 8.9375
+WAcc score (lambda = 99): 0.9603
+TCR score (lambda = 99): 0.2371
+WAcc score (lambda = 999): 0.9603
+TCR score (lambda = 999): 0.0237
+++++++++++++++
+++++++++++++++
+++++++++++++++
+*_*	A_veF1	L_owF1	A_Acc1	L_Acc1	A_TCR1 	L_TCR1	A_cc99	L_cc99	A_CR99	L_CR99	A_c999	L_c999	A_R999	L_R999
+Ada	0.9612	0.9462	0.9611	0.9454	13.8765	8.9375	0.9713	0.9603	0.3964	0.2371	0.9715	0.9603	0.0401	0.0237
+
+Count times TCR was > 1 :
+Model AdaBoost - 1 : 5 , 99 : 0 , 999 : 0
+
+&&& headlines (first row) &&&
+*
+Ave F1
+Low F1
+Ave WAcc 1
+Low WAcc 1
+Ave TCR 1
+Low TCR 1
+Ave WAcc 99
+Low WAcc 99
+Ave TCR 99
+Low TCR 99
+Ave WAcc 999
+Low WAcc 999
+Ave TCR 999
+Low TCR 999
+
+&&& models (first column) &&&
+AdaBoost
+|||||||||||
+All the testing took 732 seconds !
+All the process took 14631 seconds !
+
+Parameters:
+    model index: 5
+    model name: AdaBoost
+    dataset: email_morphological
+    messages count: 1465
+    spam count: 715
+    non spam count: 750
+    include_dependency_tree_feature: True
+    include_pos: False
+    k_fold_number = 5
+    if k_fold_number is 1, split data = 0.25
+    
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@           Finished dataset email_morphological           @@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+All time: 48112 seconds.
+
+FINISHED
